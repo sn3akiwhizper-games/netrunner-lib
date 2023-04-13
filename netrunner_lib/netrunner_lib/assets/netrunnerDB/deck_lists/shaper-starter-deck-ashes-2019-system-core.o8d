@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="0f38e453-26df-4c04-9d67-6d43de939c77">
+  <section name="Identity">
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda26019">Lat: Ethical Freelancer</card>
+  </section>
+  <section name="R&amp;D / Stack">
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda25013">Imp</card>
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda25014">Lamprey</card>
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda25035">Faerie</card>
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda25036">Femme Fatale</card>
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda25037">Sneakdoor Beta</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda25042">Diesel</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda25045">Test Run</card>
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda25051">Atman</card>
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda25053">Deus X</card>
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda25056">Aesop&#039;s Pawnshop</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda25059">Sure Gamble</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda26022">Spec Work</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda26024">Gauss</card>
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda26025">Pelangi</card>
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda26026">Rezeki</card>
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda26027">The Artist</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda26029">Rejig</card>
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda26077">Prognostic Q-Loop</card>
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda26083">Harmony AR Therapy</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda26084">Aniccam</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda26085">Simulchip</card>
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda26086">Cordyceps</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda26087">Euler</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda26090">Self-modifying Code</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda26094">Daily Casts</card>
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda27003">Cybertrooper Talut</card>
+  </section>
+  <notes><![CDATA[This starter deck was built with cards from Ashes and the 2019 System Core.]]></notes>
+</deck>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="0f38e453-26df-4c04-9d67-6d43de939c77">
+  <section name="Identity">
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda01001">Noise: Hacker Extraordinaire</card>
+  </section>
+  <section name="R&amp;D / Stack">
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda01002">Déjà Vu</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda01005">Cyberfeeder</card>
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda01006">Grimoire</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda01007">Corroder</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda01008">Datasucker</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda01009">Djinn</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda01010">Medium</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda01011">Mimic</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda01012">Parasite</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda01014">Yog.0</card>
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda01015">Ice Carver</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda01019">Easy Mark</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda01022">Special Order</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda01038">Akamatsu Mem Chip</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda01040">The Personal Touch</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda01045">Net Shield</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda01049">Infiltration</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda01050">Sure Gamble</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda01051">Crypsis</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda01053">Armitage Codebusting</card>
+  </section>
+  <notes><![CDATA[People often ask for starter decks when they first get Netrunner to get an idea of how to deck build or what makes a deck strong. The recommended starter decks in the core set aren’t very efficient nor do they use any influence, so I have worked with some friends to design a few starter decks. Every starter deck is made of a single core set and we have also made variants with no 1-of cards so anyone with 3 core-sets can throw together these starter decks and have them lying around to introduce new players. We have tested the Beginner decks against each other and the Intermediate decks against each other and they are pretty balance with the runner winning slightly more often.
+
+Beginner decks are designed for players just picking up the game. They are straight forward and have very little tricks.
+
+Intermediate decks introduce players to more complex and interesting concepts such as search, traps, and viruses.
+
+Advanced decks are your own decks that you design and build. Get familiar with the other factions and cards. Experiment and have fun!
+
+
+This deck was designed to introduce players to some of the more interesting programs such as static breakers (Yog.0 and Mimic) as well as viruses. We also introduce search with Special Order, ICE destruction with Parasite, and card synergy (Datasucker with static breakers and Parasite). Noise’s ability also makes things interesting for the Corp as they will have to learn to also protect Archives from attack.
+
+To make this deck with no 1-ofs.
+-1 Grimoire
+-1 Ice Carver
++2 Stimhack
+]]></notes>
+</deck>

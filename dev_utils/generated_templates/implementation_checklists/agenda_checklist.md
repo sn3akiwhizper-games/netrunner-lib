@@ -1,0 +1,386 @@
+# agenda Implementation Checklist
+
+- [ ] agenda_accelerated_beta_test_01055
+- [ ] agenda_accelerated_beta_test_01055 TEST
+- [ ] agenda_nisei_mk_ii_01068
+- [ ] agenda_nisei_mk_ii_01068 TEST
+- [ ] agenda_astroscript_pilot_program_01081
+- [ ] agenda_astroscript_pilot_program_01081 TEST
+- [ ] agenda_breaking_news_01082
+- [ ] agenda_breaking_news_01082 TEST
+- [ ] agenda_hostile_takeover_01094
+- [ ] agenda_hostile_takeover_01094 TEST
+- [ ] agenda_posted_bounty_01095
+- [ ] agenda_posted_bounty_01095 TEST
+- [ ] agenda_priority_requisition_01106
+- [ ] agenda_priority_requisition_01106 TEST
+- [ ] agenda_private_security_force_01107
+- [ ] agenda_private_security_force_01107 TEST
+- [ ] agenda_mandatory_upgrades_02011
+- [ ] agenda_mandatory_upgrades_02011 TEST
+- [ ] agenda_braintrust_02014
+- [ ] agenda_braintrust_02014 TEST
+- [ ] agenda_restructured_datapool_02016
+- [ ] agenda_restructured_datapool_02016 TEST
+- [ ] agenda_project_atlas_02018
+- [ ] agenda_project_atlas_02018 TEST
+- [ ] agenda_fetal_ai_02032
+- [ ] agenda_fetal_ai_02032 TEST
+- [ ] agenda_executive_retreat_02039
+- [ ] agenda_executive_retreat_02039 TEST
+- [ ] agenda_project_vitruvius_02051
+- [ ] agenda_project_vitruvius_02051 TEST
+- [ ] agenda_government_contracts_02077
+- [ ] agenda_government_contracts_02077 TEST
+- [ ] agenda_false_lead_02080
+- [ ] agenda_false_lead_02080 TEST
+- [ ] agenda_project_beale_02115
+- [ ] agenda_project_beale_02115 TEST
+- [ ] agenda_corporate_war_02120
+- [ ] agenda_corporate_war_02120 TEST
+- [ ] agenda_director_haas_pet_project_03004
+- [ ] agenda_director_haas_pet_project_03004 TEST
+- [ ] agenda_efficiency_committee_03005
+- [ ] agenda_efficiency_committee_03005 TEST
+- [ ] agenda_project_wotan_03006
+- [ ] agenda_project_wotan_03006 TEST
+- [ ] agenda_sentinel_defense_program_03007
+- [ ] agenda_sentinel_defense_program_03007 TEST
+- [ ] agenda_gila_hands_arcology_03023
+- [ ] agenda_gila_hands_arcology_03023 TEST
+- [ ] agenda_project_ares_04010
+- [ ] agenda_project_ares_04010 TEST
+- [ ] agenda_character_assassination_04014
+- [ ] agenda_character_assassination_04014 TEST
+- [ ] agenda_geothermal_fracking_04017
+- [ ] agenda_geothermal_fracking_04017 TEST
+- [ ] agenda_clone_retirement_04032
+- [ ] agenda_clone_retirement_04032 TEST
+- [ ] agenda_the_cleaners_04036
+- [ ] agenda_the_cleaners_04036 TEST
+- [ ] agenda_profiteering_04039
+- [ ] agenda_profiteering_04039 TEST
+- [ ] agenda_unorthodox_predictions_04053
+- [ ] agenda_unorthodox_predictions_04053 TEST
+- [ ] agenda_tgtbt_04075
+- [ ] agenda_tgtbt_04075 TEST
+- [ ] agenda_veterans_program_04080
+- [ ] agenda_veterans_program_04080 TEST
+- [ ] agenda_market_research_04095
+- [ ] agenda_market_research_04095 TEST
+- [ ] agenda_vulcan_coverup_04098
+- [ ] agenda_vulcan_coverup_04098 TEST
+- [ ] agenda_napd_contract_04119
+- [ ] agenda_napd_contract_04119 TEST
+- [ ] agenda_house_of_knives_05004
+- [ ] agenda_house_of_knives_05004 TEST
+- [ ] agenda_medical_breakthrough_05005
+- [ ] agenda_medical_breakthrough_05005 TEST
+- [ ] agenda_philotic_entanglement_05006
+- [ ] agenda_philotic_entanglement_05006 TEST
+- [ ] agenda_the_future_perfect_05007
+- [ ] agenda_the_future_perfect_05007 TEST
+- [ ] agenda_domestic_sleepers_06001
+- [ ] agenda_domestic_sleepers_06001 TEST
+- [ ] agenda_encrypted_portals_06024
+- [ ] agenda_encrypted_portals_06024 TEST
+- [ ] agenda_eden_fragment_06030
+- [ ] agenda_eden_fragment_06030 TEST
+- [ ] agenda_chronos_project_06049
+- [ ] agenda_chronos_project_06049 TEST
+- [ ] agenda_labyrinthine_servers_06063
+- [ ] agenda_labyrinthine_servers_06063 TEST
+- [ ] agenda_hades_fragment_06071
+- [ ] agenda_hades_fragment_06071 TEST
+- [ ] agenda_bifrost_array_06081
+- [ ] agenda_bifrost_array_06081 TEST
+- [ ] agenda_license_acquisition_06085
+- [ ] agenda_license_acquisition_06085 TEST
+- [ ] agenda_superior_cyberwalls_06087
+- [ ] agenda_superior_cyberwalls_06087 TEST
+- [ ] agenda_helium3_deposit_06101
+- [ ] agenda_helium3_deposit_06101 TEST
+- [ ] agenda_utopia_fragment_06110
+- [ ] agenda_utopia_fragment_06110 TEST
+- [ ] agenda_firmware_updates_07004
+- [ ] agenda_firmware_updates_07004 TEST
+- [ ] agenda_glenn_station_07005
+- [ ] agenda_glenn_station_07005 TEST
+- [ ] agenda_government_takeover_07006
+- [ ] agenda_government_takeover_07006 TEST
+- [ ] agenda_highrisk_investment_07007
+- [ ] agenda_highrisk_investment_07007 TEST
+- [ ] agenda_genetic_resequencing_08013
+- [ ] agenda_genetic_resequencing_08013 TEST
+- [ ] agenda_research_grant_08032
+- [ ] agenda_research_grant_08032 TEST
+- [ ] agenda_selfdestruct_chips_08051
+- [ ] agenda_selfdestruct_chips_08051 TEST
+- [ ] agenda_oaktown_renovation_08058
+- [ ] agenda_oaktown_renovation_08058 TEST
+- [ ] agenda_underway_renovation_08077
+- [ ] agenda_underway_renovation_08077 TEST
+- [ ] agenda_award_bait_08093
+- [ ] agenda_award_bait_08093 TEST
+- [ ] agenda_explodeapalooza_08094
+- [ ] agenda_explodeapalooza_08094 TEST
+- [ ] agenda_hollywood_renovation_08098
+- [ ] agenda_hollywood_renovation_08098 TEST
+- [ ] agenda_vanity_project_08100
+- [ ] agenda_vanity_project_08100 TEST
+- [ ] agenda_ancestral_imager_08112
+- [ ] agenda_ancestral_imager_08112 TEST
+- [ ] agenda_the_future_is_now_08120
+- [ ] agenda_the_future_is_now_08120 TEST
+- [ ] agenda_15_minutes_09004
+- [ ] agenda_15_minutes_09004 TEST
+- [ ] agenda_improved_tracers_09005
+- [ ] agenda_improved_tracers_09005 TEST
+- [ ] agenda_rebranding_team_09006
+- [ ] agenda_rebranding_team_09006 TEST
+- [ ] agenda_quantum_predictive_model_09007
+- [ ] agenda_quantum_predictive_model_09007 TEST
+- [ ] agenda_global_food_initiative_09026
+- [ ] agenda_global_food_initiative_09026 TEST
+- [ ] agenda_advanced_concept_hopper_10011
+- [ ] agenda_advanced_concept_hopper_10011 TEST
+- [ ] agenda_remote_data_farm_10033
+- [ ] agenda_remote_data_farm_10033 TEST
+- [ ] agenda_new_construction_10035
+- [ ] agenda_new_construction_10035 TEST
+- [ ] agenda_corporate_sales_team_10037
+- [ ] agenda_corporate_sales_team_10037 TEST
+- [ ] agenda_voting_machine_initiative_10048
+- [ ] agenda_voting_machine_initiative_10048 TEST
+- [ ] agenda_personality_profiles_10066
+- [ ] agenda_personality_profiles_10066 TEST
+- [ ] agenda_dedicated_neural_net_10088
+- [ ] agenda_dedicated_neural_net_10088 TEST
+- [ ] agenda_puppet_master_10090
+- [ ] agenda_puppet_master_10090 TEST
+- [ ] agenda_improved_protein_source_10105
+- [ ] agenda_improved_protein_source_10105 TEST
+- [ ] agenda_merger_10114
+- [ ] agenda_merger_10114 TEST
+- [ ] agenda_crisis_management_11018
+- [ ] agenda_crisis_management_11018 TEST
+- [ ] agenda_project_kusanagi_11052
+- [ ] agenda_project_kusanagi_11052 TEST
+- [ ] agenda_show_of_force_11099
+- [ ] agenda_show_of_force_11099 TEST
+- [ ] agenda_sensor_net_activation_11110
+- [ ] agenda_sensor_net_activation_11110 TEST
+- [ ] agenda_net_quarantine_11114
+- [ ] agenda_net_quarantine_11114 TEST
+- [ ] agenda_next_wave_2_12009
+- [ ] agenda_next_wave_2_12009 TEST
+- [ ] agenda_obokata_protocol_12070
+- [ ] agenda_obokata_protocol_12070 TEST
+- [ ] agenda_escalate_vitriol_12073
+- [ ] agenda_escalate_vitriol_12073 TEST
+- [ ] agenda_reeducation_12074
+- [ ] agenda_reeducation_12074 TEST
+- [ ] agenda_meteor_mining_12076
+- [ ] agenda_meteor_mining_12076 TEST
+- [ ] agenda_standoff_12077
+- [ ] agenda_standoff_12077 TEST
+- [ ] agenda_mandatory_seed_replacement_12092
+- [ ] agenda_mandatory_seed_replacement_12092 TEST
+- [ ] agenda_water_monopoly_12093
+- [ ] agenda_water_monopoly_12093 TEST
+- [ ] agenda_cfc_excavation_contract_12110
+- [ ] agenda_cfc_excavation_contract_12110 TEST
+- [ ] agenda_arenhanced_security_12115
+- [ ] agenda_arenhanced_security_12115 TEST
+- [ ] agenda_brain_rewiring_13029
+- [ ] agenda_brain_rewiring_13029 TEST
+- [ ] agenda_elective_upgrade_13030
+- [ ] agenda_elective_upgrade_13030 TEST
+- [ ] agenda_successful_field_test_13031
+- [ ] agenda_successful_field_test_13031 TEST
+- [ ] agenda_armored_servers_13042
+- [ ] agenda_armored_servers_13042 TEST
+- [ ] agenda_illicit_sales_13043
+- [ ] agenda_illicit_sales_13043 TEST
+- [ ] agenda_graft_13044
+- [ ] agenda_graft_13044 TEST
+- [ ] agenda_paper_trail_13053
+- [ ] agenda_paper_trail_13053 TEST
+- [ ] agenda_evidence_collection_14000
+- [ ] agenda_evidence_collection_14000 TEST
+- [ ] agenda_evidence_collection_2_14001
+- [ ] agenda_evidence_collection_2_14001 TEST
+- [ ] agenda_evidence_collection_3_14002
+- [ ] agenda_evidence_collection_3_14002 TEST
+- [ ] agenda_evidence_collection_4_14003
+- [ ] agenda_evidence_collection_4_14003 TEST
+- [ ] agenda_corporate_oversight_a_14012
+- [ ] agenda_corporate_oversight_a_14012 TEST
+- [ ] agenda_corporate_oversight_b_14013
+- [ ] agenda_corporate_oversight_b_14013 TEST
+- [ ] agenda_project_ares_20062
+- [ ] agenda_project_ares_20062 TEST
+- [ ] agenda_project_vitruvius_20063
+- [ ] agenda_project_vitruvius_20063 TEST
+- [ ] agenda_hostile_takeover_20078
+- [ ] agenda_hostile_takeover_20078 TEST
+- [ ] agenda_project_atlas_20079
+- [ ] agenda_project_atlas_20079 TEST
+- [ ] agenda_the_cleaners_20080
+- [ ] agenda_the_cleaners_20080 TEST
+- [ ] agenda_braintrust_20094
+- [ ] agenda_braintrust_20094 TEST
+- [ ] agenda_nisei_mk_ii_20095
+- [ ] agenda_nisei_mk_ii_20095 TEST
+- [ ] agenda_project_beale_20110
+- [ ] agenda_project_beale_20110 TEST
+- [ ] agenda_tgtbt_20111
+- [ ] agenda_tgtbt_20111 TEST
+- [ ] agenda_false_lead_20124
+- [ ] agenda_false_lead_20124 TEST
+- [ ] agenda_priority_requisition_20125
+- [ ] agenda_priority_requisition_20125 TEST
+- [ ] agenda_private_security_force_20126
+- [ ] agenda_private_security_force_20126 TEST
+- [ ] agenda_ikawah_project_21010
+- [ ] agenda_ikawah_project_21010 TEST
+- [ ] agenda_bacterial_programming_21033
+- [ ] agenda_bacterial_programming_21033 TEST
+- [ ] agenda_ssl_endorsement_21038
+- [ ] agenda_ssl_endorsement_21038 TEST
+- [ ] agenda_degree_mill_21055
+- [ ] agenda_degree_mill_21055 TEST
+- [ ] agenda_armed_intimidation_21057
+- [ ] agenda_armed_intimidation_21057 TEST
+- [ ] agenda_city_works_project_21078
+- [ ] agenda_city_works_project_21078 TEST
+- [ ] agenda_remote_enforcement_21091
+- [ ] agenda_remote_enforcement_21091 TEST
+- [ ] agenda_viral_weaponization_21094
+- [ ] agenda_viral_weaponization_21094 TEST
+- [ ] agenda_better_citizen_program_21116
+- [ ] agenda_better_citizen_program_21116 TEST
+- [ ] agenda_hyperloop_extension_22027
+- [ ] agenda_hyperloop_extension_22027 TEST
+- [ ] agenda_jumon_22035
+- [ ] agenda_jumon_22035 TEST
+- [ ] agenda_fly_on_the_wall_22043
+- [ ] agenda_fly_on_the_wall_22043 TEST
+- [ ] agenda_broad_daylight_22051
+- [ ] agenda_broad_daylight_22051 TEST
+- [ ] agenda_timely_public_release_23027
+- [ ] agenda_timely_public_release_23027 TEST
+- [ ] agenda_project_vitruvius_25068
+- [ ] agenda_project_vitruvius_25068 TEST
+- [ ] agenda_successful_field_test_25069
+- [ ] agenda_successful_field_test_25069 TEST
+- [ ] agenda_fetal_ai_25086
+- [ ] agenda_fetal_ai_25086 TEST
+- [ ] agenda_nisei_mk_ii_25087
+- [ ] agenda_nisei_mk_ii_25087 TEST
+- [ ] agenda_philotic_entanglement_25088
+- [ ] agenda_philotic_entanglement_25088 TEST
+- [ ] agenda_explodeapalooza_25106
+- [ ] agenda_explodeapalooza_25106 TEST
+- [ ] agenda_project_beale_25107
+- [ ] agenda_project_beale_25107 TEST
+- [ ] agenda_hostile_takeover_25124
+- [ ] agenda_hostile_takeover_25124 TEST
+- [ ] agenda_oaktown_renovation_25125
+- [ ] agenda_oaktown_renovation_25125 TEST
+- [ ] agenda_project_atlas_25126
+- [ ] agenda_project_atlas_25126 TEST
+- [ ] agenda_paper_trail_25140
+- [ ] agenda_paper_trail_25140 TEST
+- [ ] agenda_priority_requisition_25141
+- [ ] agenda_priority_requisition_25141 TEST
+- [ ] agenda_architect_deployment_test_26032
+- [ ] agenda_architect_deployment_test_26032 TEST
+- [ ] agenda_project_yagiuda_26040
+- [ ] agenda_project_yagiuda_26040 TEST
+- [ ] agenda_sting_26041
+- [ ] agenda_sting_26041 TEST
+- [ ] agenda_remastered_edition_26047
+- [ ] agenda_remastered_edition_26047 TEST
+- [ ] agenda_divested_trust_26055
+- [ ] agenda_divested_trust_26055 TEST
+- [ ] agenda_sds_drone_deployment_26056
+- [ ] agenda_sds_drone_deployment_26056 TEST
+- [ ] agenda_vulnerability_audit_26063
+- [ ] agenda_vulnerability_audit_26063 TEST
+- [ ] agenda_megaprix_qualifier_26096
+- [ ] agenda_megaprix_qualifier_26096 TEST
+- [ ] agenda_project_vacheron_26097
+- [ ] agenda_project_vacheron_26097 TEST
+- [ ] agenda_flower_sermon_26106
+- [ ] agenda_flower_sermon_26106 TEST
+- [ ] agenda_bellona_26114
+- [ ] agenda_bellona_26114 TEST
+- [ ] agenda_transport_monopoly_26121
+- [ ] agenda_transport_monopoly_26121 TEST
+- [ ] agenda_cyberdex_sandbox_26128
+- [ ] agenda_cyberdex_sandbox_26128 TEST
+- [ ] agenda_false_lead_26129
+- [ ] agenda_false_lead_26129 TEST
+- [ ] agenda_megaprix_qualifier_27004
+- [ ] agenda_megaprix_qualifier_27004 TEST
+- [ ] agenda_timely_public_release_28006
+- [ ] agenda_timely_public_release_28006 TEST
+- [ ] agenda_luminal_transubstantiation_30036
+- [ ] agenda_luminal_transubstantiation_30036 TEST
+- [ ] agenda_longevity_serum_30044
+- [ ] agenda_longevity_serum_30044 TEST
+- [ ] agenda_tomorrows_headline_30052
+- [ ] agenda_tomorrows_headline_30052 TEST
+- [ ] agenda_above_the_law_30060
+- [ ] agenda_above_the_law_30060 TEST
+- [ ] agenda_offworld_office_30067
+- [ ] agenda_offworld_office_30067 TEST
+- [ ] agenda_orbital_superiority_30068
+- [ ] agenda_orbital_superiority_30068 TEST
+- [ ] agenda_send_a_message_30069
+- [ ] agenda_send_a_message_30069 TEST
+- [ ] agenda_superconducting_hub_30070
+- [ ] agenda_superconducting_hub_30070 TEST
+- [ ] agenda_project_vitruvius_31041
+- [ ] agenda_project_vitruvius_31041 TEST
+- [ ] agenda_house_of_knives_31051
+- [ ] agenda_house_of_knives_31051 TEST
+- [ ] agenda_nisei_mk_ii_31052
+- [ ] agenda_nisei_mk_ii_31052 TEST
+- [ ] agenda_license_acquisition_31061
+- [ ] agenda_license_acquisition_31061 TEST
+- [ ] agenda_project_beale_31062
+- [ ] agenda_project_beale_31062 TEST
+- [ ] agenda_hostile_takeover_31071
+- [ ] agenda_hostile_takeover_31071 TEST
+- [ ] agenda_oaktown_renovation_31072
+- [ ] agenda_oaktown_renovation_31072 TEST
+- [ ] agenda_project_atlas_31073
+- [ ] agenda_project_atlas_31073 TEST
+- [ ] agenda_azef_protocol_32007
+- [ ] agenda_azef_protocol_32007 TEST
+- [ ] agenda_elivagar_bifurcation_33031
+- [ ] agenda_elivagar_bifurcation_33031 TEST
+- [ ] agenda_midnight3_arcology_33032
+- [ ] agenda_midnight3_arcology_33032 TEST
+- [ ] agenda_blood_in_the_water_33039
+- [ ] agenda_blood_in_the_water_33039 TEST
+- [ ] agenda_regenesis_33040
+- [ ] agenda_regenesis_33040 TEST
+- [ ] agenda_artificial_cryptocrash_33049
+- [ ] agenda_artificial_cryptocrash_33049 TEST
+- [ ] agenda_azef_protocol_33058
+- [ ] agenda_azef_protocol_33058 TEST
+- [ ] agenda_ontological_dependence_33096
+- [ ] agenda_ontological_dependence_33096 TEST
+- [ ] agenda_hybrid_release_33105
+- [ ] agenda_hybrid_release_33105 TEST
+- [ ] agenda_freedom_of_information_33112
+- [ ] agenda_freedom_of_information_33112 TEST
+- [ ] agenda_posttruth_dividend_33113
+- [ ] agenda_posttruth_dividend_33113 TEST
+- [ ] agenda_regulatory_capture_33120
+- [ ] agenda_regulatory_capture_33120 TEST
+- [ ] agenda_kimberlite_field_33121
+- [ ] agenda_kimberlite_field_33121 TEST

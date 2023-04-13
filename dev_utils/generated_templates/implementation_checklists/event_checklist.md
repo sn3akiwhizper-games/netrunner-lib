@@ -1,0 +1,502 @@
+# event Implementation Checklist
+
+- [ ] event_deja_vu_01002
+- [ ] event_deja_vu_01002 TEST
+- [ ] event_demolition_run_01003
+- [ ] event_demolition_run_01003 TEST
+- [ ] event_stimhack_01004
+- [ ] event_stimhack_01004 TEST
+- [ ] event_account_siphon_01018
+- [ ] event_account_siphon_01018 TEST
+- [p] event_easy_mark_01019
+- [ ] event_easy_mark_01019 TEST
+- [ ] event_forged_activation_orders_01020
+- [ ] event_forged_activation_orders_01020 TEST
+- [ ] event_inside_job_01021
+- [ ] event_inside_job_01021 TEST
+- [ ] event_special_order_01022
+- [ ] event_special_order_01022 TEST
+- [ ] event_diesel_01034
+- [ ] event_diesel_01034 TEST
+- [ ] event_modded_01035
+- [ ] event_modded_01035 TEST
+- [ ] event_the_makers_eye_01036
+- [ ] event_the_makers_eye_01036 TEST
+- [ ] event_tinkering_01037
+- [ ] event_tinkering_01037 TEST
+- [ ] event_infiltration_01049
+- [ ] event_infiltration_01049 TEST
+- [ ] event_sure_gamble_01050
+- [ ] event_sure_gamble_01050 TEST
+- [ ] event_vamp_02021
+- [ ] event_vamp_02021 TEST
+- [ ] event_satellite_uplink_02023
+- [ ] event_satellite_uplink_02023 TEST
+- [ ] event_notoriety_02026
+- [ ] event_notoriety_02026 TEST
+- [ ] event_emergency_shutdown_02043
+- [ ] event_emergency_shutdown_02043 TEST
+- [ ] event_test_run_02047
+- [ ] event_test_run_02047 TEST
+- [ ] event_surge_02081
+- [ ] event_surge_02081 TEST
+- [ ] event_networking_02084
+- [ ] event_networking_02084 TEST
+- [ ] event_quality_time_02087
+- [ ] event_quality_time_02087 TEST
+- [ ] event_kraken_02090
+- [ ] event_kraken_02090 TEST
+- [ ] event_retrieval_run_02101
+- [ ] event_retrieval_run_02101 TEST
+- [ ] event_indexing_02106
+- [ ] event_indexing_02106 TEST
+- [ ] event_escher_03031
+- [ ] event_escher_03031 TEST
+- [ ] event_exploratory_romp_03032
+- [ ] event_exploratory_romp_03032 TEST
+- [ ] event_freelance_coding_contract_03033
+- [ ] event_freelance_coding_contract_03033 TEST
+- [ ] event_scavenge_03034
+- [ ] event_scavenge_03034 TEST
+- [ ] event_levy_ar_lab_access_03035
+- [ ] event_levy_ar_lab_access_03035 TEST
+- [ ] event_dirty_laundry_03052
+- [ ] event_dirty_laundry_03052 TEST
+- [ ] event_frame_job_04001
+- [ ] event_frame_job_04001 TEST
+- [ ] event_hostage_04004
+- [ ] event_hostage_04004 TEST
+- [ ] event_recon_04024
+- [ ] event_recon_04024 TEST
+- [ ] event_eureka_04027
+- [ ] event_eureka_04027 TEST
+- [ ] event_running_interference_04044
+- [ ] event_running_interference_04044 TEST
+- [ ] event_lawyer_up_04063
+- [ ] event_lawyer_up_04063 TEST
+- [ ] event_leverage_04064
+- [ ] event_leverage_04064 TEST
+- [ ] event_quest_completed_04081
+- [ ] event_quest_completed_04081 TEST
+- [ ] event_executive_wiretaps_04084
+- [ ] event_executive_wiretaps_04084 TEST
+- [ ] event_blackmail_04089
+- [ ] event_blackmail_04089 TEST
+- [ ] event_singularity_04101
+- [ ] event_singularity_04101 TEST
+- [ ] event_queens_gambit_04102
+- [ ] event_queens_gambit_04102 TEST
+- [ ] event_power_nap_04107
+- [ ] event_power_nap_04107 TEST
+- [ ] event_lucky_find_04109
+- [ ] event_lucky_find_04109 TEST
+- [ ] event_calling_in_favors_05031
+- [ ] event_calling_in_favors_05031 TEST
+- [ ] event_early_bird_05032
+- [ ] event_early_bird_05032 TEST
+- [ ] event_express_delivery_05033
+- [ ] event_express_delivery_05033 TEST
+- [ ] event_feint_05034
+- [ ] event_feint_05034 TEST
+- [ ] event_legwork_05035
+- [ ] event_legwork_05035 TEST
+- [ ] event_planned_assault_05036
+- [ ] event_planned_assault_05036 TEST
+- [ ] event_push_your_luck_05047
+- [ ] event_push_your_luck_05047 TEST
+- [ ] event_mass_install_05051
+- [ ] event_mass_install_05051 TEST
+- [ ] event_cyber_threat_06013
+- [ ] event_cyber_threat_06013 TEST
+- [ ] event_paper_tripping_06015
+- [ ] event_paper_tripping_06015 TEST
+- [ ] event_social_engineering_06018
+- [ ] event_social_engineering_06018 TEST
+- [ ] event_scrubbed_06034
+- [ ] event_scrubbed_06034 TEST
+- [ ] event_three_steps_ahead_06035
+- [ ] event_three_steps_ahead_06035 TEST
+- [ ] event_unscheduled_maintenance_06036
+- [ ] event_unscheduled_maintenance_06036 TEST
+- [ ] event_net_celebrity_06038
+- [ ] event_net_celebrity_06038 TEST
+- [ ] event_inject_06073
+- [ ] event_inject_06073 TEST
+- [ ] event_tradein_06078
+- [ ] event_tradein_06078 TEST
+- [ ] event_code_siphon_06115
+- [ ] event_code_siphon_06115 TEST
+- [ ] event_bribery_06118
+- [ ] event_bribery_06118 TEST
+- [ ] event_amped_up_07031
+- [ ] event_amped_up_07031 TEST
+- [ ] event_ive_had_worse_07032
+- [ ] event_ive_had_worse_07032 TEST
+- [ ] event_itinerant_protesters_07033
+- [ ] event_itinerant_protesters_07033 TEST
+- [ ] event_showing_off_07034
+- [ ] event_showing_off_07034 TEST
+- [ ] event_wanton_destruction_07035
+- [ ] event_wanton_destruction_07035 TEST
+- [ ] event_day_job_07036
+- [ ] event_day_job_07036 TEST
+- [ ] event_forked_07037
+- [ ] event_forked_07037 TEST
+- [ ] event_knifed_07038
+- [ ] event_knifed_07038 TEST
+- [ ] event_spooned_07039
+- [ ] event_spooned_07039 TEST
+- [ ] event_uninstall_07053
+- [ ] event_uninstall_07053 TEST
+- [ ] event_traffic_jam_08008
+- [ ] event_traffic_jam_08008 TEST
+- [ ] event_hacktivist_meeting_08021
+- [ ] event_hacktivist_meeting_08021 TEST
+- [ ] event_career_fair_08023
+- [ ] event_career_fair_08023 TEST
+- [ ] event_game_day_08026
+- [ ] event_game_day_08026 TEST
+- [ ] event_immolation_script_08041
+- [ ] event_immolation_script_08041 TEST
+- [ ] event_drive_by_08064
+- [ ] event_drive_by_08064 TEST
+- [ ] event_power_to_the_people_08101
+- [ ] event_power_to_the_people_08101 TEST
+- [ ] event_fisk_investment_seminar_08105
+- [ ] event_fisk_investment_seminar_08105 TEST
+- [ ] event_apocalypse_09030
+- [ ] event_apocalypse_09030 TEST
+- [ ] event_prey_09031
+- [ ] event_prey_09031 TEST
+- [ ] event_independent_thinking_09038
+- [ ] event_independent_thinking_09038 TEST
+- [ ] event_employee_strike_09053
+- [ ] event_employee_strike_09053 TEST
+- [ ] event_windfall_09054
+- [ ] event_windfall_09054 TEST
+- [ ] event_run_amok_10001
+- [ ] event_run_amok_10001 TEST
+- [ ] event_highstakes_job_10004
+- [ ] event_highstakes_job_10004 TEST
+- [ ] event_cbi_raid_10022
+- [ ] event_cbi_raid_10022 TEST
+- [ ] event_corporate_scandal_10025
+- [ ] event_corporate_scandal_10025 TEST
+- [ ] event_populist_rally_10026
+- [ ] event_populist_rally_10026 TEST
+- [ ] event_political_graffiti_10039
+- [ ] event_political_graffiti_10039 TEST
+- [ ] event_freedom_through_equality_10045
+- [ ] event_freedom_through_equality_10045 TEST
+- [ ] event_making_an_entrance_10058
+- [ ] event_making_an_entrance_10058 TEST
+- [ ] event_exclusive_party_10060
+- [ ] event_exclusive_party_10060 TEST
+- [ ] event_the_noble_path_10077
+- [ ] event_the_noble_path_10077 TEST
+- [ ] event_information_sifting_10079
+- [ ] event_information_sifting_10079 TEST
+- [ ] event_out_of_the_ashes_10080
+- [ ] event_out_of_the_ashes_10080 TEST
+- [ ] event_rebirth_10083
+- [ ] event_rebirth_10083 TEST
+- [ ] event_fear_the_masses_10096
+- [ ] event_fear_the_masses_10096 TEST
+- [ ] event_the_price_of_freedom_10100
+- [ ] event_the_price_of_freedom_10100 TEST
+- [ ] event_rigged_results_10102
+- [ ] event_rigged_results_10102 TEST
+- [ ] event_system_outage_11001
+- [ ] event_system_outage_11001 TEST
+- [ ] event_another_day_another_paycheck_11007
+- [ ] event_another_day_another_paycheck_11007 TEST
+- [ ] event_deuces_wild_11008
+- [ ] event_deuces_wild_11008 TEST
+- [ ] event_injection_attack_11009
+- [ ] event_injection_attack_11009 TEST
+- [ ] event_credit_crash_11021
+- [ ] event_credit_crash_11021 TEST
+- [ ] event_rumor_mill_11022
+- [ ] event_rumor_mill_11022 TEST
+- [ ] event_data_breach_11028
+- [ ] event_data_breach_11028 TEST
+- [ ] event_en_passant_11061
+- [ ] event_en_passant_11061 TEST
+- [ ] event_frantic_coding_11062
+- [ ] event_frantic_coding_11062 TEST
+- [ ] event_government_investigations_11069
+- [ ] event_government_investigations_11069 TEST
+- [ ] event_on_the_lam_11082
+- [ ] event_on_the_lam_11082 TEST
+- [ ] event_cold_read_11083
+- [ ] event_cold_read_11083 TEST
+- [ ] event_interdiction_11087
+- [ ] event_interdiction_11087 TEST
+- [ ] event_encore_11107
+- [ ] event_encore_11107 TEST
+- [ ] event_peace_in_our_time_11109
+- [ ] event_peace_in_our_time_11109 TEST
+- [ ] event_pushing_the_envelope_12001
+- [ ] event_pushing_the_envelope_12001 TEST
+- [ ] event_exploit_12004
+- [ ] event_exploit_12004 TEST
+- [ ] event_spot_the_prey_12005
+- [ ] event_spot_the_prey_12005 TEST
+- [ ] event_mad_dash_12008
+- [ ] event_mad_dash_12008 TEST
+- [ ] event_mobius_12024
+- [ ] event_mobius_12024 TEST
+- [ ] event_system_seizure_12026
+- [ ] event_system_seizure_12026 TEST
+- [ ] event_build_script_12028
+- [ ] event_build_script_12028 TEST
+- [ ] event_mars_for_martians_12081
+- [ ] event_mars_for_martians_12081 TEST
+- [ ] event_leave_no_trace_12083
+- [ ] event_leave_no_trace_12083 TEST
+- [ ] event_rip_deal_12084
+- [ ] event_rip_deal_12084 TEST
+- [ ] event_lean_and_mean_12086
+- [ ] event_lean_and_mean_12086 TEST
+- [ ] event_mining_accident_12101
+- [ ] event_mining_accident_12101 TEST
+- [ ] event_dianas_hunt_12106
+- [ ] event_dianas_hunt_12106 TEST
+- [ ] event_reshape_12107
+- [ ] event_reshape_12107 TEST
+- [ ] event_bruteforcehack_13002
+- [ ] event_bruteforcehack_13002 TEST
+- [ ] event_spear_phishing_13003
+- [ ] event_spear_phishing_13003 TEST
+- [ ] event_syn_attack_13004
+- [ ] event_syn_attack_13004 TEST
+- [ ] event_careful_planning_13013
+- [ ] event_careful_planning_13013 TEST
+- [ ] event_deep_data_mining_13014
+- [ ] event_deep_data_mining_13014 TEST
+- [ ] event_process_automation_13023
+- [ ] event_process_automation_13023 TEST
+- [ ] event_security_leak_14009
+- [ ] event_security_leak_14009 TEST
+- [ ] event_demolition_run_20002
+- [ ] event_demolition_run_20002 TEST
+- [ ] event_retrieval_run_20003
+- [ ] event_retrieval_run_20003 TEST
+- [ ] event_singularity_20004
+- [ ] event_singularity_20004 TEST
+- [ ] event_stimhack_20005
+- [ ] event_stimhack_20005 TEST
+- [ ] event_easy_mark_20020
+- [ ] event_easy_mark_20020 TEST
+- [ ] event_emergency_shutdown_20021
+- [ ] event_emergency_shutdown_20021 TEST
+- [ ] event_forged_activation_orders_20022
+- [ ] event_forged_activation_orders_20022 TEST
+- [ ] event_inside_job_20023
+- [ ] event_inside_job_20023 TEST
+- [ ] event_special_order_20024
+- [ ] event_special_order_20024 TEST
+- [ ] event_diesel_20038
+- [ ] event_diesel_20038 TEST
+- [ ] event_indexing_20039
+- [ ] event_indexing_20039 TEST
+- [ ] event_modded_20040
+- [ ] event_modded_20040 TEST
+- [ ] event_notoriety_20041
+- [ ] event_notoriety_20041 TEST
+- [ ] event_test_run_20042
+- [ ] event_test_run_20042 TEST
+- [ ] event_the_makers_eye_20043
+- [ ] event_the_makers_eye_20043 TEST
+- [ ] event_tinkering_20044
+- [ ] event_tinkering_20044 TEST
+- [ ] event_infiltration_20055
+- [ ] event_infiltration_20055 TEST
+- [ ] event_sure_gamble_20056
+- [ ] event_sure_gamble_20056 TEST
+- [ ] event_by_any_means_21001
+- [ ] event_by_any_means_21001 TEST
+- [ ] event_credit_kiting_21023
+- [ ] event_credit_kiting_21023 TEST
+- [ ] event_emergent_creativity_21028
+- [ ] event_emergent_creativity_21028 TEST
+- [ ] event_corporate_grant_21044
+- [ ] event_corporate_grant_21044 TEST
+- [ ] event_marathon_21046
+- [ ] event_marathon_21046 TEST
+- [ ] event_white_hat_21048
+- [ ] event_white_hat_21048 TEST
+- [ ] event_glut_cipher_21061
+- [ ] event_glut_cipher_21061 TEST
+- [ ] event_falsified_credentials_21064
+- [ ] event_falsified_credentials_21064 TEST
+- [ ] event_because_i_can_21066
+- [ ] event_because_i_can_21066 TEST
+- [ ] event_contaminate_21083
+- [ ] event_contaminate_21083 TEST
+- [ ] event_embezzle_21084
+- [ ] event_embezzle_21084 TEST
+- [ ] event_compile_21088
+- [ ] event_compile_21088 TEST
+- [ ] event_diversion_of_funds_21105
+- [ ] event_diversion_of_funds_21105 TEST
+- [ ] event_black_hat_21110
+- [ ] event_black_hat_21110 TEST
+- [ ] event_divide_and_conquer_22002
+- [ ] event_divide_and_conquer_22002 TEST
+- [ ] event_guinea_pig_22003
+- [ ] event_guinea_pig_22003 TEST
+- [ ] event_hot_pursuit_22009
+- [ ] event_hot_pursuit_22009 TEST
+- [ ] event_insight_22016
+- [ ] event_insight_22016 TEST
+- [ ] event_reboot_22023
+- [ ] event_reboot_22023 TEST
+- [ ] event_office_supplies_22024
+- [ ] event_office_supplies_22024 TEST
+- [ ] event_labor_rights_23001
+- [ ] event_labor_rights_23001 TEST
+- [ ] event_watch_the_world_burn_23100
+- [ ] event_watch_the_world_burn_23100 TEST
+- [ ] event_queens_gambit_25003
+- [ ] event_queens_gambit_25003 TEST
+- [ ] event_quest_completed_25004
+- [ ] event_quest_completed_25004 TEST
+- [ ] event_retrieval_run_25005
+- [ ] event_retrieval_run_25005 TEST
+- [ ] event_run_amok_25006
+- [ ] event_run_amok_25006 TEST
+- [ ] event_stimhack_25007
+- [ ] event_stimhack_25007 TEST
+- [ ] event_career_fair_25022
+- [ ] event_career_fair_25022 TEST
+- [ ] event_easy_mark_25023
+- [ ] event_easy_mark_25023 TEST
+- [ ] event_emergency_shutdown_25024
+- [ ] event_emergency_shutdown_25024 TEST
+- [ ] event_hostage_25025
+- [ ] event_hostage_25025 TEST
+- [ ] event_inside_job_25026
+- [ ] event_inside_job_25026 TEST
+- [ ] event_legwork_25027
+- [ ] event_legwork_25027 TEST
+- [ ] event_networking_25028
+- [ ] event_networking_25028 TEST
+- [ ] event_spear_phishing_25029
+- [ ] event_spear_phishing_25029 TEST
+- [ ] event_special_order_25030
+- [ ] event_special_order_25030 TEST
+- [ ] event_diesel_25042
+- [ ] event_diesel_25042 TEST
+- [ ] event_modded_25043
+- [ ] event_modded_25043 TEST
+- [ ] event_notoriety_25044
+- [ ] event_notoriety_25044 TEST
+- [ ] event_test_run_25045
+- [ ] event_test_run_25045 TEST
+- [ ] event_the_makers_eye_25046
+- [ ] event_the_makers_eye_25046 TEST
+- [ ] event_tinkering_25047
+- [ ] event_tinkering_25047 TEST
+- [ ] event_sure_gamble_25059
+- [ ] event_sure_gamble_25059 TEST
+- [ ] event_dirty_laundry_25060
+- [ ] event_dirty_laundry_25060 TEST
+- [ ] event_isolation_26001
+- [ ] event_isolation_26001 TEST
+- [ ] event_always_have_a_backup_plan_26011
+- [ ] event_always_have_a_backup_plan_26011 TEST
+- [ ] event_blueberry_diesel_26012
+- [ ] event_blueberry_diesel_26012 TEST
+- [ ] event_in_the_groove_26020
+- [ ] event_in_the_groove_26020 TEST
+- [ ] event_khusyuk_26021
+- [ ] event_khusyuk_26021 TEST
+- [ ] event_spec_work_26022
+- [ ] event_spec_work_26022 TEST
+- [ ] event_direct_access_26028
+- [ ] event_direct_access_26028 TEST
+- [ ] event_rejig_26029
+- [ ] event_rejig_26029 TEST
+- [ ] event_moshing_26067
+- [ ] event_moshing_26067 TEST
+- [ ] event_bravado_26074
+- [ ] event_bravado_26074 TEST
+- [ ] event_harmony_ar_therapy_26083
+- [ ] event_harmony_ar_therapy_26083 TEST
+- [ ] event_labor_rights_28001
+- [ ] event_labor_rights_28001 TEST
+- [ ] event_indexing_29005
+- [ ] event_indexing_29005 TEST
+- [ ] event_lucky_find_29007
+- [ ] event_lucky_find_29007 TEST
+- [ ] event_wildcat_strike_30002
+- [ ] event_wildcat_strike_30002 TEST
+- [ ] event_mutual_favor_30011
+- [ ] event_mutual_favor_30011 TEST
+- [ ] event_tread_lightly_30012
+- [ ] event_tread_lightly_30012 TEST
+- [ ] event_creative_commission_30020
+- [ ] event_creative_commission_30020 TEST
+- [ ] event_vrcation_30021
+- [ ] event_vrcation_30021 TEST
+- [ ] event_jailbreak_30028
+- [ ] event_jailbreak_30028 TEST
+- [ ] event_overclock_30029
+- [ ] event_overclock_30029 TEST
+- [ ] event_sure_gamble_30030
+- [ ] event_sure_gamble_30030 TEST
+- [ ] event_en_passant_31003
+- [ ] event_en_passant_31003 TEST
+- [ ] event_retrieval_run_31004
+- [ ] event_retrieval_run_31004 TEST
+- [ ] event_career_fair_31015
+- [ ] event_career_fair_31015 TEST
+- [ ] event_emergency_shutdown_31016
+- [ ] event_emergency_shutdown_31016 TEST
+- [ ] event_forged_activation_orders_31017
+- [ ] event_forged_activation_orders_31017 TEST
+- [ ] event_inside_job_31018
+- [ ] event_inside_job_31018 TEST
+- [ ] event_legwork_31019
+- [ ] event_legwork_31019 TEST
+- [ ] event_networking_31020
+- [ ] event_networking_31020 TEST
+- [ ] event_diesel_31027
+- [ ] event_diesel_31027 TEST
+- [ ] event_test_run_31028
+- [ ] event_test_run_31028 TEST
+- [ ] event_the_makers_eye_31029
+- [ ] event_the_makers_eye_31029 TEST
+- [ ] event_dirty_laundry_31037
+- [ ] event_dirty_laundry_31037 TEST
+- [ ] event_deep_dive_32003
+- [ ] event_deep_dive_32003 TEST
+- [ ] event_chastushka_33002
+- [ ] event_chastushka_33002 TEST
+- [ ] event_running_hot_33003
+- [ ] event_running_hot_33003 TEST
+- [ ] event_steelskin_scarring_33004
+- [ ] event_steelskin_scarring_33004 TEST
+- [ ] event_carpe_diem_33012
+- [ ] event_carpe_diem_33012 TEST
+- [ ] event_pinhole_threading_33013
+- [ ] event_pinhole_threading_33013 TEST
+- [ ] event_deep_dive_33022
+- [ ] event_deep_dive_33022 TEST
+- [ ] event_into_the_depths_33023
+- [ ] event_into_the_depths_33023 TEST
+- [ ] event_rigging_up_33024
+- [ ] event_rigging_up_33024 TEST
+- [ ] event_finality_33066
+- [ ] event_finality_33066 TEST
+- [ ] event_katorga_breakout_33067
+- [ ] event_katorga_breakout_33067 TEST
+- [ ] event_raindrops_cut_stone_33068
+- [ ] event_raindrops_cut_stone_33068 TEST
+- [ ] event_concerto_33075
+- [ ] event_concerto_33075 TEST
+- [ ] event_reprise_33076
+- [ ] event_reprise_33076 TEST
+- [ ] event_spark_of_inspiration_33084
+- [ ] event_spark_of_inspiration_33084 TEST

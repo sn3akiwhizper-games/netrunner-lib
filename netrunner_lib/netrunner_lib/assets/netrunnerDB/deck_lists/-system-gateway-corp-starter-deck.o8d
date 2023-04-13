@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="0f38e453-26df-4c04-9d67-6d43de939c77">
+  <section name="Identity">
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda30077">The Syndicate: Profit over Principle</card>
+  </section>
+  <section name="R&amp;D / Stack">
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda30037">Nico Campaign</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda30039">Brân 1.0</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda30040">Seamless Launch</card>
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda30042">Manegarm Skunkworks</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda30045">Urtica Cipher</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda30046">Diviner</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda30047">Karunā</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda30064">Government Subsidy</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda30067">Offworld Office</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda30069">Send a Message</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda30070">Superconducting Hub</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda30071">Regolith Mining License</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda30072">Palisade</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda30073">Tithe</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda30074">Whitespace</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda30075">Hedge Fund</card>
+  </section>
+  <notes><![CDATA[This is the System Gateway Corp Starter Deck with pips only. 
+No booster cards included.]]></notes>
+</deck>

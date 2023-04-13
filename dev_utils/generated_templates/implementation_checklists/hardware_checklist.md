@@ -1,0 +1,308 @@
+# hardware Implementation Checklist
+
+- [ ] hardware_cyberfeeder_01005
+- [ ] hardware_cyberfeeder_01005 TEST
+- [ ] hardware_grimoire_01006
+- [ ] hardware_grimoire_01006 TEST
+- [ ] hardware_lemuria_codecracker_01023
+- [ ] hardware_lemuria_codecracker_01023 TEST
+- [ ] hardware_desperado_01024
+- [ ] hardware_desperado_01024 TEST
+- [ ] hardware_akamatsu_mem_chip_01038
+- [ ] hardware_akamatsu_mem_chip_01038 TEST
+- [ ] hardware_rabbit_hole_01039
+- [ ] hardware_rabbit_hole_01039 TEST
+- [ ] hardware_the_personal_touch_01040
+- [ ] hardware_the_personal_touch_01040 TEST
+- [ ] hardware_the_toolbox_01041
+- [ ] hardware_the_toolbox_01041 TEST
+- [ ] hardware_spinal_modem_02002
+- [ ] hardware_spinal_modem_02002 TEST
+- [ ] hardware_cortez_chip_02005
+- [ ] hardware_cortez_chip_02005 TEST
+- [ ] hardware_plascrete_carapace_02009
+- [ ] hardware_plascrete_carapace_02009 TEST
+- [ ] hardware_e3_feedback_implants_02024
+- [ ] hardware_e3_feedback_implants_02024 TEST
+- [ ] hardware_dyson_mem_chip_02028
+- [ ] hardware_dyson_mem_chip_02028 TEST
+- [ ] hardware_muresh_bodysuit_02044
+- [ ] hardware_muresh_bodysuit_02044 TEST
+- [ ] hardware_dinosaurus_02048
+- [ ] hardware_dinosaurus_02048 TEST
+- [ ] hardware_doppelganger_02064
+- [ ] hardware_doppelganger_02064 TEST
+- [ ] hardware_hq_interface_02085
+- [ ] hardware_hq_interface_02085 TEST
+- [ ] hardware_replicator_02088
+- [ ] hardware_replicator_02088 TEST
+- [ ] hardware_rd_interface_02107
+- [ ] hardware_rd_interface_02107 TEST
+- [ ] hardware_monolith_03036
+- [ ] hardware_monolith_03036 TEST
+- [ ] hardware_feedback_filter_03037
+- [ ] hardware_feedback_filter_03037 TEST
+- [ ] hardware_clone_chip_03038
+- [ ] hardware_clone_chip_03038 TEST
+- [ ] hardware_omnidrive_03039
+- [ ] hardware_omnidrive_03039 TEST
+- [ ] hardware_lockpick_04006
+- [ ] hardware_lockpick_04006 TEST
+- [ ] hardware_record_reconstructor_04028
+- [ ] hardware_record_reconstructor_04028 TEST
+- [ ] hardware_prepaid_voicepad_04029
+- [ ] hardware_prepaid_voicepad_04029 TEST
+- [ ] hardware_deep_red_04042
+- [ ] hardware_deep_red_04042 TEST
+- [ ] hardware_llds_processor_04066
+- [ ] hardware_llds_processor_04066 TEST
+- [ ] hardware_capstone_04068
+- [ ] hardware_capstone_04068 TEST
+- [ ] hardware_blackguard_04085
+- [ ] hardware_blackguard_04085 TEST
+- [ ] hardware_cybersolutions_mem_chip_04086
+- [ ] hardware_cybersolutions_mem_chip_04086 TEST
+- [ ] hardware_dyson_fractal_generator_04103
+- [ ] hardware_dyson_fractal_generator_04103 TEST
+- [ ] hardware_silencer_04104
+- [ ] hardware_silencer_04104 TEST
+- [ ] hardware_logos_05037
+- [ ] hardware_logos_05037 TEST
+- [ ] hardware_public_terminal_05038
+- [ ] hardware_public_terminal_05038 TEST
+- [ ] hardware_unregistered_sw_35_05039
+- [ ] hardware_unregistered_sw_35_05039 TEST
+- [ ] hardware_window_05040
+- [ ] hardware_window_05040 TEST
+- [ ] hardware_qcoherence_chip_05052
+- [ ] hardware_qcoherence_chip_05052 TEST
+- [ ] hardware_boxe_06055
+- [ ] hardware_boxe_06055 TEST
+- [ ] hardware_autoscripter_06076
+- [ ] hardware_autoscripter_06076 TEST
+- [ ] hardware_astrolabe_06079
+- [ ] hardware_astrolabe_06079 TEST
+- [ ] hardware_ekomind_06093
+- [ ] hardware_ekomind_06093 TEST
+- [ ] hardware_cybsoft_macrodrive_06098
+- [ ] hardware_cybsoft_macrodrive_06098 TEST
+- [ ] hardware_archives_interface_07044
+- [ ] hardware_archives_interface_07044 TEST
+- [ ] hardware_chop_bot_3000_07045
+- [ ] hardware_chop_bot_3000_07045 TEST
+- [ ] hardware_memstrips_07046
+- [ ] hardware_memstrips_07046 TEST
+- [ ] hardware_vigil_07047
+- [ ] hardware_vigil_07047 TEST
+- [ ] hardware_qianju_pt_07054
+- [ ] hardware_qianju_pt_07054 TEST
+- [ ] hardware_dorm_computer_08024
+- [ ] hardware_dorm_computer_08024 TEST
+- [ ] hardware_comet_08027
+- [ ] hardware_comet_08027 TEST
+- [ ] hardware_skulljack_08042
+- [ ] hardware_skulljack_08042 TEST
+- [ ] hardware_turntable_08043
+- [ ] hardware_turntable_08043 TEST
+- [ ] hardware_titanium_ribs_08045
+- [ ] hardware_titanium_ribs_08045 TEST
+- [ ] hardware_netready_eyes_08047
+- [ ] hardware_netready_eyes_08047 TEST
+- [ ] hardware_brain_cage_08049
+- [ ] hardware_brain_cage_08049 TEST
+- [ ] hardware_forger_08065
+- [ ] hardware_forger_08065 TEST
+- [ ] hardware_bookmark_08106
+- [ ] hardware_bookmark_08106 TEST
+- [ ] hardware_heartbeat_09032
+- [ ] hardware_heartbeat_09032 TEST
+- [ ] hardware_brain_chip_09039
+- [ ] hardware_brain_chip_09039 TEST
+- [ ] hardware_security_chip_09046
+- [ ] hardware_security_chip_09046 TEST
+- [ ] hardware_security_nexus_09047
+- [ ] hardware_security_nexus_09047 TEST
+- [ ] hardware_ramujanreliant_550_bmi_10002
+- [ ] hardware_ramujanreliant_550_bmi_10002 TEST
+- [ ] hardware_maya_10007
+- [ ] hardware_maya_10007 TEST
+- [ ] hardware_emp_device_10020
+- [ ] hardware_emp_device_10020 TEST
+- [ ] hardware_netchip_10024
+- [ ] hardware_netchip_10024 TEST
+- [ ] hardware_reflection_10041
+- [ ] hardware_reflection_10041 TEST
+- [ ] hardware_spy_camera_10042
+- [ ] hardware_spy_camera_10042 TEST
+- [ ] hardware_sports_hopper_10064
+- [ ] hardware_sports_hopper_10064 TEST
+- [ ] hardware_gpi_net_tap_11003
+- [ ] hardware_gpi_net_tap_11003 TEST
+- [ ] hardware_mirror_11005
+- [ ] hardware_mirror_11005 TEST
+- [ ] hardware_obelus_11041
+- [ ] hardware_obelus_11041 TEST
+- [ ] hardware_the_gauntlet_11063
+- [ ] hardware_the_gauntlet_11063 TEST
+- [ ] hardware_top_hat_11067
+- [ ] hardware_top_hat_11067 TEST
+- [ ] hardware_sifr_11101
+- [ ] hardware_sifr_11101 TEST
+- [ ] hardware_recon_drone_11103
+- [ ] hardware_recon_drone_11103 TEST
+- [ ] hardware_maw_12002
+- [ ] hardware_maw_12002 TEST
+- [ ] hardware_severnius_stim_implant_12021
+- [ ] hardware_severnius_stim_implant_12021 TEST
+- [ ] hardware_rubicon_switch_12043
+- [ ] hardware_rubicon_switch_12043 TEST
+- [ ] hardware_adjusted_matrix_12046
+- [ ] hardware_adjusted_matrix_12046 TEST
+- [ ] hardware_dedicated_processor_12047
+- [ ] hardware_dedicated_processor_12047 TEST
+- [ ] hardware_maui_12063
+- [ ] hardware_maui_12063 TEST
+- [ ] hardware_daredevil_12066
+- [ ] hardware_daredevil_12066 TEST
+- [ ] hardware_respirocytes_12102
+- [ ] hardware_respirocytes_12102 TEST
+- [ ] hardware_polyhistor_13005
+- [ ] hardware_polyhistor_13005 TEST
+- [ ] hardware_llds_memory_diamond_13015
+- [ ] hardware_llds_memory_diamond_13015 TEST
+- [ ] hardware_ubax_13016
+- [ ] hardware_ubax_13016 TEST
+- [ ] hardware_bmi_buffer_14020
+- [ ] hardware_bmi_buffer_14020 TEST
+- [ ] hardware_bmi_buffer_2_14021
+- [ ] hardware_bmi_buffer_2_14021 TEST
+- [ ] hardware_cyberfeeder_20006
+- [ ] hardware_cyberfeeder_20006 TEST
+- [ ] hardware_spinal_modem_20007
+- [ ] hardware_spinal_modem_20007 TEST
+- [ ] hardware_doppelganger_20025
+- [ ] hardware_doppelganger_20025 TEST
+- [ ] hardware_hq_interface_20026
+- [ ] hardware_hq_interface_20026 TEST
+- [ ] hardware_dinosaurus_20045
+- [ ] hardware_dinosaurus_20045 TEST
+- [ ] hardware_rabbit_hole_20046
+- [ ] hardware_rabbit_hole_20046 TEST
+- [ ] hardware_the_personal_touch_20047
+- [ ] hardware_the_personal_touch_20047 TEST
+- [ ] hardware_dyson_mem_chip_20057
+- [ ] hardware_dyson_mem_chip_20057 TEST
+- [ ] hardware_zamba_21003
+- [ ] hardware_zamba_21003 TEST
+- [ ] hardware_cyberdelia_21006
+- [ ] hardware_cyberdelia_21006 TEST
+- [ ] hardware_acacia_21021
+- [ ] hardware_acacia_21021 TEST
+- [ ] hardware_friday_chip_21042
+- [ ] hardware_friday_chip_21042 TEST
+- [ ] hardware_knobkierie_21062
+- [ ] hardware_knobkierie_21062 TEST
+- [ ] hardware_gebrselassie_21087
+- [ ] hardware_gebrselassie_21087 TEST
+- [ ] hardware_zer0_21101
+- [ ] hardware_zer0_21101 TEST
+- [ ] hardware_hippo_21103
+- [ ] hardware_hippo_21103 TEST
+- [ ] hardware_flameout_21109
+- [ ] hardware_flameout_21109 TEST
+- [ ] hardware_patchwork_22004
+- [ ] hardware_patchwork_22004 TEST
+- [ ] hardware_hijacked_router_22005
+- [ ] hardware_hijacked_router_22005 TEST
+- [ ] hardware_paragon_22010
+- [ ] hardware_paragon_22010 TEST
+- [ ] hardware_minds_eye_22017
+- [ ] hardware_minds_eye_22017 TEST
+- [ ] hardware_mache_22018
+- [ ] hardware_mache_22018 TEST
+- [ ] hardware_cyberfeeder_25008
+- [ ] hardware_cyberfeeder_25008 TEST
+- [ ] hardware_patchwork_25009
+- [ ] hardware_patchwork_25009 TEST
+- [ ] hardware_hq_interface_25031
+- [ ] hardware_hq_interface_25031 TEST
+- [ ] hardware_paragon_25032
+- [ ] hardware_paragon_25032 TEST
+- [ ] hardware_akamatsu_mem_chip_25048
+- [ ] hardware_akamatsu_mem_chip_25048 TEST
+- [ ] hardware_dinosaurus_25049
+- [ ] hardware_dinosaurus_25049 TEST
+- [ ] hardware_rd_interface_25050
+- [ ] hardware_rd_interface_25050 TEST
+- [ ] hardware_demolisher_26002
+- [ ] hardware_demolisher_26002 TEST
+- [ ] hardware_flip_switch_26013
+- [ ] hardware_flip_switch_26013 TEST
+- [ ] hardware_lucky_charm_26014
+- [ ] hardware_lucky_charm_26014 TEST
+- [ ] hardware_masterwork_v37_26015
+- [ ] hardware_masterwork_v37_26015 TEST
+- [ ] hardware_supercorridor_26023
+- [ ] hardware_supercorridor_26023 TEST
+- [ ] hardware_devil_charm_26068
+- [ ] hardware_devil_charm_26068 TEST
+- [ ] hardware_gachapon_26069
+- [ ] hardware_gachapon_26069 TEST
+- [ ] hardware_keiko_26070
+- [ ] hardware_keiko_26070 TEST
+- [ ] hardware_boomerang_26075
+- [ ] hardware_boomerang_26075 TEST
+- [ ] hardware_mu_safecracker_26076
+- [ ] hardware_mu_safecracker_26076 TEST
+- [ ] hardware_prognostic_qloop_26077
+- [ ] hardware_prognostic_qloop_26077 TEST
+- [ ] hardware_swift_26078
+- [ ] hardware_swift_26078 TEST
+- [ ] hardware_aniccam_26084
+- [ ] hardware_aniccam_26084 TEST
+- [ ] hardware_simulchip_26085
+- [ ] hardware_simulchip_26085 TEST
+- [ ] hardware_buffer_drive_26093
+- [ ] hardware_buffer_drive_26093 TEST
+- [ ] hardware_swift_27002
+- [ ] hardware_swift_27002 TEST
+- [ ] hardware_e3_feedback_implants_29003
+- [ ] hardware_e3_feedback_implants_29003 TEST
+- [ ] hardware_prepaid_voicepad_29008
+- [ ] hardware_prepaid_voicepad_29008 TEST
+- [ ] hardware_carnivore_30003
+- [ ] hardware_carnivore_30003 TEST
+- [ ] hardware_docklands_pass_30013
+- [ ] hardware_docklands_pass_30013 TEST
+- [ ] hardware_pennyshaver_30014
+- [ ] hardware_pennyshaver_30014 TEST
+- [ ] hardware_dzmz_optimizer_30022
+- [ ] hardware_dzmz_optimizer_30022 TEST
+- [ ] hardware_pantograph_30023
+- [ ] hardware_pantograph_30023 TEST
+- [ ] hardware_t400_memory_diamond_30031
+- [ ] hardware_t400_memory_diamond_30031 TEST
+- [ ] hardware_prepaid_voicepad_31038
+- [ ] hardware_prepaid_voicepad_31038 TEST
+- [ ] hardware_ghosttongue_33005
+- [ ] hardware_ghosttongue_33005 TEST
+- [ ] hardware_marrow_33006
+- [ ] hardware_marrow_33006 TEST
+- [ ] hardware_panweave_33014
+- [ ] hardware_panweave_33014 TEST
+- [ ] hardware_virtuoso_33015
+- [ ] hardware_virtuoso_33015 TEST
+- [ ] hardware_endurance_33025
+- [ ] hardware_endurance_33025 TEST
+- [ ] hardware_time_bomb_33069
+- [ ] hardware_time_bomb_33069 TEST
+- [ ] hardware_poison_vial_33077
+- [ ] hardware_poison_vial_33077 TEST
+- [ ] hardware_wake_implant_v2ajrj_33078
+- [ ] hardware_wake_implant_v2ajrj_33078 TEST
+- [ ] hardware_zenit_chip_jz2mj_33079
+- [ ] hardware_zenit_chip_jz2mj_33079 TEST
+- [ ] hardware_hippocampic_mechanocytes_33085
+- [ ] hardware_hippocampic_mechanocytes_33085 TEST
+- [ ] hardware_basilar_synthgland_2kvj_33086
+- [ ] hardware_basilar_synthgland_2kvj_33086 TEST

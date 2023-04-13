@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+#pyproject.toml quickstart docs: https://setuptools.pypa.io/en/latest/userguide/quickstart.html
+[project]
+name = "netrunner_lib"
+authors = [
+    {name = "sn3akiwhizper", email = "sn3akiwhizper@outlook.com"},
+]
+description = "netrunner card game library"
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["one", "two"]
+license = {text = "BSD-3-Clause"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+version = "0.1.0"
+
+#dependency management docs: https://setuptools.pypa.io/en/latest/userguide/dependency_management.html
+dependencies = [ #use this instead of requirements.txt
+    # 'importlib-metadata; python_version<"3.8"',
+	"beautifulsoup4",
+	"lxml",
+	"unidecode"
+]
+
+#https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+[tool.setuptools.packages]
+find = {}  # Scanning implicit namespaces is active by default
+# find = {namespaces = false}  # Disable implicit namespaces
+
+#entry points & scripts docs: https://setuptools.pypa.io/en/latest/userguide/entry_point.html
+#console scripts
+[project.scripts]
+netrunner_lib = "netrunner_lib.main:main"

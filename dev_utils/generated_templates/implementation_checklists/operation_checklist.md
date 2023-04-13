@@ -1,0 +1,460 @@
+# operation Implementation Checklist
+
+- [ ] operation_archived_memories_01058
+- [ ] operation_archived_memories_01058 TEST
+- [ ] operation_biotic_labor_01059
+- [ ] operation_biotic_labor_01059 TEST
+- [ ] operation_shipment_from_mirrormorph_01060
+- [ ] operation_shipment_from_mirrormorph_01060 TEST
+- [ ] operation_neural_emp_01072
+- [ ] operation_neural_emp_01072 TEST
+- [ ] operation_precognition_01073
+- [ ] operation_precognition_01073 TEST
+- [ ] operation_anonymous_tip_01083
+- [ ] operation_anonymous_tip_01083 TEST
+- [ ] operation_closed_accounts_01084
+- [ ] operation_closed_accounts_01084 TEST
+- [ ] operation_psychographics_01085
+- [ ] operation_psychographics_01085 TEST
+- [ ] operation_sea_source_01086
+- [ ] operation_sea_source_01086 TEST
+- [ ] operation_aggressive_negotiation_01097
+- [ ] operation_aggressive_negotiation_01097 TEST
+- [ ] operation_beanstalk_royalties_01098
+- [ ] operation_beanstalk_royalties_01098 TEST
+- [ ] operation_scorched_earth_01099
+- [ ] operation_scorched_earth_01099 TEST
+- [ ] operation_shipment_from_kaguya_01100
+- [ ] operation_shipment_from_kaguya_01100 TEST
+- [ ] operation_hedge_fund_01110
+- [ ] operation_hedge_fund_01110 TEST
+- [ ] operation_trick_of_light_02033
+- [ ] operation_trick_of_light_02033 TEST
+- [ ] operation_big_brother_02035
+- [ ] operation_big_brother_02035 TEST
+- [ ] operation_power_grid_overload_02037
+- [ ] operation_power_grid_overload_02037 TEST
+- [ ] operation_freelancer_02040
+- [ ] operation_freelancer_02040 TEST
+- [ ] operation_sunset_02054
+- [ ] operation_sunset_02054 TEST
+- [ ] operation_commercialization_02058
+- [ ] operation_commercialization_02058 TEST
+- [ ] operation_green_level_clearance_02070
+- [ ] operation_green_level_clearance_02070 TEST
+- [ ] operation_oversight_ai_02079
+- [ ] operation_oversight_ai_02079 TEST
+- [ ] operation_rework_02093
+- [ ] operation_rework_02093 TEST
+- [ ] operation_foxfire_02100
+- [ ] operation_foxfire_02100 TEST
+- [ ] operation_midseason_replacements_02116
+- [ ] operation_midseason_replacements_02116 TEST
+- [ ] operation_bioroid_efficiency_research_03013
+- [ ] operation_bioroid_efficiency_research_03013 TEST
+- [ ] operation_successful_demonstration_03014
+- [ ] operation_successful_demonstration_03014 TEST
+- [ ] operation_celebrity_gift_04012
+- [ ] operation_celebrity_gift_04012 TEST
+- [ ] operation_invasion_of_privacy_04016
+- [ ] operation_invasion_of_privacy_04016 TEST
+- [ ] operation_cyberdex_trial_04019
+- [ ] operation_cyberdex_trial_04019 TEST
+- [ ] operation_hellion_alpha_test_04031
+- [ ] operation_hellion_alpha_test_04031 TEST
+- [ ] operation_shipment_from_sansan_04034
+- [ ] operation_shipment_from_sansan_04034 TEST
+- [ ] operation_restructure_04040
+- [ ] operation_restructure_04040 TEST
+- [ ] operation_accelerated_diagnostics_04052
+- [ ] operation_accelerated_diagnostics_04052 TEST
+- [ ] operation_power_shutdown_04058
+- [ ] operation_power_shutdown_04058 TEST
+- [ ] operation_interns_04060
+- [ ] operation_interns_04060 TEST
+- [ ] operation_sweeps_week_04076
+- [ ] operation_sweeps_week_04076 TEST
+- [ ] operation_punitive_counterstrike_04079
+- [ ] operation_punitive_counterstrike_04079 TEST
+- [ ] operation_blue_level_clearance_04090
+- [ ] operation_blue_level_clearance_04090 TEST
+- [ ] operation_restoring_face_04094
+- [ ] operation_restoring_face_04094 TEST
+- [ ] operation_subliminal_messaging_04100
+- [ ] operation_subliminal_messaging_04100 TEST
+- [ ] operation_reclamation_order_04111
+- [ ] operation_reclamation_order_04111 TEST
+- [ ] operation_corporate_shuffle_04113
+- [ ] operation_corporate_shuffle_04113 TEST
+- [ ] operation_witness_tampering_04118
+- [ ] operation_witness_tampering_04118 TEST
+- [ ] operation_cerebral_cast_05013
+- [ ] operation_cerebral_cast_05013 TEST
+- [ ] operation_medical_research_fundraiser_05014
+- [ ] operation_medical_research_fundraiser_05014 TEST
+- [ ] operation_mushin_no_shin_05015
+- [ ] operation_mushin_no_shin_05015 TEST
+- [ ] operation_diversified_portfolio_05026
+- [ ] operation_diversified_portfolio_05026 TEST
+- [ ] operation_fast_track_05027
+- [ ] operation_fast_track_05027 TEST
+- [ ] operation_mutate_06004
+- [ ] operation_mutate_06004 TEST
+- [ ] operation_bad_times_06012
+- [ ] operation_bad_times_06012 TEST
+- [ ] operation_enhanced_login_protocol_06022
+- [ ] operation_enhanced_login_protocol_06022 TEST
+- [ ] operation_cerebral_static_06025
+- [ ] operation_cerebral_static_06025 TEST
+- [ ] operation_targeted_marketing_06026
+- [ ] operation_targeted_marketing_06026 TEST
+- [ ] operation_paywall_implementation_06028
+- [ ] operation_paywall_implementation_06028 TEST
+- [ ] operation_lag_time_06031
+- [ ] operation_lag_time_06031 TEST
+- [ ] operation_manhunt_06046
+- [ ] operation_manhunt_06046 TEST
+- [ ] operation_peak_efficiency_06062
+- [ ] operation_peak_efficiency_06062 TEST
+- [ ] operation_reuse_06070
+- [ ] operation_reuse_06070 TEST
+- [ ] operation_snatch_and_grab_06090
+- [ ] operation_snatch_and_grab_06090 TEST
+- [ ] operation_shoot_the_moon_06107
+- [ ] operation_shoot_the_moon_06107 TEST
+- [ ] operation_housekeeping_07020
+- [ ] operation_housekeeping_07020 TEST
+- [ ] operation_patch_07021
+- [ ] operation_patch_07021 TEST
+- [ ] operation_traffic_accident_07022
+- [ ] operation_traffic_accident_07022 TEST
+- [ ] operation_sub_boost_07025
+- [ ] operation_sub_boost_07025 TEST
+- [ ] operation_predictive_algorithm_08017
+- [ ] operation_predictive_algorithm_08017 TEST
+- [ ] operation_recruiting_trip_08035
+- [ ] operation_recruiting_trip_08035 TEST
+- [ ] operation_defective_brainchips_08072
+- [ ] operation_defective_brainchips_08072 TEST
+- [ ] operation_an_offer_you_cant_refuse_08091
+- [ ] operation_an_offer_you_cant_refuse_08091 TEST
+- [ ] operation_casting_call_08096
+- [ ] operation_casting_call_08096 TEST
+- [ ] operation_back_channels_08099
+- [ ] operation_back_channels_08099 TEST
+- [ ] operation_247_news_cycle_09019
+- [ ] operation_247_news_cycle_09019 TEST
+- [ ] operation_ad_blitz_09020
+- [ ] operation_ad_blitz_09020 TEST
+- [ ] operation_media_blitz_09021
+- [ ] operation_media_blitz_09021 TEST
+- [ ] operation_the_allseeing_i_09022
+- [ ] operation_the_allseeing_i_09022 TEST
+- [ ] operation_surveillance_sweep_09023
+- [ ] operation_surveillance_sweep_09023 TEST
+- [ ] operation_heritage_committee_10013
+- [ ] operation_heritage_committee_10013 TEST
+- [ ] operation_dedication_ceremony_10017
+- [ ] operation_dedication_ceremony_10017 TEST
+- [ ] operation_product_recall_10029
+- [ ] operation_product_recall_10029 TEST
+- [ ] operation_clones_are_not_people_10052
+- [ ] operation_clones_are_not_people_10052 TEST
+- [ ] operation_salems_hospitality_10071
+- [ ] operation_salems_hospitality_10071 TEST
+- [ ] operation_localized_product_line_10075
+- [ ] operation_localized_product_line_10075 TEST
+- [ ] operation_exchange_of_information_10092
+- [ ] operation_exchange_of_information_10092 TEST
+- [ ] operation_consulting_visit_10094
+- [ ] operation_consulting_visit_10094 TEST
+- [ ] operation_lateral_growth_10104
+- [ ] operation_lateral_growth_10104 TEST
+- [ ] operation_voter_intimidation_10106
+- [ ] operation_voter_intimidation_10106 TEST
+- [ ] operation_election_day_10112
+- [ ] operation_election_day_10112 TEST
+- [ ] operation_subcontract_10113
+- [ ] operation_subcontract_10113 TEST
+- [ ] operation_hardhitting_news_11016
+- [ ] operation_hardhitting_news_11016 TEST
+- [ ] operation_stock_buyback_11019
+- [ ] operation_stock_buyback_11019 TEST
+- [ ] operation_enforcing_loyalty_11033
+- [ ] operation_enforcing_loyalty_11033 TEST
+- [ ] operation_hatchet_job_11034
+- [ ] operation_hatchet_job_11034 TEST
+- [ ] operation_special_report_11035
+- [ ] operation_special_report_11035 TEST
+- [ ] operation_liquidation_11037
+- [ ] operation_liquidation_11037 TEST
+- [ ] operation_financial_collapse_11039
+- [ ] operation_financial_collapse_11039 TEST
+- [ ] operation_ark_lockdown_11050
+- [ ] operation_ark_lockdown_11050 TEST
+- [ ] operation_hellion_beta_test_11051
+- [ ] operation_hellion_beta_test_11051 TEST
+- [ ] operation_observe_and_destroy_11056
+- [ ] operation_observe_and_destroy_11056 TEST
+- [ ] operation_service_outage_11057
+- [ ] operation_service_outage_11057 TEST
+- [ ] operation_boom_11058
+- [ ] operation_boom_11058 TEST
+- [ ] operation_door_to_door_11059
+- [ ] operation_door_to_door_11059 TEST
+- [ ] operation_scarcity_of_resources_11060
+- [ ] operation_scarcity_of_resources_11060 TEST
+- [ ] operation_wetwork_refit_11071
+- [ ] operation_wetwork_refit_11071 TEST
+- [ ] operation_hasty_relocation_11074
+- [ ] operation_hasty_relocation_11074 TEST
+- [ ] operation_best_defense_11079
+- [ ] operation_best_defense_11079 TEST
+- [ ] operation_preemptive_action_11080
+- [ ] operation_preemptive_action_11080 TEST
+- [ ] operation_friends_in_high_places_11090
+- [ ] operation_friends_in_high_places_11090 TEST
+- [ ] operation_enforced_curfew_11100
+- [ ] operation_enforced_curfew_11100 TEST
+- [ ] operation_violet_level_clearance_11111
+- [ ] operation_violet_level_clearance_11111 TEST
+- [ ] operation_psychokinesis_11113
+- [ ] operation_psychokinesis_11113 TEST
+- [ ] operation_load_testing_12031
+- [ ] operation_load_testing_12031 TEST
+- [ ] operation_replanting_12033
+- [ ] operation_replanting_12033 TEST
+- [ ] operation_mca_informant_12036
+- [ ] operation_mca_informant_12036 TEST
+- [ ] operation_sacrifice_12039
+- [ ] operation_sacrifice_12039 TEST
+- [ ] operation_audacity_12058
+- [ ] operation_audacity_12058 TEST
+- [ ] operation_red_planet_couriers_12059
+- [ ] operation_red_planet_couriers_12059 TEST
+- [ ] operation_shipment_from_tennin_12072
+- [ ] operation_shipment_from_tennin_12072 TEST
+- [ ] operation_success_12078
+- [ ] operation_success_12078 TEST
+- [ ] operation_mass_commercialization_12080
+- [ ] operation_mass_commercialization_12080 TEST
+- [ ] operation_o_shortage_12090
+- [ ] operation_o_shortage_12090 TEST
+- [ ] operation_biased_reporting_12096
+- [ ] operation_biased_reporting_12096 TEST
+- [ ] operation_transparency_initiative_12099
+- [ ] operation_transparency_initiative_12099 TEST
+- [ ] operation_rover_algorithm_12100
+- [ ] operation_rover_algorithm_12100 TEST
+- [ ] operation_restore_12112
+- [ ] operation_restore_12112 TEST
+- [ ] operation_rolling_brownout_12116
+- [ ] operation_rolling_brownout_12116 TEST
+- [ ] operation_threat_level_alpha_12117
+- [ ] operation_threat_level_alpha_12117 TEST
+- [ ] operation_priority_construction_12118
+- [ ] operation_priority_construction_12118 TEST
+- [ ] operation_ultraviolet_clearance_13038
+- [ ] operation_ultraviolet_clearance_13038 TEST
+- [ ] operation_hunter_seeker_13051
+- [ ] operation_hunter_seeker_13051 TEST
+- [ ] operation_ipo_13057
+- [ ] operation_ipo_13057 TEST
+- [ ] operation_net_watchlist_14023
+- [ ] operation_net_watchlist_14023 TEST
+- [ ] operation_archived_memories_20071
+- [ ] operation_archived_memories_20071 TEST
+- [ ] operation_biotic_labor_20072
+- [ ] operation_biotic_labor_20072 TEST
+- [ ] operation_green_level_clearance_20073
+- [ ] operation_green_level_clearance_20073 TEST
+- [ ] operation_shipment_from_mirrormorph_20074
+- [ ] operation_shipment_from_mirrormorph_20074 TEST
+- [ ] operation_beanstalk_royalties_20090
+- [ ] operation_beanstalk_royalties_20090 TEST
+- [ ] operation_punitive_counterstrike_20091
+- [ ] operation_punitive_counterstrike_20091 TEST
+- [ ] operation_shipment_from_kaguya_20092
+- [ ] operation_shipment_from_kaguya_20092 TEST
+- [ ] operation_celebrity_gift_20105
+- [ ] operation_celebrity_gift_20105 TEST
+- [ ] operation_neural_emp_20106
+- [ ] operation_neural_emp_20106 TEST
+- [ ] operation_trick_of_light_20107
+- [ ] operation_trick_of_light_20107 TEST
+- [ ] operation_anonymous_tip_20118
+- [ ] operation_anonymous_tip_20118 TEST
+- [ ] operation_closed_accounts_20119
+- [ ] operation_closed_accounts_20119 TEST
+- [ ] operation_psychographics_20120
+- [ ] operation_psychographics_20120 TEST
+- [ ] operation_sea_source_20121
+- [ ] operation_sea_source_20121 TEST
+- [ ] operation_hedge_fund_20132
+- [ ] operation_hedge_fund_20132 TEST
+- [ ] operation_genotyping_21014
+- [ ] operation_genotyping_21014 TEST
+- [ ] operation_selfgrowth_program_21016
+- [ ] operation_selfgrowth_program_21016 TEST
+- [ ] operation_wake_up_call_21019
+- [ ] operation_wake_up_call_21019 TEST
+- [ ] operation_threat_assessment_21035
+- [ ] operation_threat_assessment_21035 TEST
+- [ ] operation_economic_warfare_21036
+- [ ] operation_economic_warfare_21036 TEST
+- [ ] operation_distract_the_masses_21040
+- [ ] operation_distract_the_masses_21040 TEST
+- [ ] operation_reverse_infection_21053
+- [ ] operation_reverse_infection_21053 TEST
+- [ ] operation_death_and_taxes_21058
+- [ ] operation_death_and_taxes_21058 TEST
+- [ ] operation_trojan_horse_21059
+- [ ] operation_trojan_horse_21059 TEST
+- [ ] operation_kill_switch_21070
+- [ ] operation_kill_switch_21070 TEST
+- [ ] operation_standard_procedure_21097
+- [ ] operation_standard_procedure_21097 TEST
+- [ ] operation_riot_suppression_21113
+- [ ] operation_riot_suppression_21113 TEST
+- [ ] operation_market_forces_21117
+- [ ] operation_market_forces_21117 TEST
+- [ ] operation_highprofile_target_21119
+- [ ] operation_highprofile_target_21119 TEST
+- [ ] operation_divert_power_22030
+- [ ] operation_divert_power_22030 TEST
+- [ ] operation_fast_break_22031
+- [ ] operation_fast_break_22031 TEST
+- [ ] operation_game_changer_22032
+- [ ] operation_game_changer_22032 TEST
+- [ ] operation_hangeki_22040
+- [ ] operation_hangeki_22040 TEST
+- [ ] operation_eavesdrop_22047
+- [ ] operation_eavesdrop_22047 TEST
+- [ ] operation_attitude_adjustment_22048
+- [ ] operation_attitude_adjustment_22048 TEST
+- [ ] operation_building_blocks_22055
+- [ ] operation_building_blocks_22055 TEST
+- [ ] operation_too_big_to_fail_22056
+- [ ] operation_too_big_to_fail_22056 TEST
+- [ ] operation_under_the_bus_22057
+- [ ] operation_under_the_bus_22057 TEST
+- [ ] operation_archived_memories_25079
+- [ ] operation_archived_memories_25079 TEST
+- [ ] operation_biotic_labor_25080
+- [ ] operation_biotic_labor_25080 TEST
+- [ ] operation_blue_level_clearance_25081
+- [ ] operation_blue_level_clearance_25081 TEST
+- [ ] operation_celebrity_gift_25100
+- [ ] operation_celebrity_gift_25100 TEST
+- [ ] operation_neural_emp_25101
+- [ ] operation_neural_emp_25101 TEST
+- [ ] operation_trick_of_light_25102
+- [ ] operation_trick_of_light_25102 TEST
+- [ ] operation_closed_accounts_25117
+- [ ] operation_closed_accounts_25117 TEST
+- [ ] operation_psychographics_25118
+- [ ] operation_psychographics_25118 TEST
+- [ ] operation_sea_source_25119
+- [ ] operation_sea_source_25119 TEST
+- [ ] operation_beanstalk_royalties_25136
+- [ ] operation_beanstalk_royalties_25136 TEST
+- [ ] operation_oversight_ai_25137
+- [ ] operation_oversight_ai_25137 TEST
+- [ ] operation_punitive_counterstrike_25138
+- [ ] operation_punitive_counterstrike_25138 TEST
+- [ ] operation_hedge_fund_25146
+- [ ] operation_hedge_fund_25146 TEST
+- [ ] operation_ipo_25147
+- [ ] operation_ipo_25147 TEST
+- [ ] operation_fully_operational_26036
+- [ ] operation_fully_operational_26036 TEST
+- [ ] operation_red_level_clearance_26037
+- [ ] operation_red_level_clearance_26037 TEST
+- [ ] operation_complete_image_26045
+- [ ] operation_complete_image_26045 TEST
+- [ ] operation_focus_group_26052
+- [ ] operation_focus_group_26052 TEST
+- [ ] operation_game_over_26053
+- [ ] operation_game_over_26053 TEST
+- [ ] operation_secure_and_protect_26061
+- [ ] operation_secure_and_protect_26061 TEST
+- [ ] operation_next_activation_command_26103
+- [ ] operation_next_activation_command_26103 TEST
+- [ ] operation_scapenet_26104
+- [ ] operation_scapenet_26104 TEST
+- [ ] operation_hyoubu_precog_manifold_26110
+- [ ] operation_hyoubu_precog_manifold_26110 TEST
+- [ ] operation_kakurenbo_26111
+- [ ] operation_kakurenbo_26111 TEST
+- [ ] operation_digital_rights_management_26117
+- [ ] operation_digital_rights_management_26117 TEST
+- [ ] operation_sync_rerouting_26118
+- [ ] operation_sync_rerouting_26118 TEST
+- [ ] operation_argus_crackdown_26126
+- [ ] operation_argus_crackdown_26126 TEST
+- [ ] operation_napd_cordon_26130
+- [ ] operation_napd_cordon_26130 TEST
+- [ ] operation_digital_rights_management_27006
+- [ ] operation_digital_rights_management_27006 TEST
+- [ ] operation_sweeps_week_29013
+- [ ] operation_sweeps_week_29013 TEST
+- [ ] operation_scorched_earth_29016
+- [ ] operation_scorched_earth_29016 TEST
+- [ ] operation_subliminal_messaging_29018
+- [ ] operation_subliminal_messaging_29018 TEST
+- [ ] operation_seamless_launch_30040
+- [ ] operation_seamless_launch_30040 TEST
+- [ ] operation_sprint_30041
+- [ ] operation_sprint_30041 TEST
+- [ ] operation_hansei_review_30048
+- [ ] operation_hansei_review_30048 TEST
+- [ ] operation_neurospike_30049
+- [ ] operation_neurospike_30049 TEST
+- [ ] operation_predictive_planogram_30056
+- [ ] operation_predictive_planogram_30056 TEST
+- [ ] operation_public_trail_30057
+- [ ] operation_public_trail_30057 TEST
+- [ ] operation_government_subsidy_30064
+- [ ] operation_government_subsidy_30064 TEST
+- [ ] operation_retribution_30065
+- [ ] operation_retribution_30065 TEST
+- [ ] operation_hedge_fund_30075
+- [ ] operation_hedge_fund_30075 TEST
+- [ ] operation_archived_memories_31047
+- [ ] operation_archived_memories_31047 TEST
+- [ ] operation_biotic_labor_31048
+- [ ] operation_biotic_labor_31048 TEST
+- [ ] operation_celebrity_gift_31057
+- [ ] operation_celebrity_gift_31057 TEST
+- [ ] operation_trick_of_light_31058
+- [ ] operation_trick_of_light_31058 TEST
+- [ ] operation_psychographics_31068
+- [ ] operation_psychographics_31068 TEST
+- [ ] operation_punitive_counterstrike_31078
+- [ ] operation_punitive_counterstrike_31078 TEST
+- [ ] operation_subliminal_messaging_31082
+- [ ] operation_subliminal_messaging_31082 TEST
+- [ ] operation_big_deal_33038
+- [ ] operation_big_deal_33038 TEST
+- [ ] operation_mitosis_33046
+- [ ] operation_mitosis_33046 TEST
+- [ ] operation_backroom_machinations_33055
+- [ ] operation_backroom_machinations_33055 TEST
+- [ ] operation_extract_33063
+- [ ] operation_extract_33063 TEST
+- [ ] operation_mutually_assured_destruction_33064
+- [ ] operation_mutually_assured_destruction_33064 TEST
+- [ ] operation_trust_operation_33065
+- [ ] operation_trust_operation_33065 TEST
+- [ ] operation_distributed_tracing_33100
+- [ ] operation_distributed_tracing_33100 TEST
+- [ ] operation_hypoxia_33101
+- [ ] operation_hypoxia_33101 TEST
+- [ ] operation_simulation_reset_33110
+- [ ] operation_simulation_reset_33110 TEST
+- [ ] operation_nonequivalent_exchange_33118
+- [ ] operation_nonequivalent_exchange_33118 TEST
+- [ ] operation_shipment_from_vladisibirsk_33119
+- [ ] operation_shipment_from_vladisibirsk_33119 TEST
+- [ ] operation_end_of_the_line_33125
+- [ ] operation_end_of_the_line_33125 TEST

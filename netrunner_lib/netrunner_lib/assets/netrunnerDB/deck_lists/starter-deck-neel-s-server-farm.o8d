@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="0f38e453-26df-4c04-9d67-6d43de939c77">
+  <section name="Identity">
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda07002">Gagarin Deep Space: Expanding the Horizon</card>
+  </section>
+  <section name="R&amp;D / Stack">
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda01056">Adonis Campaign</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda01069">Project Junebug</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda01070">Snare!</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda01098">Beanstalk Royalties</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda01101">Archer</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda01103">Ice Wall</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda01106">Priority Requisition</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda01108">Melange Mining Corp.</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda01109">PAD Campaign</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda01110">Hedge Fund</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda01111">Enigma</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda07004">Firmware Updates</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda07007">High-Risk Investment</card>
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda07008">Constellation Protocol</card>
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda07011">The Board</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda07012">Asteroid Belt</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda07013">Wormhole</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda07014">Nebula</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda07016">Builder</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda07018">Fire Wall</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda07023">Satellite Grid</card>
+  </section>
+  <notes><![CDATA[A beginner deck for a friend who only has O&amp;C and Core.
+
+You should be in the money, and able to make tons of remote servers.   You can protect the [Melange Mining Corp.](/en/card/01108)s, but aside from that, you probably don&#039;t need to protect any of them.  The [Project Junebug](/en/card/01069)s are there to trap the runner.  You&#039;re running mostly 5/3 agendas, that require &quot;install, advance, advance&quot;.  Get one of them scored in a protected remote, then throw a [Project Junebug](/en/card/01069) in there with two advancements as well.  The runner will have a very nice surprise.
+
+Aggressively play remote servers.  Either they&#039;ll get you money, or they&#039;ll tax the runner.  Remember that your ID ability makes it even more taxing!
+
+For advanced points, play [The Board](/en/card/07011).]]></notes>
+</deck>

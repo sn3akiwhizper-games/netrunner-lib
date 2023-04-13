@@ -1,0 +1,42 @@
+nbn-starter-deck-from-coreset-
+NBN: Making News (Core Set)
+
+Agenda (10)
+1x AstroScript Pilot Program (Core Set) 
+2x Breaking News (Core Set) 
+3x Priority Requisition (Core Set) 
+3x Private Security Force (Core Set) 
+1x Project Beale (Future Proof) 
+
+Asset (8)
+3x Ghost Branch (Core Set) 
+2x Melange Mining Corp. (Core Set) 
+3x PAD Campaign (Core Set) 
+
+Upgrade (3)
+2x Red Herrings (Core Set) 
+1x SanSan City Grid (Core Set) 
+
+Operation (11)
+2x Anonymous Tip (Core Set) 
+2x Closed Accounts (Core Set) 
+2x Psychographics (Core Set) 
+2x SEA Source (Core Set) 
+3x Hedge Fund (Core Set) 
+
+Barrier (3)
+3x Wall of Static (Core Set) 
+
+Code Gate (6)
+3x Tollbooth (Core Set) 
+3x Enigma (Core Set) 
+
+Sentry (8)
+3x Data Raven (Core Set) 
+3x Matrix Analyzer (Core Set) 
+2x Hunter (Core Set) 
+
+0 influence spent (max 15, available 15)
+21 agenda points (between 20 and 21)
+49 cards (min 45)
+Cards up to Future Proof

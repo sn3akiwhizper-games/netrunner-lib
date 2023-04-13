@@ -1,0 +1,246 @@
+# upgrade Implementation Checklist
+
+- [ ] upgrade_corporate_troubleshooter_01065
+- [ ] upgrade_corporate_troubleshooter_01065 TEST
+- [ ] upgrade_experiential_data_01066
+- [ ] upgrade_experiential_data_01066 TEST
+- [ ] upgrade_akitaro_watanabe_01079
+- [ ] upgrade_akitaro_watanabe_01079 TEST
+- [ ] upgrade_red_herrings_01091
+- [ ] upgrade_red_herrings_01091 TEST
+- [ ] upgrade_sansan_city_grid_01092
+- [ ] upgrade_sansan_city_grid_01092 TEST
+- [ ] upgrade_research_station_01105
+- [ ] upgrade_research_station_01105 TEST
+- [ ] upgrade_ash_2x3zb9cy_02013
+- [ ] upgrade_ash_2x3zb9cy_02013 TEST
+- [ ] upgrade_chilo_city_grid_02036
+- [ ] upgrade_chilo_city_grid_02036 TEST
+- [ ] upgrade_amazon_industrial_zone_02038
+- [ ] upgrade_amazon_industrial_zone_02038 TEST
+- [ ] upgrade_hokusai_grid_02095
+- [ ] upgrade_hokusai_grid_02095 TEST
+- [ ] upgrade_bernice_mai_02097
+- [ ] upgrade_bernice_mai_02097 TEST
+- [ ] upgrade_simone_diego_02099
+- [ ] upgrade_simone_diego_02099 TEST
+- [ ] upgrade_ruhr_valley_02111
+- [ ] upgrade_ruhr_valley_02111 TEST
+- [ ] upgrade_midori_02113
+- [ ] upgrade_midori_02113 TEST
+- [ ] upgrade_awakening_center_03021
+- [ ] upgrade_awakening_center_03021 TEST
+- [ ] upgrade_tyrs_hand_03022
+- [ ] upgrade_tyrs_hand_03022 TEST
+- [ ] upgrade_off_the_grid_04038
+- [ ] upgrade_off_the_grid_04038 TEST
+- [ ] upgrade_panic_button_04072
+- [ ] upgrade_panic_button_04072 TEST
+- [ ] upgrade_strongbox_04091
+- [ ] upgrade_strongbox_04091 TEST
+- [ ] upgrade_caprice_nisei_04114
+- [ ] upgrade_caprice_nisei_04114 TEST
+- [ ] upgrade_neotokyo_grid_05021
+- [ ] upgrade_neotokyo_grid_05021 TEST
+- [ ] upgrade_tori_hanzo_05022
+- [ ] upgrade_tori_hanzo_05022 TEST
+- [ ] upgrade_midway_station_grid_06007
+- [ ] upgrade_midway_station_grid_06007 TEST
+- [ ] upgrade_heinlein_grid_06023
+- [ ] upgrade_heinlein_grid_06023 TEST
+- [ ] upgrade_willothewisp_06032
+- [ ] upgrade_willothewisp_06032 TEST
+- [ ] upgrade_port_anson_grid_06044
+- [ ] upgrade_port_anson_grid_06044 TEST
+- [ ] upgrade_crisium_grid_06048
+- [ ] upgrade_crisium_grid_06048 TEST
+- [ ] upgrade_shell_corporation_06092
+- [ ] upgrade_shell_corporation_06092 TEST
+- [ ] upgrade_selfdestruct_06112
+- [ ] upgrade_selfdestruct_06112 TEST
+- [ ] upgrade_satellite_grid_07023
+- [ ] upgrade_satellite_grid_07023 TEST
+- [ ] upgrade_the_twins_07024
+- [ ] upgrade_the_twins_07024 TEST
+- [ ] upgrade_dedicated_technician_team_07026
+- [ ] upgrade_dedicated_technician_team_07026 TEST
+- [ ] upgrade_cyberdex_virus_suite_07027
+- [ ] upgrade_cyberdex_virus_suite_07027 TEST
+- [ ] upgrade_valley_grid_08015
+- [ ] upgrade_valley_grid_08015 TEST
+- [ ] upgrade_breaker_bay_grid_08040
+- [ ] upgrade_breaker_bay_grid_08040 TEST
+- [ ] upgrade_oaktown_grid_08053
+- [ ] upgrade_oaktown_grid_08053 TEST
+- [ ] upgrade_ryon_knight_08054
+- [ ] upgrade_ryon_knight_08054 TEST
+- [ ] upgrade_marcus_batty_08074
+- [ ] upgrade_marcus_batty_08074 TEST
+- [ ] upgrade_underway_grid_08080
+- [ ] upgrade_underway_grid_08080 TEST
+- [ ] upgrade_old_hollywood_grid_08097
+- [ ] upgrade_old_hollywood_grid_08097 TEST
+- [ ] upgrade_product_placement_08115
+- [ ] upgrade_product_placement_08115 TEST
+- [ ] upgrade_expo_grid_08119
+- [ ] upgrade_expo_grid_08119 TEST
+- [ ] upgrade_keegan_lane_09024
+- [ ] upgrade_keegan_lane_09024 TEST
+- [ ] upgrade_rutherford_grid_09025
+- [ ] upgrade_rutherford_grid_09025 TEST
+- [ ] upgrade_mumbad_city_grid_10014
+- [ ] upgrade_mumbad_city_grid_10014 TEST
+- [ ] upgrade_disposable_hq_10034
+- [ ] upgrade_disposable_hq_10034 TEST
+- [ ] upgrade_surat_city_grid_10057
+- [ ] upgrade_surat_city_grid_10057 TEST
+- [ ] upgrade_mumbad_virtual_tour_10076
+- [ ] upgrade_mumbad_virtual_tour_10076 TEST
+- [ ] upgrade_navi_mumbai_city_grid_10110
+- [ ] upgrade_navi_mumbai_city_grid_10110 TEST
+- [ ] upgrade_georgia_emelyov_11014
+- [ ] upgrade_georgia_emelyov_11014 TEST
+- [ ] upgrade_prisec_11040
+- [ ] upgrade_prisec_11040 TEST
+- [ ] upgrade_drone_screen_11076
+- [ ] upgrade_drone_screen_11076 TEST
+- [ ] upgrade_manta_grid_11091
+- [ ] upgrade_manta_grid_11091 TEST
+- [ ] upgrade_nihongai_grid_11093
+- [ ] upgrade_nihongai_grid_11093 TEST
+- [ ] upgrade_bryan_stinson_11117
+- [ ] upgrade_bryan_stinson_11117 TEST
+- [ ] upgrade_defense_construct_12011
+- [ ] upgrade_defense_construct_12011 TEST
+- [ ] upgrade_oberth_protocol_12018
+- [ ] upgrade_oberth_protocol_12018 TEST
+- [ ] upgrade_khondi_plaza_12019
+- [ ] upgrade_khondi_plaza_12019 TEST
+- [ ] upgrade_signal_jamming_12020
+- [ ] upgrade_signal_jamming_12020 TEST
+- [ ] upgrade_bamboo_dome_12053
+- [ ] upgrade_bamboo_dome_12053 TEST
+- [ ] upgrade_ben_musashi_12054
+- [ ] upgrade_ben_musashi_12054 TEST
+- [ ] upgrade_henry_phillips_12056
+- [ ] upgrade_henry_phillips_12056 TEST
+- [ ] upgrade_warroid_tracker_12068
+- [ ] upgrade_warroid_tracker_12068 TEST
+- [ ] upgrade_traffic_analyzer_12075
+- [ ] upgrade_traffic_analyzer_12075 TEST
+- [ ] upgrade_helheim_servers_12091
+- [ ] upgrade_helheim_servers_12091 TEST
+- [ ] upgrade_fractal_threat_matrix_12119
+- [ ] upgrade_fractal_threat_matrix_12119 TEST
+- [ ] upgrade_black_level_clearance_13039
+- [ ] upgrade_black_level_clearance_13039 TEST
+- [ ] upgrade_mason_bellamy_13040
+- [ ] upgrade_mason_bellamy_13040 TEST
+- [ ] upgrade_k_p_lynn_13052
+- [ ] upgrade_k_p_lynn_13052 TEST
+- [ ] upgrade_ash_2x3zb9cy_20075
+- [ ] upgrade_ash_2x3zb9cy_20075 TEST
+- [ ] upgrade_strongbox_20076
+- [ ] upgrade_strongbox_20076 TEST
+- [ ] upgrade_hokusai_grid_20108
+- [ ] upgrade_hokusai_grid_20108 TEST
+- [ ] upgrade_red_herrings_20122
+- [ ] upgrade_red_herrings_20122 TEST
+- [ ] upgrade_bernice_mai_20123
+- [ ] upgrade_bernice_mai_20123 TEST
+- [ ] upgrade_calibration_testing_21017
+- [ ] upgrade_calibration_testing_21017 TEST
+- [ ] upgrade_jinja_city_grid_21031
+- [ ] upgrade_jinja_city_grid_21031 TEST
+- [ ] upgrade_forced_connection_21037
+- [ ] upgrade_forced_connection_21037 TEST
+- [ ] upgrade_code_replicator_21052
+- [ ] upgrade_code_replicator_21052 TEST
+- [ ] upgrade_tempus_21071
+- [ ] upgrade_tempus_21071 TEST
+- [ ] upgrade_bio_vault_21072
+- [ ] upgrade_bio_vault_21072 TEST
+- [ ] upgrade_mwanza_city_grid_21096
+- [ ] upgrade_mwanza_city_grid_21096 TEST
+- [ ] upgrade_intake_21098
+- [ ] upgrade_intake_21098 TEST
+- [ ] upgrade_overseer_matrix_21100
+- [ ] upgrade_overseer_matrix_21100 TEST
+- [ ] upgrade_giordano_memorial_field_22033
+- [ ] upgrade_giordano_memorial_field_22033 TEST
+- [ ] upgrade_daruma_22041
+- [ ] upgrade_daruma_22041 TEST
+- [ ] upgrade_arella_salvatore_22049
+- [ ] upgrade_arella_salvatore_22049 TEST
+- [ ] upgrade_embolus_23011
+- [ ] upgrade_embolus_23011 TEST
+- [ ] upgrade_hired_help_23101
+- [ ] upgrade_hired_help_23101 TEST
+- [ ] upgrade_ash_2x3zb9cy_25082
+- [ ] upgrade_ash_2x3zb9cy_25082 TEST
+- [ ] upgrade_mason_bellamy_25083
+- [ ] upgrade_mason_bellamy_25083 TEST
+- [ ] upgrade_hokusai_grid_25103
+- [ ] upgrade_hokusai_grid_25103 TEST
+- [ ] upgrade_product_placement_25120
+- [ ] upgrade_product_placement_25120 TEST
+- [ ] upgrade_red_herrings_25121
+- [ ] upgrade_red_herrings_25121 TEST
+- [ ] upgrade_crisium_grid_25139
+- [ ] upgrade_crisium_grid_25139 TEST
+- [ ] upgrade_cold_site_server_26038
+- [ ] upgrade_cold_site_server_26038 TEST
+- [ ] upgrade_letheia_nisei_26046
+- [ ] upgrade_letheia_nisei_26046 TEST
+- [ ] upgrade_increased_drop_rates_26054
+- [ ] upgrade_increased_drop_rates_26054 TEST
+- [ ] upgrade_reduced_service_26062
+- [ ] upgrade_reduced_service_26062 TEST
+- [ ] upgrade_tranquility_home_grid_26105
+- [ ] upgrade_tranquility_home_grid_26105 TEST
+- [ ] upgrade_la_costa_grid_26112
+- [ ] upgrade_la_costa_grid_26112 TEST
+- [ ] upgrade_ganked_26119
+- [ ] upgrade_ganked_26119 TEST
+- [ ] upgrade_cayambe_grid_26127
+- [ ] upgrade_cayambe_grid_26127 TEST
+- [ ] upgrade_la_costa_grid_27005
+- [ ] upgrade_la_costa_grid_27005 TEST
+- [ ] upgrade_cayambe_grid_27007
+- [ ] upgrade_cayambe_grid_27007 TEST
+- [ ] upgrade_embolus_28003
+- [ ] upgrade_embolus_28003 TEST
+- [ ] upgrade_sansan_city_grid_29014
+- [ ] upgrade_sansan_city_grid_29014 TEST
+- [ ] upgrade_manegarm_skunkworks_30042
+- [ ] upgrade_manegarm_skunkworks_30042 TEST
+- [ ] upgrade_anoetic_void_30050
+- [ ] upgrade_anoetic_void_30050 TEST
+- [ ] upgrade_amaze_amusements_30058
+- [ ] upgrade_amaze_amusements_30058 TEST
+- [ ] upgrade_malapert_data_vault_30066
+- [ ] upgrade_malapert_data_vault_30066 TEST
+- [ ] upgrade_corporate_troubleshooter_31049
+- [ ] upgrade_corporate_troubleshooter_31049 TEST
+- [ ] upgrade_hokusai_grid_31059
+- [ ] upgrade_hokusai_grid_31059 TEST
+- [ ] upgrade_sansan_city_grid_31069
+- [ ] upgrade_sansan_city_grid_31069 TEST
+- [ ] upgrade_crisium_grid_31079
+- [ ] upgrade_crisium_grid_31079 TEST
+- [ ] upgrade_vladisibirsk_city_grid_32006
+- [ ] upgrade_vladisibirsk_city_grid_32006 TEST
+- [ ] upgrade_mavirus_33047
+- [ ] upgrade_mavirus_33047 TEST
+- [ ] upgrade_vladisibirsk_city_grid_33056
+- [ ] upgrade_vladisibirsk_city_grid_33056 TEST
+- [ ] upgrade_djupstad_grid_33102
+- [ ] upgrade_djupstad_grid_33102 TEST
+- [ ] upgrade_mr_hendrik_33103
+- [ ] upgrade_mr_hendrik_33103 TEST
+- [ ] upgrade_nanisivik_grid_33111
+- [ ] upgrade_nanisivik_grid_33111 TEST
+- [ ] upgrade_yakov_erikovich_avdakov_33126
+- [ ] upgrade_yakov_erikovich_avdakov_33126 TEST
+- [ ] upgrade_zato_city_grid_33127
+- [ ] upgrade_zato_city_grid_33127 TEST

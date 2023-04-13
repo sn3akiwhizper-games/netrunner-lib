@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="0f38e453-26df-4c04-9d67-6d43de939c77">
+  <section name="Identity">
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda30076">The Catalyst: Convention Breaker</card>
+  </section>
+  <section name="R&amp;D / Stack">
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda30006">Cleaver</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda30012">Tread Lightly</card>
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda30013">Docklands Pass</card>
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda30014">Pennyshaver</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda30015">Carmen</card>
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda30018">Red Team</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda30020">Creative Commission</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda30021">VRcation</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda30026">Unity</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda30027">Telework Contract</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda30028">Jailbreak</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda30029">Overclock</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda30030">Sure Gamble</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda30032">Mayfly</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda30033">Smartware Distributor</card>
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda30034">Verbal Plasticity</card>
+  </section>
+  <notes><![CDATA[This is the System Gateway Runner *Starter Deck* with pips. 
+No so called &#039;Booster&#039; cards.]]></notes>
+</deck>

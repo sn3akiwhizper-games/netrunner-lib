@@ -1,0 +1,30 @@
+-system-gateway-runner-starter-deck
+The Catalyst: Convention Breaker (System Gateway)
+
+Event (14)
+2x Tread Lightly (System Gateway) ••
+2x Creative Commission (System Gateway) ••••
+2x VRcation (System Gateway) ••••
+3x Jailbreak (System Gateway) 
+2x Overclock (System Gateway) 
+3x Sure Gamble (System Gateway) 
+
+Hardware (2)
+1x Docklands Pass (System Gateway) ••
+1x Pennyshaver (System Gateway) •••
+
+Resource (6)
+1x Red Team (System Gateway) ••
+2x Telework Contract (System Gateway) ••••
+2x Smartware Distributor (System Gateway) 
+1x Verbal Plasticity (System Gateway) 
+
+Icebreaker (8)
+2x Cleaver (System Gateway) ••••
+2x Carmen (System Gateway) ••••
+2x Unity (System Gateway) ••••
+2x Mayfly (System Gateway) 
+
+33 influence spent (max infinite, available 0)
+30 cards (min 30)
+Cards up to System Gateway

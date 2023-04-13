@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="0f38e453-26df-4c04-9d67-6d43de939c77">
+  <section name="Identity">
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda01067">Jinteki: Personal Evolution</card>
+  </section>
+  <section name="R&amp;D / Stack">
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda01057">Aggressive Secretary</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda01062">Ichi 1.0</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda01068">Nisei MK II</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda01069">Project Junebug</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda01070">Snare!</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda01072">Neural EMP</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda01075">Chum</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda01076">Data Mine</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda01077">Neural Katana</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda01078">Wall of Thorns</card>
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda01079">Akitaro Watanabe</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda01090">Tollbooth</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda01098">Beanstalk Royalties</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda01106">Priority Requisition</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda01107">Private Security Force</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda01108">Melange Mining Corp.</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda01109">PAD Campaign</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda01110">Hedge Fund</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda01111">Enigma</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda01113">Wall of Static</card>
+  </section>
+  <notes><![CDATA[People often ask for starter decks when they first get Netrunner to get an idea of how to deck build or what makes a deck strong. The recommended starter decks in the core set aren’t very efficient nor do they use any influence, so I have worked with some friends to design a few starter decks. Every starter deck is made of a single core set and we have also made variants with no 1-of cards so anyone with 3 core-sets can throw together these starter decks and have them lying around to introduce new players. We have tested the Beginner decks against each other and the Intermediate decks against each other and they are pretty balance with the runner winning slightly more often.
+
+Beginner decks are designed for players just picking up the game. They are straight forward and have very little tricks.
+
+Intermediate decks introduce players to more complex and interesting concepts such as search, traps, and viruses.
+
+Advanced decks are your own decks that you design and build. Get familiar with the other factions and cards. Experiment and have fun!
+
+This deck introduces traps and damage. The Corp will also have to play smart since most of the ICE is not that expensive to break or doesn’t stop the runner. Upgrades are also introduced with Akitaro Watanabe (unless you are making the no 1-ofs version). The Corp will have to learn smart ICE placement, money management, and timing. The Runner will have to learn when it is safe to run and how to reduce risk of flatlining.
+
+To make this deck with no 1-ofs.
+-1 Akitaro Watanabe
++1 Enigma
+]]></notes>
+</deck>

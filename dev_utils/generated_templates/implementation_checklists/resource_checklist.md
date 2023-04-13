@@ -1,0 +1,490 @@
+# resource Implementation Checklist
+
+- [ ] resource_ice_carver_01015
+- [ ] resource_ice_carver_01015 TEST
+- [ ] resource_wyldside_01016
+- [ ] resource_wyldside_01016 TEST
+- [ ] resource_bank_job_01029
+- [ ] resource_bank_job_01029 TEST
+- [ ] resource_crash_space_01030
+- [ ] resource_crash_space_01030 TEST
+- [ ] resource_data_dealer_01031
+- [ ] resource_data_dealer_01031 TEST
+- [ ] resource_decoy_01032
+- [ ] resource_decoy_01032 TEST
+- [ ] resource_aesops_pawnshop_01047
+- [ ] resource_aesops_pawnshop_01047 TEST
+- [ ] resource_sacrificial_construct_01048
+- [ ] resource_sacrificial_construct_01048 TEST
+- [ ] resource_access_to_globalsec_01052
+- [ ] resource_access_to_globalsec_01052 TEST
+- [ ] resource_armitage_codebusting_01053
+- [ ] resource_armitage_codebusting_01053 TEST
+- [ ] resource_the_helpful_ai_02008
+- [ ] resource_the_helpful_ai_02008 TEST
+- [ ] resource_liberated_account_02022
+- [ ] resource_liberated_account_02022 TEST
+- [ ] resource_compromised_employee_02025
+- [ ] resource_compromised_employee_02025 TEST
+- [ ] resource_joshua_b_02042
+- [ ] resource_joshua_b_02042 TEST
+- [ ] resource_personal_workshop_02049
+- [ ] resource_personal_workshop_02049 TEST
+- [ ] resource_public_sympathy_02050
+- [ ] resource_public_sympathy_02050 TEST
+- [ ] resource_scrubber_02063
+- [ ] resource_scrubber_02063 TEST
+- [ ] resource_allnighter_02067
+- [ ] resource_allnighter_02067 TEST
+- [ ] resource_inside_man_02068
+- [ ] resource_inside_man_02068 TEST
+- [ ] resource_underworld_contact_02069
+- [ ] resource_underworld_contact_02069 TEST
+- [ ] resource_xanadu_02082
+- [ ] resource_xanadu_02082 TEST
+- [ ] resource_kati_jones_02091
+- [ ] resource_kati_jones_02091 TEST
+- [ ] resource_data_leak_reversal_02103
+- [ ] resource_data_leak_reversal_02103 TEST
+- [ ] resource_mr_li_02105
+- [ ] resource_mr_li_02105 TEST
+- [ ] resource_new_angeles_city_hall_02109
+- [ ] resource_new_angeles_city_hall_02109 TEST
+- [ ] resource_professional_contacts_03049
+- [ ] resource_professional_contacts_03049 TEST
+- [ ] resource_borrowed_satellite_03050
+- [ ] resource_borrowed_satellite_03050 TEST
+- [ ] resource_ice_analyzer_03051
+- [ ] resource_ice_analyzer_03051 TEST
+- [ ] resource_daily_casts_03053
+- [ ] resource_daily_casts_03053 TEST
+- [ ] resource_same_old_thing_03054
+- [ ] resource_same_old_thing_03054 TEST
+- [ ] resource_the_source_03055
+- [ ] resource_the_source_03055 TEST
+- [ ] resource_motivation_04008
+- [ ] resource_motivation_04008 TEST
+- [ ] resource_john_masanori_04009
+- [ ] resource_john_masanori_04009 TEST
+- [ ] resource_hard_at_work_04023
+- [ ] resource_hard_at_work_04023 TEST
+- [ ] resource_grifter_04046
+- [ ] resource_grifter_04046 TEST
+- [ ] resource_woman_in_the_red_dress_04048
+- [ ] resource_woman_in_the_red_dress_04048 TEST
+- [ ] resource_raymond_flint_04049
+- [ ] resource_raymond_flint_04049 TEST
+- [ ] resource_activist_support_04062
+- [ ] resource_activist_support_04062 TEST
+- [ ] resource_starlight_crusade_funding_04069
+- [ ] resource_starlight_crusade_funding_04069 TEST
+- [ ] resource_tallie_perrault_04083
+- [ ] resource_tallie_perrault_04083 TEST
+- [ ] resource_fall_guy_04106
+- [ ] resource_fall_guy_04106 TEST
+- [ ] resource_security_testing_05048
+- [ ] resource_security_testing_05048 TEST
+- [ ] resource_theophilius_bagbiter_05049
+- [ ] resource_theophilius_bagbiter_05049 TEST
+- [ ] resource_trimaf_contact_05050
+- [ ] resource_trimaf_contact_05050 TEST
+- [ ] resource_oracle_may_05054
+- [ ] resource_oracle_may_05054 TEST
+- [ ] resource_donut_taganes_05055
+- [ ] resource_donut_taganes_05055 TEST
+- [ ] resource_power_tap_06016
+- [ ] resource_power_tap_06016 TEST
+- [ ] resource_eden_shard_06020
+- [ ] resource_eden_shard_06020 TEST
+- [ ] resource_ghost_runner_06040
+- [ ] resource_ghost_runner_06040 TEST
+- [ ] resource_duggars_06054
+- [ ] resource_duggars_06054 TEST
+- [ ] resource_the_supplier_06056
+- [ ] resource_the_supplier_06056 TEST
+- [ ] resource_order_of_sol_06058
+- [ ] resource_order_of_sol_06058 TEST
+- [ ] resource_hades_shard_06059
+- [ ] resource_hades_shard_06059 TEST
+- [ ] resource_rachel_beckman_06060
+- [ ] resource_rachel_beckman_06060 TEST
+- [ ] resource_fester_06075
+- [ ] resource_fester_06075 TEST
+- [ ] resource_angel_arena_06080
+- [ ] resource_angel_arena_06080 TEST
+- [ ] resource_zona_sul_shipping_06097
+- [ ] resource_zona_sul_shipping_06097 TEST
+- [ ] resource_utopia_shard_06100
+- [ ] resource_utopia_shard_06100 TEST
+- [ ] resource_earthrise_hotel_06120
+- [ ] resource_earthrise_hotel_06120 TEST
+- [ ] resource_human_first_07048
+- [ ] resource_human_first_07048 TEST
+- [ ] resource_investigative_journalism_07049
+- [ ] resource_investigative_journalism_07049 TEST
+- [ ] resource_sacrificial_clone_07050
+- [ ] resource_sacrificial_clone_07050 TEST
+- [ ] resource_stim_dealer_07051
+- [ ] resource_stim_dealer_07051 TEST
+- [ ] resource_virus_breeding_ground_07052
+- [ ] resource_virus_breeding_ground_07052 TEST
+- [ ] resource_data_folding_07055
+- [ ] resource_data_folding_07055 TEST
+- [ ] resource_paige_piper_08002
+- [ ] resource_paige_piper_08002 TEST
+- [ ] resource_adjusted_chronotype_08003
+- [ ] resource_adjusted_chronotype_08003 TEST
+- [ ] resource_enhanced_vision_08005
+- [ ] resource_enhanced_vision_08005 TEST
+- [ ] resource_gene_conditioning_shoppe_08006
+- [ ] resource_gene_conditioning_shoppe_08006 TEST
+- [ ] resource_synthetic_blood_08007
+- [ ] resource_synthetic_blood_08007 TEST
+- [ ] resource_symmetrical_visage_08009
+- [ ] resource_symmetrical_visage_08009 TEST
+- [ ] resource_offcampus_apartment_08022
+- [ ] resource_offcampus_apartment_08022 TEST
+- [ ] resource_london_library_08029
+- [ ] resource_london_library_08029 TEST
+- [ ] resource_tyson_observatory_08030
+- [ ] resource_tyson_observatory_08030 TEST
+- [ ] resource_beach_party_08031
+- [ ] resource_beach_party_08031 TEST
+- [ ] resource_chrome_parlor_08044
+- [ ] resource_chrome_parlor_08044 TEST
+- [ ] resource_street_peddler_08062
+- [ ] resource_street_peddler_08062 TEST
+- [ ] resource_gang_sign_08067
+- [ ] resource_gang_sign_08067 TEST
+- [ ] resource_muertos_gang_member_08068
+- [ ] resource_muertos_gang_member_08068 TEST
+- [ ] resource_spoilers_08082
+- [ ] resource_spoilers_08082 TEST
+- [ ] resource_drug_dealer_08083
+- [ ] resource_drug_dealer_08083 TEST
+- [ ] resource_rolodex_08084
+- [ ] resource_rolodex_08084 TEST
+- [ ] resource_fan_site_08085
+- [ ] resource_fan_site_08085 TEST
+- [ ] resource_film_critic_08086
+- [ ] resource_film_critic_08086 TEST
+- [ ] resource_paparazzi_08087
+- [ ] resource_paparazzi_08087 TEST
+- [ ] resource_ddos_08103
+- [ ] resource_ddos_08103 TEST
+- [ ] resource_wireless_net_pavilion_08108
+- [ ] resource_wireless_net_pavilion_08108 TEST
+- [ ] resource_hunting_grounds_09035
+- [ ] resource_hunting_grounds_09035 TEST
+- [ ] resource_wasteland_09036
+- [ ] resource_wasteland_09036 TEST
+- [ ] resource_always_be_running_09041
+- [ ] resource_always_be_running_09041 TEST
+- [ ] resource_dr_lovegood_09042
+- [ ] resource_dr_lovegood_09042 TEST
+- [ ] resource_neutralize_all_threats_09043
+- [ ] resource_neutralize_all_threats_09043 TEST
+- [ ] resource_safety_first_09044
+- [ ] resource_safety_first_09044 TEST
+- [ ] resource_globalsec_security_clearance_09051
+- [ ] resource_globalsec_security_clearance_09051 TEST
+- [ ] resource_jak_sinclair_09052
+- [ ] resource_jak_sinclair_09052 TEST
+- [ ] resource_technical_writer_09055
+- [ ] resource_technical_writer_09055 TEST
+- [ ] resource_street_magic_10003
+- [ ] resource_street_magic_10003 TEST
+- [ ] resource_artist_colony_10009
+- [ ] resource_artist_colony_10009 TEST
+- [ ] resource_chatterjee_university_10010
+- [ ] resource_chatterjee_university_10010 TEST
+- [ ] resource_tech_trader_10023
+- [ ] resource_tech_trader_10023 TEST
+- [ ] resource_political_operative_10043
+- [ ] resource_political_operative_10043 TEST
+- [ ] resource_akshara_sareen_10046
+- [ ] resource_akshara_sareen_10046 TEST
+- [ ] resource_councilman_10047
+- [ ] resource_councilman_10047 TEST
+- [ ] resource_salsette_slums_10059
+- [ ] resource_salsette_slums_10059 TEST
+- [ ] resource_patron_10063
+- [ ] resource_patron_10063 TEST
+- [ ] resource_bazaar_10065
+- [ ] resource_bazaar_10065 TEST
+- [ ] resource_emptied_mind_10078
+- [ ] resource_emptied_mind_10078 TEST
+- [ ] resource_liberated_chela_10081
+- [ ] resource_liberated_chela_10081 TEST
+- [ ] resource_temple_of_the_liberated_mind_10082
+- [ ] resource_temple_of_the_liberated_mind_10082 TEST
+- [ ] resource_guru_davinder_10084
+- [ ] resource_guru_davinder_10084 TEST
+- [ ] resource_the_turning_wheel_10085
+- [ ] resource_the_turning_wheel_10085 TEST
+- [ ] resource_bhagat_10098
+- [ ] resource_bhagat_10098 TEST
+- [ ] resource_the_black_file_10099
+- [ ] resource_the_black_file_10099 TEST
+- [ ] resource_hernando_cortez_11004
+- [ ] resource_hernando_cortez_11004 TEST
+- [ ] resource_temujin_contract_11026
+- [ ] resource_temujin_contract_11026 TEST
+- [ ] resource_algo_trading_11029
+- [ ] resource_algo_trading_11029 TEST
+- [ ] resource_beth_kilrainchang_11030
+- [ ] resource_beth_kilrainchang_11030 TEST
+- [ ] resource_net_mercur_11046
+- [ ] resource_net_mercur_11046 TEST
+- [ ] resource_find_the_truth_11047
+- [ ] resource_find_the_truth_11047 TEST
+- [ ] resource_first_responders_11048
+- [ ] resource_first_responders_11048 TEST
+- [ ] resource_blockade_runner_11065
+- [ ] resource_blockade_runner_11065 TEST
+- [ ] resource_citadel_sanctuary_11070
+- [ ] resource_citadel_sanctuary_11070 TEST
+- [ ] resource_aaron_marron_11106
+- [ ] resource_aaron_marron_11106 TEST
+- [ ] resource_the_archivist_12003
+- [ ] resource_the_archivist_12003 TEST
+- [ ] resource_biomodeled_network_12006
+- [ ] resource_biomodeled_network_12006 TEST
+- [ ] resource_network_exchange_12007
+- [ ] resource_network_exchange_12007 TEST
+- [ ] resource_clan_vengeance_12022
+- [ ] resource_clan_vengeance_12022 TEST
+- [ ] resource_counter_surveillance_12023
+- [ ] resource_counter_surveillance_12023 TEST
+- [ ] resource_aeneas_informant_12044
+- [ ] resource_aeneas_informant_12044 TEST
+- [ ] resource_rosetta_20_12045
+- [ ] resource_rosetta_20_12045 TEST
+- [ ] resource_dadiana_chacon_12049
+- [ ] resource_dadiana_chacon_12049 TEST
+- [ ] resource_jarogniew_mercs_12062
+- [ ] resource_jarogniew_mercs_12062 TEST
+- [ ] resource_bug_out_bag_12064
+- [ ] resource_bug_out_bag_12064 TEST
+- [ ] resource_keros_mcintyre_12065
+- [ ] resource_keros_mcintyre_12065 TEST
+- [ ] resource_bloo_moose_12089
+- [ ] resource_bloo_moose_12089 TEST
+- [ ] resource_salvaged_vanadis_armory_12103
+- [ ] resource_salvaged_vanadis_armory_12103 TEST
+- [ ] resource_caldera_12105
+- [ ] resource_caldera_12105 TEST
+- [ ] resource_dummy_box_12108
+- [ ] resource_dummy_box_12108 TEST
+- [ ] resource_corporate_defector_12109
+- [ ] resource_corporate_defector_12109 TEST
+- [ ] resource_charlatan_13010
+- [ ] resource_charlatan_13010 TEST
+- [ ] resource_maxwell_james_13011
+- [ ] resource_maxwell_james_13011 TEST
+- [ ] resource_levy_advanced_research_lab_13021
+- [ ] resource_levy_advanced_research_lab_13021 TEST
+- [ ] resource_laguna_velasco_district_13022
+- [ ] resource_laguna_velasco_district_13022 TEST
+- [ ] resource_officer_frank_13024
+- [ ] resource_officer_frank_13024 TEST
+- [ ] resource_dean_lister_13025
+- [ ] resource_dean_lister_13025 TEST
+- [ ] resource_biometric_spoofing_13026
+- [ ] resource_biometric_spoofing_13026 TEST
+- [ ] resource_the_shadow_net_13027
+- [ ] resource_the_shadow_net_13027 TEST
+- [ ] resource_investigator_inez_delgado_14014
+- [ ] resource_investigator_inez_delgado_14014 TEST
+- [ ] resource_investigator_inez_delgado_2_14015
+- [ ] resource_investigator_inez_delgado_2_14015 TEST
+- [ ] resource_investigator_inez_delgado_3_14016
+- [ ] resource_investigator_inez_delgado_3_14016 TEST
+- [ ] resource_investigator_inez_delgado_4_14017
+- [ ] resource_investigator_inez_delgado_4_14017 TEST
+- [ ] resource_shadow_team_14022
+- [ ] resource_shadow_team_14022 TEST
+- [ ] resource_the_masque_a_14024
+- [ ] resource_the_masque_a_14024 TEST
+- [ ] resource_the_masque_b_14025
+- [ ] resource_the_masque_b_14025 TEST
+- [ ] resource_ice_carver_20015
+- [ ] resource_ice_carver_20015 TEST
+- [ ] resource_liberated_account_20016
+- [ ] resource_liberated_account_20016 TEST
+- [ ] resource_scrubber_20017
+- [ ] resource_scrubber_20017 TEST
+- [ ] resource_xanadu_20018
+- [ ] resource_xanadu_20018 TEST
+- [ ] resource_bank_job_20033
+- [ ] resource_bank_job_20033 TEST
+- [ ] resource_crash_space_20034
+- [ ] resource_crash_space_20034 TEST
+- [ ] resource_fall_guy_20035
+- [ ] resource_fall_guy_20035 TEST
+- [ ] resource_mr_li_20036
+- [ ] resource_mr_li_20036 TEST
+- [ ] resource_aesops_pawnshop_20052
+- [ ] resource_aesops_pawnshop_20052 TEST
+- [ ] resource_allnighter_20053
+- [ ] resource_allnighter_20053 TEST
+- [ ] resource_sacrificial_construct_20054
+- [ ] resource_sacrificial_construct_20054 TEST
+- [ ] resource_armitage_codebusting_20059
+- [ ] resource_armitage_codebusting_20059 TEST
+- [ ] resource_underworld_contact_20060
+- [ ] resource_underworld_contact_20060 TEST
+- [ ] resource_lewi_guilherme_21005
+- [ ] resource_lewi_guilherme_21005 TEST
+- [ ] resource_assimilator_21008
+- [ ] resource_assimilator_21008 TEST
+- [ ] resource_kongamato_21027
+- [ ] resource_kongamato_21027 TEST
+- [ ] resource_crypt_21043
+- [ ] resource_crypt_21043 TEST
+- [ ] resource_no_one_home_21045
+- [ ] resource_no_one_home_21045 TEST
+- [ ] resource_gbahali_21047
+- [ ] resource_gbahali_21047 TEST
+- [ ] resource_rogue_trading_21065
+- [ ] resource_rogue_trading_21065 TEST
+- [ ] resource_slipstream_21085
+- [ ] resource_slipstream_21085 TEST
+- [ ] resource_logic_bomb_21089
+- [ ] resource_logic_bomb_21089 TEST
+- [ ] resource_jackpot_21090
+- [ ] resource_jackpot_21090 TEST
+- [ ] resource_pad_tap_21106
+- [ ] resource_pad_tap_21106 TEST
+- [ ] resource_reclaim_21107
+- [ ] resource_reclaim_21107 TEST
+- [ ] resource_kasi_string_21111
+- [ ] resource_kasi_string_21111 TEST
+- [ ] resource_district_99_22007
+- [ ] resource_district_99_22007 TEST
+- [ ] resource_thunder_art_gallery_22013
+- [ ] resource_thunder_art_gallery_22013 TEST
+- [ ] resource_miss_bones_22014
+- [ ] resource_miss_bones_22014 TEST
+- [ ] resource_psych_mike_22021
+- [ ] resource_psych_mike_22021 TEST
+- [ ] resource_dj_fenris_22025
+- [ ] resource_dj_fenris_22025 TEST
+- [ ] resource_crowdfunding_23013
+- [ ] resource_crowdfunding_23013 TEST
+- [ ] resource_ice_carver_25016
+- [ ] resource_ice_carver_25016 TEST
+- [ ] resource_liberated_account_25017
+- [ ] resource_liberated_account_25017 TEST
+- [ ] resource_scrubber_25018
+- [ ] resource_scrubber_25018 TEST
+- [ ] resource_xanadu_25019
+- [ ] resource_xanadu_25019 TEST
+- [ ] resource_bank_job_25038
+- [ ] resource_bank_job_25038 TEST
+- [ ] resource_data_dealer_25039
+- [ ] resource_data_dealer_25039 TEST
+- [ ] resource_aesops_pawnshop_25056
+- [ ] resource_aesops_pawnshop_25056 TEST
+- [ ] resource_ice_analyzer_25057
+- [ ] resource_ice_analyzer_25057 TEST
+- [ ] resource_professional_contacts_25058
+- [ ] resource_professional_contacts_25058 TEST
+- [ ] resource_armitage_codebusting_25062
+- [ ] resource_armitage_codebusting_25062 TEST
+- [ ] resource_earthrise_hotel_25063
+- [ ] resource_earthrise_hotel_25063 TEST
+- [ ] resource_john_masanori_25064
+- [ ] resource_john_masanori_25064 TEST
+- [ ] resource_kati_jones_25065
+- [ ] resource_kati_jones_25065 TEST
+- [ ] resource_climactic_showdown_26006
+- [ ] resource_climactic_showdown_26006 TEST
+- [ ] resource_fencer_fueno_26007
+- [ ] resource_fencer_fueno_26007 TEST
+- [ ] resource_the_nihilist_26008
+- [ ] resource_the_nihilist_26008 TEST
+- [ ] resource_trickster_taka_26009
+- [ ] resource_trickster_taka_26009 TEST
+- [ ] resource_baklan_bochkin_26017
+- [ ] resource_baklan_bochkin_26017 TEST
+- [ ] resource_the_class_act_26018
+- [ ] resource_the_class_act_26018 TEST
+- [ ] resource_the_artist_26027
+- [ ] resource_the_artist_26027 TEST
+- [ ] resource_whistleblower_26030
+- [ ] resource_whistleblower_26030 TEST
+- [ ] resource_mystic_maemi_26072
+- [ ] resource_mystic_maemi_26072 TEST
+- [ ] resource_paladin_poemu_26073
+- [ ] resource_paladin_poemu_26073 TEST
+- [ ] resource_penumbral_toolkit_26081
+- [ ] resource_penumbral_toolkit_26081 TEST
+- [ ] resource_the_back_26082
+- [ ] resource_the_back_26082 TEST
+- [ ] resource_cybertrooper_talut_26091
+- [ ] resource_cybertrooper_talut_26091 TEST
+- [ ] resource_paules_cafe_26092
+- [ ] resource_paules_cafe_26092 TEST
+- [ ] resource_daily_casts_26094
+- [ ] resource_daily_casts_26094 TEST
+- [ ] resource_dreamnet_26095
+- [ ] resource_dreamnet_26095 TEST
+- [ ] resource_mystic_maemi_27001
+- [ ] resource_mystic_maemi_27001 TEST
+- [ ] resource_cybertrooper_talut_27003
+- [ ] resource_cybertrooper_talut_27003 TEST
+- [ ] resource_crowdfunding_28002
+- [ ] resource_crowdfunding_28002 TEST
+- [ ] resource_cookbook_30009
+- [ ] resource_cookbook_30009 TEST
+- [ ] resource_red_team_30018
+- [ ] resource_red_team_30018 TEST
+- [ ] resource_telework_contract_30027
+- [ ] resource_telework_contract_30027 TEST
+- [ ] resource_smartware_distributor_30033
+- [ ] resource_smartware_distributor_30033 TEST
+- [ ] resource_verbal_plasticity_30034
+- [ ] resource_verbal_plasticity_30034 TEST
+- [ ] resource_ice_carver_31009
+- [ ] resource_ice_carver_31009 TEST
+- [ ] resource_liberated_account_31010
+- [ ] resource_liberated_account_31010 TEST
+- [ ] resource_scrubber_31011
+- [ ] resource_scrubber_31011 TEST
+- [ ] resource_xanadu_31012
+- [ ] resource_xanadu_31012 TEST
+- [ ] resource_security_testing_31024
+- [ ] resource_security_testing_31024 TEST
+- [ ] resource_aesops_pawnshop_31035
+- [ ] resource_aesops_pawnshop_31035 TEST
+- [ ] resource_professional_contacts_31036
+- [ ] resource_professional_contacts_31036 TEST
+- [ ] resource_earthrise_hotel_31039
+- [ ] resource_earthrise_hotel_31039 TEST
+- [ ] resource_light_the_fire_32001
+- [ ] resource_light_the_fire_32001 TEST
+- [ ] resource_avgustina_ivanovskaya_33008
+- [ ] resource_avgustina_ivanovskaya_33008 TEST
+- [ ] resource_light_the_fire_33009
+- [ ] resource_light_the_fire_33009 TEST
+- [ ] resource_the_twinning_33010
+- [ ] resource_the_twinning_33010 TEST
+- [ ] resource_backstitching_33019
+- [ ] resource_backstitching_33019 TEST
+- [ ] resource_no_free_lunch_33020
+- [ ] resource_no_free_lunch_33020 TEST
+- [ ] resource_daeg_first_netcat_33028
+- [ ] resource_daeg_first_netcat_33028 TEST
+- [ ] resource_environmental_testing_33029
+- [ ] resource_environmental_testing_33029 TEST
+- [ ] resource_stoneship_chart_room_33030
+- [ ] resource_stoneship_chart_room_33030 TEST
+- [ ] resource_tsakhia_bankhar_gantulga_33074
+- [ ] resource_tsakhia_bankhar_gantulga_33074 TEST
+- [ ] resource_asmund_pudlat_33082
+- [ ] resource_asmund_pudlat_33082 TEST
+- [ ] resource_info_bounty_33083
+- [ ] resource_info_bounty_33083 TEST
+- [ ] resource_dr_nuka_vrolyck_33092
+- [ ] resource_dr_nuka_vrolyck_33092 TEST

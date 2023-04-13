@@ -1,0 +1,310 @@
+# identity Implementation Checklist
+
+- [ ] identity_the_shadow_pulling_the_strings_00005
+- [ ] identity_the_shadow_pulling_the_strings_00005 TEST
+- [ ] identity_the_masque_cyber_general_00006
+- [ ] identity_the_masque_cyber_general_00006 TEST
+- [ ] identity_wyvern_chemically_enhanced_00007
+- [ ] identity_wyvern_chemically_enhanced_00007 TEST
+- [ ] identity_boris_syfr_kovac_crafty_veteran_00008
+- [ ] identity_boris_syfr_kovac_crafty_veteran_00008 TEST
+- [ ] identity_jamie_bzzz_micken_techno_savant_00009
+- [ ] identity_jamie_bzzz_micken_techno_savant_00009 TEST
+- [ ] identity_strategic_innovations_future_forward_00010
+- [ ] identity_strategic_innovations_future_forward_00010 TEST
+- [ ] identity_synthetic_systems_the_world_reimagined_00011
+- [ ] identity_synthetic_systems_the_world_reimagined_00011 TEST
+- [ ] identity_information_dynamics_all_you_need_to_know_00012
+- [ ] identity_information_dynamics_all_you_need_to_know_00012 TEST
+- [ ] identity_fringe_applications_tomorrow_today_00013
+- [ ] identity_fringe_applications_tomorrow_today_00013 TEST
+- [ ] identity_noise_hacker_extraordinaire_01001
+- [ ] identity_noise_hacker_extraordinaire_01001 TEST
+- [ ] identity_gabriel_santiago_consummate_professional_01017
+- [ ] identity_gabriel_santiago_consummate_professional_01017 TEST
+- [ ] identity_kate_mac_mccaffrey_digital_tinker_01033
+- [ ] identity_kate_mac_mccaffrey_digital_tinker_01033 TEST
+- [ ] identity_haasbioroid_engineering_the_future_01054
+- [ ] identity_haasbioroid_engineering_the_future_01054 TEST
+- [ ] identity_jinteki_personal_evolution_01067
+- [ ] identity_jinteki_personal_evolution_01067 TEST
+- [ ] identity_nbn_making_news_01080
+- [ ] identity_nbn_making_news_01080 TEST
+- [ ] identity_weyland_consortium_building_a_better_world_01093
+- [ ] identity_weyland_consortium_building_a_better_world_01093 TEST
+- [ ] identity_whizzard_master_gamer_02001
+- [ ] identity_whizzard_master_gamer_02001 TEST
+- [ ] identity_haasbioroid_stronger_together_02010
+- [ ] identity_haasbioroid_stronger_together_02010 TEST
+- [ ] identity_jinteki_replicating_perfection_02031
+- [ ] identity_jinteki_replicating_perfection_02031 TEST
+- [ ] identity_chaos_theory_wunderkind_02046
+- [ ] identity_chaos_theory_wunderkind_02046 TEST
+- [ ] identity_weyland_consortium_because_we_built_it_02076
+- [ ] identity_weyland_consortium_because_we_built_it_02076 TEST
+- [ ] identity_andromeda_dispossessed_ristie_02083
+- [ ] identity_andromeda_dispossessed_ristie_02083 TEST
+- [ ] identity_nbn_the_world_is_yours_02114
+- [ ] identity_nbn_the_world_is_yours_02114 TEST
+- [ ] identity_cerebral_imaging_infinite_frontiers_03001
+- [ ] identity_cerebral_imaging_infinite_frontiers_03001 TEST
+- [ ] identity_custom_biotics_engineered_for_success_03002
+- [ ] identity_custom_biotics_engineered_for_success_03002 TEST
+- [ ] identity_next_design_guarding_the_net_03003
+- [ ] identity_next_design_guarding_the_net_03003 TEST
+- [ ] identity_rielle_kit_peddler_transhuman_03028
+- [ ] identity_rielle_kit_peddler_transhuman_03028 TEST
+- [ ] identity_the_professor_keeper_of_knowledge_03029
+- [ ] identity_the_professor_keeper_of_knowledge_03029 TEST
+- [ ] identity_exile_streethawk_03030
+- [ ] identity_exile_streethawk_03030 TEST
+- [ ] identity_reina_roja_freedom_fighter_04041
+- [ ] identity_reina_roja_freedom_fighter_04041 TEST
+- [ ] identity_grndl_power_unleashed_04097
+- [ ] identity_grndl_power_unleashed_04097 TEST
+- [ ] identity_harmony_medtech_biomedical_pioneer_05001
+- [ ] identity_harmony_medtech_biomedical_pioneer_05001 TEST
+- [ ] identity_nisei_division_the_next_generation_05002
+- [ ] identity_nisei_division_the_next_generation_05002 TEST
+- [ ] identity_tennin_institute_the_secrets_within_05003
+- [ ] identity_tennin_institute_the_secrets_within_05003 TEST
+- [ ] identity_iain_stirling_retired_spook_05028
+- [ ] identity_iain_stirling_retired_spook_05028 TEST
+- [ ] identity_ken_express_tenma_disappeared_clone_05029
+- [ ] identity_ken_express_tenma_disappeared_clone_05029 TEST
+- [ ] identity_silhouette_stealth_operative_05030
+- [ ] identity_silhouette_stealth_operative_05030 TEST
+- [ ] identity_nearearth_hub_broadcast_center_06005
+- [ ] identity_nearearth_hub_broadcast_center_06005 TEST
+- [ ] identity_nasir_meidan_cyber_explorer_06017
+- [ ] identity_nasir_meidan_cyber_explorer_06017 TEST
+- [ ] identity_the_foundry_refining_the_process_06021
+- [ ] identity_the_foundry_refining_the_process_06021 TEST
+- [ ] identity_quetzal_free_spirit_06052
+- [ ] identity_quetzal_free_spirit_06052 TEST
+- [ ] identity_blue_sun_powering_the_future_06068
+- [ ] identity_blue_sun_powering_the_future_06068 TEST
+- [ ] identity_leela_patel_trained_pragmatist_06095
+- [ ] identity_leela_patel_trained_pragmatist_06095 TEST
+- [ ] identity_industrial_genomics_growing_solutions_06105
+- [ ] identity_industrial_genomics_growing_solutions_06105 TEST
+- [ ] identity_argus_security_protection_guaranteed_07001
+- [ ] identity_argus_security_protection_guaranteed_07001 TEST
+- [ ] identity_gagarin_deep_space_expanding_the_horizon_07002
+- [ ] identity_gagarin_deep_space_expanding_the_horizon_07002 TEST
+- [ ] identity_titan_transnational_investing_in_your_future_07003
+- [ ] identity_titan_transnational_investing_in_your_future_07003 TEST
+- [ ] identity_edward_kim_humanitys_hammer_07028
+- [ ] identity_edward_kim_humanitys_hammer_07028 TEST
+- [ ] identity_maxx_maximum_punk_rock_07029
+- [ ] identity_maxx_maximum_punk_rock_07029 TEST
+- [ ] identity_valencia_estevez_the_angel_of_cayambe_07030
+- [ ] identity_valencia_estevez_the_angel_of_cayambe_07030 TEST
+- [ ] identity_jinteki_biotech_life_imagined_08012
+- [ ] identity_jinteki_biotech_life_imagined_08012 TEST
+- [ ] identity_hayley_kaplan_universal_scholar_08025
+- [ ] identity_hayley_kaplan_universal_scholar_08025 TEST
+- [ ] identity_cybernetics_division_humanity_upgraded_08050
+- [ ] identity_cybernetics_division_humanity_upgraded_08050 TEST
+- [ ] identity_armand_geist_walker_tech_lord_08063
+- [ ] identity_armand_geist_walker_tech_lord_08063 TEST
+- [ ] identity_haarpsichord_studios_entertainment_unleashed_08092
+- [ ] identity_haarpsichord_studios_entertainment_unleashed_08092 TEST
+- [ ] identity_laramy_fisk_savvy_investor_08104
+- [ ] identity_laramy_fisk_savvy_investor_08104 TEST
+- [ ] identity_chronos_protocol_selective_mindmapping_08111
+- [ ] identity_chronos_protocol_selective_mindmapping_08111 TEST
+- [ ] identity_sync_everything_everywhere_09001
+- [ ] identity_sync_everything_everywhere_09001 TEST
+- [ ] identity_new_angeles_sol_your_news_09002
+- [ ] identity_new_angeles_sol_your_news_09002 TEST
+- [ ] identity_spark_agency_worldswide_reach_09003
+- [ ] identity_spark_agency_worldswide_reach_09003 TEST
+- [ ] identity_apex_invasive_predator_09029
+- [ ] identity_apex_invasive_predator_09029 TEST
+- [ ] identity_adam_compulsive_hacker_09037
+- [ ] identity_adam_compulsive_hacker_09037 TEST
+- [ ] identity_sunny_lebeau_security_specialist_09045
+- [ ] identity_sunny_lebeau_security_specialist_09045 TEST
+- [ ] identity_jesminder_sareen_girl_behind_the_curtain_10006
+- [ ] identity_jesminder_sareen_girl_behind_the_curtain_10006 TEST
+- [ ] identity_palana_foods_sustainable_growth_10030
+- [ ] identity_palana_foods_sustainable_growth_10030 TEST
+- [ ] identity_nero_severn_information_broker_10040
+- [ ] identity_nero_severn_information_broker_10040 TEST
+- [ ] identity_harishchandra_ent_where_youre_the_star_10107
+- [ ] identity_harishchandra_ent_where_youre_the_star_10107 TEST
+- [ ] identity_null_whistleblower_11002
+- [ ] identity_null_whistleblower_11002 TEST
+- [ ] identity_nbn_controlling_the_message_11017
+- [ ] identity_nbn_controlling_the_message_11017 TEST
+- [ ] identity_khan_savvy_skiptracer_11027
+- [ ] identity_khan_savvy_skiptracer_11027 TEST
+- [ ] identity_weyland_consortium_builder_of_nations_11038
+- [ ] identity_weyland_consortium_builder_of_nations_11038 TEST
+- [ ] identity_omar_keung_conspiracy_theorist_11043
+- [ ] identity_omar_keung_conspiracy_theorist_11043 TEST
+- [ ] identity_jinteki_potential_unleashed_11054
+- [ ] identity_jinteki_potential_unleashed_11054 TEST
+- [ ] identity_ele_smoke_scovak_cynosure_of_the_net_11066
+- [ ] identity_ele_smoke_scovak_cynosure_of_the_net_11066 TEST
+- [ ] identity_haasbioroid_architects_of_tomorrow_11072
+- [ ] identity_haasbioroid_architects_of_tomorrow_11072 TEST
+- [ ] identity_jemison_astronautics_sacrifice_audacity_success_12016
+- [ ] identity_jemison_astronautics_sacrifice_audacity_success_12016 TEST
+- [ ] identity_los_data_hijacker_12025
+- [ ] identity_los_data_hijacker_12025 TEST
+- [ ] identity_aginfusion_new_miracles_for_a_new_world_12052
+- [ ] identity_aginfusion_new_miracles_for_a_new_world_12052 TEST
+- [ ] identity_alice_merchant_clan_agitator_12061
+- [ ] identity_alice_merchant_clan_agitator_12061 TEST
+- [ ] identity_steve_cambridge_master_grifter_13001
+- [ ] identity_steve_cambridge_master_grifter_13001 TEST
+- [ ] identity_ayla_bios_rahim_simulant_specialist_13012
+- [ ] identity_ayla_bios_rahim_simulant_specialist_13012 TEST
+- [ ] identity_seidr_laboratories_destiny_defined_13028
+- [ ] identity_seidr_laboratories_destiny_defined_13028 TEST
+- [ ] identity_skorpios_defense_systems_persuasive_power_13041
+- [ ] identity_skorpios_defense_systems_persuasive_power_13041 TEST
+- [ ] identity_reina_roja_freedom_fighter_20001
+- [ ] identity_reina_roja_freedom_fighter_20001 TEST
+- [ ] identity_gabriel_santiago_consummate_professional_20019
+- [ ] identity_gabriel_santiago_consummate_professional_20019 TEST
+- [ ] identity_chaos_theory_wunderkind_20037
+- [ ] identity_chaos_theory_wunderkind_20037 TEST
+- [ ] identity_haasbioroid_stronger_together_20061
+- [ ] identity_haasbioroid_stronger_together_20061 TEST
+- [ ] identity_weyland_consortium_building_a_better_world_20077
+- [ ] identity_weyland_consortium_building_a_better_world_20077 TEST
+- [ ] identity_jinteki_personal_evolution_20093
+- [ ] identity_jinteki_personal_evolution_20093 TEST
+- [ ] identity_nbn_making_news_20109
+- [ ] identity_nbn_making_news_20109 TEST
+- [ ] identity_asa_group_security_through_vigilance_21009
+- [ ] identity_asa_group_security_through_vigilance_21009 TEST
+- [ ] identity_kabonesa_wu_netspace_thrillseeker_21025
+- [ ] identity_kabonesa_wu_netspace_thrillseeker_21025 TEST
+- [ ] identity_azmari_edtech_shaping_the_future_21054
+- [ ] identity_azmari_edtech_shaping_the_future_21054 TEST
+- [ ] identity_419_amoral_scammer_21063
+- [ ] identity_419_amoral_scammer_21063 TEST
+- [ ] identity_sso_industries_fueling_innovation_21077
+- [ ] identity_sso_industries_fueling_innovation_21077 TEST
+- [ ] identity_freedom_khumalo_cryptoanarchist_21081
+- [ ] identity_freedom_khumalo_cryptoanarchist_21081 TEST
+- [ ] identity_mti_mwekundu_life_improved_21114
+- [ ] identity_mti_mwekundu_life_improved_21114 TEST
+- [ ] identity_nathaniel_gnat_hall_oneofakind_22001
+- [ ] identity_nathaniel_gnat_hall_oneofakind_22001 TEST
+- [ ] identity_liza_talking_thunder_prominent_legislator_22008
+- [ ] identity_liza_talking_thunder_prominent_legislator_22008 TEST
+- [ ] identity_akiko_nisei_head_case_22015
+- [ ] identity_akiko_nisei_head_case_22015 TEST
+- [ ] identity_sportsmetal_go_big_or_go_home_22026
+- [ ] identity_sportsmetal_go_big_or_go_home_22026 TEST
+- [ ] identity_saraswati_mnemonics_endless_exploration_22034
+- [ ] identity_saraswati_mnemonics_endless_exploration_22034 TEST
+- [ ] identity_acme_consulting_the_truth_you_need_22042
+- [ ] identity_acme_consulting_the_truth_you_need_22042 TEST
+- [ ] identity_the_outfit_family_owned_and_operated_22050
+- [ ] identity_the_outfit_family_owned_and_operated_22050 TEST
+- [ ] identity_cyber_bureau_keeping_the_peace_24001
+- [ ] identity_cyber_bureau_keeping_the_peace_24001 TEST
+- [ ] identity_reina_roja_freedom_fighter_25001
+- [ ] identity_reina_roja_freedom_fighter_25001 TEST
+- [ ] identity_quetzal_free_spirit_25002
+- [ ] identity_quetzal_free_spirit_25002 TEST
+- [ ] identity_gabriel_santiago_consummate_professional_25020
+- [ ] identity_gabriel_santiago_consummate_professional_25020 TEST
+- [ ] identity_leela_patel_trained_pragmatist_25021
+- [ ] identity_leela_patel_trained_pragmatist_25021 TEST
+- [ ] identity_chaos_theory_wunderkind_25040
+- [ ] identity_chaos_theory_wunderkind_25040 TEST
+- [ ] identity_rielle_kit_peddler_transhuman_25041
+- [ ] identity_rielle_kit_peddler_transhuman_25041 TEST
+- [ ] identity_haasbioroid_stronger_together_25066
+- [ ] identity_haasbioroid_stronger_together_25066 TEST
+- [ ] identity_seidr_laboratories_destiny_defined_25067
+- [ ] identity_seidr_laboratories_destiny_defined_25067 TEST
+- [ ] identity_jinteki_personal_evolution_25084
+- [ ] identity_jinteki_personal_evolution_25084 TEST
+- [ ] identity_jinteki_replicating_perfection_25085
+- [ ] identity_jinteki_replicating_perfection_25085 TEST
+- [ ] identity_nbn_making_news_25104
+- [ ] identity_nbn_making_news_25104 TEST
+- [ ] identity_spark_agency_worldswide_reach_25105
+- [ ] identity_spark_agency_worldswide_reach_25105 TEST
+- [ ] identity_weyland_consortium_building_a_better_world_25122
+- [ ] identity_weyland_consortium_building_a_better_world_25122 TEST
+- [ ] identity_blue_sun_powering_the_future_25123
+- [ ] identity_blue_sun_powering_the_future_25123 TEST
+- [ ] identity_az_mccaffrey_mechanical_prodigy_26010
+- [ ] identity_az_mccaffrey_mechanical_prodigy_26010 TEST
+- [ ] identity_lat_ethical_freelancer_26019
+- [ ] identity_lat_ethical_freelancer_26019 TEST
+- [ ] identity_mirrormorph_endless_iteration_26031
+- [ ] identity_mirrormorph_endless_iteration_26031 TEST
+- [ ] identity_hyoubu_institute_absolute_clarity_26039
+- [ ] identity_hyoubu_institute_absolute_clarity_26039 TEST
+- [ ] identity_hoshiko_shiro_untold_protagonist_26066
+- [ ] identity_hoshiko_shiro_untold_protagonist_26066 TEST
+- [ ] identity_gamenet_where_dreams_are_real_26113
+- [ ] identity_gamenet_where_dreams_are_real_26113 TEST
+- [ ] identity_earth_station_sea_headquarters_26120
+- [ ] identity_earth_station_sea_headquarters_26120 TEST
+- [ ] identity_rene_loup_arcemont_party_animal_30001
+- [ ] identity_rene_loup_arcemont_party_animal_30001 TEST
+- [ ] identity_zahya_sadeghi_versatile_smuggler_30010
+- [ ] identity_zahya_sadeghi_versatile_smuggler_30010 TEST
+- [ ] identity_tao_salonga_telepresence_magician_30019
+- [ ] identity_tao_salonga_telepresence_magician_30019 TEST
+- [ ] identity_haasbioroid_precision_design_30035
+- [ ] identity_haasbioroid_precision_design_30035 TEST
+- [ ] identity_jinteki_restoring_humanity_30043
+- [ ] identity_jinteki_restoring_humanity_30043 TEST
+- [ ] identity_nbn_reality_plus_30051
+- [ ] identity_nbn_reality_plus_30051 TEST
+- [ ] identity_weyland_consortium_built_to_last_30059
+- [ ] identity_weyland_consortium_built_to_last_30059 TEST
+- [ ] identity_the_catalyst_convention_breaker_30076
+- [ ] identity_the_catalyst_convention_breaker_30076 TEST
+- [ ] identity_the_syndicate_profit_over_principle_30077
+- [ ] identity_the_syndicate_profit_over_principle_30077 TEST
+- [ ] identity_quetzal_free_spirit_31001
+- [ ] identity_quetzal_free_spirit_31001 TEST
+- [ ] identity_reina_roja_freedom_fighter_31002
+- [ ] identity_reina_roja_freedom_fighter_31002 TEST
+- [ ] identity_ken_express_tenma_disappeared_clone_31013
+- [ ] identity_ken_express_tenma_disappeared_clone_31013 TEST
+- [ ] identity_steve_cambridge_master_grifter_31014
+- [ ] identity_steve_cambridge_master_grifter_31014 TEST
+- [ ] identity_ayla_bios_rahim_simulant_specialist_31025
+- [ ] identity_ayla_bios_rahim_simulant_specialist_31025 TEST
+- [ ] identity_rielle_kit_peddler_transhuman_31026
+- [ ] identity_rielle_kit_peddler_transhuman_31026 TEST
+- [ ] identity_haasbioroid_architects_of_tomorrow_31040
+- [ ] identity_haasbioroid_architects_of_tomorrow_31040 TEST
+- [ ] identity_jinteki_personal_evolution_31050
+- [ ] identity_jinteki_personal_evolution_31050 TEST
+- [ ] identity_nearearth_hub_broadcast_center_31060
+- [ ] identity_nearearth_hub_broadcast_center_31060 TEST
+- [ ] identity_weyland_consortium_building_a_better_world_31070
+- [ ] identity_weyland_consortium_building_a_better_world_31070 TEST
+- [ ] identity_esa_afontov_ecoinsurrectionist_33001
+- [ ] identity_esa_afontov_ecoinsurrectionist_33001 TEST
+- [ ] identity_nyusha_sable_sintashta_symphonic_prodigy_33011
+- [ ] identity_nyusha_sable_sintashta_symphonic_prodigy_33011 TEST
+- [ ] identity_captain_padma_isbister_intrepid_explorer_33021
+- [ ] identity_captain_padma_isbister_intrepid_explorer_33021 TEST
+- [ ] identity_pravdivost_consulting_political_solutions_33048
+- [ ] identity_pravdivost_consulting_political_solutions_33048 TEST
+- [ ] identity_ob_superheavy_logistics_extract_export_excel_33057
+- [ ] identity_ob_superheavy_logistics_extract_export_excel_33057 TEST
+- [ ] identity_nova_initiumia_catalyst__impetus_33093
+- [ ] identity_nova_initiumia_catalyst__impetus_33093 TEST
+- [ ] identity_thule_subsea_safety_below_33095
+- [ ] identity_thule_subsea_safety_below_33095 TEST
+- [ ] identity_issuaq_adaptics_sustaining_diversity_33104
+- [ ] identity_issuaq_adaptics_sustaining_diversity_33104 TEST
+- [ ] identity_ampere_cybernetics_for_anyone_33128
+- [ ] identity_ampere_cybernetics_for_anyone_33128 TEST

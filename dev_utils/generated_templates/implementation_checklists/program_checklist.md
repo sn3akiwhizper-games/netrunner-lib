@@ -1,0 +1,550 @@
+# program Implementation Checklist
+
+- [ ] program_corroder_01007
+- [ ] program_corroder_01007 TEST
+- [ ] program_datasucker_01008
+- [ ] program_datasucker_01008 TEST
+- [ ] program_djinn_01009
+- [ ] program_djinn_01009 TEST
+- [ ] program_medium_01010
+- [ ] program_medium_01010 TEST
+- [ ] program_mimic_01011
+- [ ] program_mimic_01011 TEST
+- [ ] program_parasite_01012
+- [ ] program_parasite_01012 TEST
+- [ ] program_wyrm_01013
+- [ ] program_wyrm_01013 TEST
+- [ ] program_yog0_01014
+- [ ] program_yog0_01014 TEST
+- [ ] program_aurora_01025
+- [ ] program_aurora_01025 TEST
+- [ ] program_femme_fatale_01026
+- [ ] program_femme_fatale_01026 TEST
+- [p] program_ninja_01027
+- [ ] program_ninja_01027 TEST
+- [ ] program_sneakdoor_beta_01028
+- [ ] program_sneakdoor_beta_01028 TEST
+- [ ] program_battering_ram_01042
+- [ ] program_battering_ram_01042 TEST
+- [ ] program_gordian_blade_01043
+- [ ] program_gordian_blade_01043 TEST
+- [ ] program_magnum_opus_01044
+- [ ] program_magnum_opus_01044 TEST
+- [ ] program_net_shield_01045
+- [ ] program_net_shield_01045 TEST
+- [ ] program_pipeline_01046
+- [ ] program_pipeline_01046 TEST
+- [ ] program_crypsis_01051
+- [ ] program_crypsis_01051 TEST
+- [ ] program_imp_02003
+- [ ] program_imp_02003 TEST
+- [ ] program_morning_star_02004
+- [ ] program_morning_star_02004 TEST
+- [ ] program_peacock_02006
+- [ ] program_peacock_02006 TEST
+- [ ] program_zu13_key_master_02007
+- [ ] program_zu13_key_master_02007 TEST
+- [ ] program_snowball_02027
+- [ ] program_snowball_02027 TEST
+- [ ] program_nerve_agent_02041
+- [ ] program_nerve_agent_02041 TEST
+- [ ] program_snitch_02045
+- [ ] program_snitch_02045 TEST
+- [ ] program_disrupter_02061
+- [ ] program_disrupter_02061 TEST
+- [ ] program_force_of_nature_02062
+- [ ] program_force_of_nature_02062 TEST
+- [ ] program_crescentus_02065
+- [ ] program_crescentus_02065 TEST
+- [ ] program_deus_x_02066
+- [ ] program_deus_x_02066 TEST
+- [ ] program_pheromones_02086
+- [ ] program_pheromones_02086 TEST
+- [ ] program_creeper_02089
+- [ ] program_creeper_02089 TEST
+- [ ] program_darwin_02102
+- [ ] program_darwin_02102 TEST
+- [ ] program_faerie_02104
+- [ ] program_faerie_02104 TEST
+- [ ] program_deep_thought_02108
+- [ ] program_deep_thought_02108 TEST
+- [ ] program_atman_03040
+- [ ] program_atman_03040 TEST
+- [ ] program_cloak_03041
+- [ ] program_cloak_03041 TEST
+- [ ] program_dagger_03042
+- [ ] program_dagger_03042 TEST
+- [ ] program_chakana_03043
+- [ ] program_chakana_03043 TEST
+- [ ] program_cybercypher_03044
+- [ ] program_cybercypher_03044 TEST
+- [ ] program_paricia_03045
+- [ ] program_paricia_03045 TEST
+- [ ] program_selfmodifying_code_03046
+- [ ] program_selfmodifying_code_03046 TEST
+- [ ] program_sahasrara_03047
+- [ ] program_sahasrara_03047 TEST
+- [ ] program_inti_03048
+- [ ] program_inti_03048 TEST
+- [ ] program_pawn_04002
+- [ ] program_pawn_04002 TEST
+- [ ] program_rook_04003
+- [ ] program_rook_04003 TEST
+- [ ] program_gorman_drip_v1_04005
+- [ ] program_gorman_drip_v1_04005 TEST
+- [ ] program_false_echo_04007
+- [ ] program_false_echo_04007 TEST
+- [ ] program_bishop_04021
+- [ ] program_bishop_04021 TEST
+- [ ] program_scheherazade_04022
+- [ ] program_scheherazade_04022 TEST
+- [ ] program_copycat_04025
+- [ ] program_copycat_04025 TEST
+- [ ] program_leviathan_04026
+- [ ] program_leviathan_04026 TEST
+- [ ] program_knight_04043
+- [ ] program_knight_04043 TEST
+- [ ] program_expert_schedule_analyzer_04045
+- [ ] program_expert_schedule_analyzer_04045 TEST
+- [ ] program_torch_04047
+- [ ] program_torch_04047 TEST
+- [ ] program_keyhole_04061
+- [ ] program_keyhole_04061 TEST
+- [ ] program_garrote_04065
+- [ ] program_garrote_04065 TEST
+- [ ] program_sharpshooter_04067
+- [ ] program_sharpshooter_04067 TEST
+- [ ] program_hemorrhage_04082
+- [ ] program_hemorrhage_04082 TEST
+- [ ] program_alpha_04087
+- [ ] program_alpha_04087 TEST
+- [ ] program_omega_04088
+- [ ] program_omega_04088 TEST
+- [ ] program_savoirfaire_04105
+- [ ] program_savoirfaire_04105 TEST
+- [ ] program_paintbrush_04108
+- [ ] program_paintbrush_04108 TEST
+- [ ] program_alias_05041
+- [ ] program_alias_05041 TEST
+- [ ] program_breach_05042
+- [ ] program_breach_05042 TEST
+- [ ] program_bug_05043
+- [ ] program_bug_05043 TEST
+- [ ] program_gingerbread_05044
+- [ ] program_gingerbread_05044 TEST
+- [ ] program_grappling_hook_05045
+- [ ] program_grappling_hook_05045 TEST
+- [ ] program_passport_05046
+- [ ] program_passport_05046 TEST
+- [ ] program_overmind_05053
+- [ ] program_overmind_05053 TEST
+- [ ] program_lamprey_06014
+- [ ] program_lamprey_06014 TEST
+- [ ] program_leprechaun_06019
+- [ ] program_leprechaun_06019 TEST
+- [ ] program_d4v1d_06033
+- [ ] program_d4v1d_06033 TEST
+- [ ] program_cache_06037
+- [ ] program_cache_06037 TEST
+- [ ] program_llds_energy_regulator_06039
+- [ ] program_llds_energy_regulator_06039 TEST
+- [ ] program_blackat_06053
+- [ ] program_blackat_06053 TEST
+- [ ] program_refractor_06057
+- [ ] program_refractor_06057 TEST
+- [ ] program_origami_06074
+- [ ] program_origami_06074 TEST
+- [ ] program_switchblade_06077
+- [ ] program_switchblade_06077 TEST
+- [ ] program_cerberus_cuj0_h3_06094
+- [ ] program_cerberus_cuj0_h3_06094 TEST
+- [ ] program_cerberus_rex_h2_06096
+- [ ] program_cerberus_rex_h2_06096 TEST
+- [ ] program_cerberus_lady_h1_06099
+- [ ] program_cerberus_lady_h1_06099 TEST
+- [ ] program_incubator_06113
+- [ ] program_incubator_06113 TEST
+- [ ] program_ixodidae_06114
+- [ ] program_ixodidae_06114 TEST
+- [ ] program_collective_consciousness_06116
+- [ ] program_collective_consciousness_06116 TEST
+- [ ] program_sage_06117
+- [ ] program_sage_06117 TEST
+- [ ] program_au_revoir_06119
+- [ ] program_au_revoir_06119 TEST
+- [ ] program_eater_07040
+- [ ] program_eater_07040 TEST
+- [ ] program_gravedigger_07041
+- [ ] program_gravedigger_07041 TEST
+- [ ] program_hivemind_07042
+- [ ] program_hivemind_07042 TEST
+- [ ] program_progenitor_07043
+- [ ] program_progenitor_07043 TEST
+- [ ] program_clot_08001
+- [ ] program_clot_08001 TEST
+- [ ] program_spike_08004
+- [ ] program_spike_08004 TEST
+- [ ] program_study_guide_08028
+- [ ] program_study_guide_08028 TEST
+- [ ] program_crowbar_08046
+- [ ] program_crowbar_08046 TEST
+- [ ] program_analog_dreamers_08048
+- [ ] program_analog_dreamers_08048 TEST
+- [ ] program_faust_08061
+- [ ] program_faust_08061 TEST
+- [ ] program_shiv_08066
+- [ ] program_shiv_08066 TEST
+- [ ] program_chameleon_08069
+- [ ] program_chameleon_08069 TEST
+- [ ] program_hyperdriver_08070
+- [ ] program_hyperdriver_08070 TEST
+- [ ] program_trope_08081
+- [ ] program_trope_08081 TEST
+- [ ] program_surfer_08102
+- [ ] program_surfer_08102 TEST
+- [ ] program_davinci_08107
+- [ ] program_davinci_08107 TEST
+- [ ] program_endless_hunger_09033
+- [ ] program_endless_hunger_09033 TEST
+- [ ] program_harbinger_09034
+- [ ] program_harbinger_09034 TEST
+- [ ] program_multithreader_09040
+- [ ] program_multithreader_09040 TEST
+- [ ] program_gs_striker_m1_09048
+- [ ] program_gs_striker_m1_09048 TEST
+- [ ] program_gs_shrike_m2_09049
+- [ ] program_gs_shrike_m2_09049 TEST
+- [ ] program_gs_sherman_m3_09050
+- [ ] program_gs_sherman_m3_09050 TEST
+- [ ] program_mongoose_10005
+- [ ] program_mongoose_10005 TEST
+- [ ] program_panchatantra_10008
+- [ ] program_panchatantra_10008 TEST
+- [ ] program_diwan_10021
+- [ ] program_diwan_10021 TEST
+- [ ] program_sadyojata_10044
+- [ ] program_sadyojata_10044 TEST
+- [ ] program_vamadeva_10061
+- [ ] program_vamadeva_10061 TEST
+- [ ] program_brahman_10062
+- [ ] program_brahman_10062 TEST
+- [ ] program_aghora_10097
+- [ ] program_aghora_10097 TEST
+- [ ] program_ankusa_10101
+- [ ] program_ankusa_10101 TEST
+- [ ] program_dai_v_11006
+- [ ] program_dai_v_11006 TEST
+- [ ] program_nfr_11023
+- [ ] program_nfr_11023 TEST
+- [ ] program_paperclip_11024
+- [ ] program_paperclip_11024 TEST
+- [ ] program_golden_11025
+- [ ] program_golden_11025 TEST
+- [ ] program_black_orchestra_11042
+- [ ] program_black_orchestra_11042 TEST
+- [ ] program_peregrine_11044
+- [ ] program_peregrine_11044 TEST
+- [ ] program_houdini_11045
+- [ ] program_houdini_11045 TEST
+- [ ] program_saker_11064
+- [ ] program_saker_11064 TEST
+- [ ] program_blackstone_11068
+- [ ] program_blackstone_11068 TEST
+- [ ] program_mkultra_11081
+- [ ] program_mkultra_11081 TEST
+- [ ] program_equivocation_11084
+- [ ] program_equivocation_11084 TEST
+- [ ] program_misdirection_11085
+- [ ] program_misdirection_11085 TEST
+- [ ] program_reaver_11086
+- [ ] program_reaver_11086 TEST
+- [ ] program_baba_yaga_11088
+- [ ] program_baba_yaga_11088 TEST
+- [ ] program_sunya_11102
+- [ ] program_sunya_11102 TEST
+- [ ] program_tapwrm_11104
+- [ ] program_tapwrm_11104 TEST
+- [ ] program_tracker_11105
+- [ ] program_tracker_11105 TEST
+- [ ] program_fawkes_11108
+- [ ] program_fawkes_11108 TEST
+- [ ] program_customized_secretary_12027
+- [ ] program_customized_secretary_12027 TEST
+- [ ] program_berserker_12041
+- [ ] program_berserker_12041 TEST
+- [ ] program_persephone_12042
+- [ ] program_persephone_12042 TEST
+- [ ] program_inversificator_12048
+- [ ] program_inversificator_12048 TEST
+- [ ] program_massdriver_12067
+- [ ] program_massdriver_12067 TEST
+- [ ] program_god_of_war_12082
+- [ ] program_god_of_war_12082 TEST
+- [ ] program_flashbang_12085
+- [ ] program_flashbang_12085 TEST
+- [ ] program_maven_12087
+- [ ] program_maven_12087 TEST
+- [ ] program_nanotk_12088
+- [ ] program_nanotk_12088 TEST
+- [ ] program_aumakua_12104
+- [ ] program_aumakua_12104 TEST
+- [ ] program_abagnale_13006
+- [ ] program_abagnale_13006 TEST
+- [ ] program_lustig_13007
+- [ ] program_lustig_13007 TEST
+- [ ] program_demara_13008
+- [ ] program_demara_13008 TEST
+- [ ] program_mammon_13009
+- [ ] program_mammon_13009 TEST
+- [ ] program_adept_13017
+- [ ] program_adept_13017 TEST
+- [ ] program_savant_13018
+- [ ] program_savant_13018 TEST
+- [ ] program_egret_13019
+- [ ] program_egret_13019 TEST
+- [ ] program_dhegdheer_13020
+- [ ] program_dhegdheer_13020 TEST
+- [ ] program_surveillance_network_key_14018
+- [ ] program_surveillance_network_key_14018 TEST
+- [ ] program_surveillance_network_key_2_14019
+- [ ] program_surveillance_network_key_2_14019 TEST
+- [ ] program_sneakdoor_prime_a_14026
+- [ ] program_sneakdoor_prime_a_14026 TEST
+- [ ] program_sneakdoor_prime_b_14027
+- [ ] program_sneakdoor_prime_b_14027 TEST
+- [ ] program_darwin_20008
+- [ ] program_darwin_20008 TEST
+- [ ] program_datasucker_20009
+- [ ] program_datasucker_20009 TEST
+- [ ] program_force_of_nature_20010
+- [ ] program_force_of_nature_20010 TEST
+- [ ] program_imp_20011
+- [ ] program_imp_20011 TEST
+- [ ] program_hemorrhage_20012
+- [ ] program_hemorrhage_20012 TEST
+- [ ] program_mimic_20013
+- [ ] program_mimic_20013 TEST
+- [ ] program_morning_star_20014
+- [ ] program_morning_star_20014 TEST
+- [ ] program_aurora_20027
+- [ ] program_aurora_20027 TEST
+- [ ] program_faerie_20028
+- [ ] program_faerie_20028 TEST
+- [ ] program_femme_fatale_20029
+- [ ] program_femme_fatale_20029 TEST
+- [ ] program_peacock_20030
+- [ ] program_peacock_20030 TEST
+- [ ] program_pheromones_20031
+- [ ] program_pheromones_20031 TEST
+- [ ] program_sneakdoor_beta_20032
+- [ ] program_sneakdoor_beta_20032 TEST
+- [ ] program_battering_ram_20048
+- [ ] program_battering_ram_20048 TEST
+- [ ] program_gordian_blade_20049
+- [ ] program_gordian_blade_20049 TEST
+- [ ] program_magnum_opus_20050
+- [ ] program_magnum_opus_20050 TEST
+- [ ] program_pipeline_20051
+- [ ] program_pipeline_20051 TEST
+- [ ] program_crypsis_20058
+- [ ] program_crypsis_20058 TEST
+- [ ] program_yusuf_21002
+- [ ] program_yusuf_21002 TEST
+- [ ] program_puffer_21004
+- [ ] program_puffer_21004 TEST
+- [ ] program_upya_21007
+- [ ] program_upya_21007 TEST
+- [ ] program_plague_21022
+- [ ] program_plague_21022 TEST
+- [ ] program_wari_21024
+- [ ] program_wari_21024 TEST
+- [ ] program_takobi_21026
+- [ ] program_takobi_21026 TEST
+- [ ] program_rng_key_21029
+- [ ] program_rng_key_21029 TEST
+- [ ] program_exer_21041
+- [ ] program_exer_21041 TEST
+- [ ] program_nyashia_21067
+- [ ] program_nyashia_21067 TEST
+- [ ] program_consume_21068
+- [ ] program_consume_21068 TEST
+- [ ] program_trypano_21082
+- [ ] program_trypano_21082 TEST
+- [ ] program_laamb_21086
+- [ ] program_laamb_21086 TEST
+- [ ] program_musaazi_21102
+- [ ] program_musaazi_21102 TEST
+- [ ] program_amina_21104
+- [ ] program_amina_21104 TEST
+- [ ] program_engolo_21108
+- [ ] program_engolo_21108 TEST
+- [ ] program_cradle_22006
+- [ ] program_cradle_22006 TEST
+- [ ] program_bankroll_22011
+- [ ] program_bankroll_22011 TEST
+- [ ] program_tycoon_22012
+- [ ] program_tycoon_22012 TEST
+- [ ] program_ika_22019
+- [ ] program_ika_22019 TEST
+- [ ] program_kyuban_22020
+- [ ] program_kyuban_22020 TEST
+- [ ] program_algernon_22022
+- [ ] program_algernon_22022 TEST
+- [ ] program_corroder_25010
+- [ ] program_corroder_25010 TEST
+- [ ] program_datasucker_25011
+- [ ] program_datasucker_25011 TEST
+- [ ] program_force_of_nature_25012
+- [ ] program_force_of_nature_25012 TEST
+- [ ] program_imp_25013
+- [ ] program_imp_25013 TEST
+- [ ] program_lamprey_25014
+- [ ] program_lamprey_25014 TEST
+- [ ] program_mimic_25015
+- [ ] program_mimic_25015 TEST
+- [ ] program_abagnale_25033
+- [ ] program_abagnale_25033 TEST
+- [ ] program_demara_25034
+- [ ] program_demara_25034 TEST
+- [ ] program_faerie_25035
+- [ ] program_faerie_25035 TEST
+- [ ] program_femme_fatale_25036
+- [ ] program_femme_fatale_25036 TEST
+- [ ] program_sneakdoor_beta_25037
+- [ ] program_sneakdoor_beta_25037 TEST
+- [ ] program_atman_25051
+- [ ] program_atman_25051 TEST
+- [ ] program_battering_ram_25052
+- [ ] program_battering_ram_25052 TEST
+- [ ] program_deus_x_25053
+- [ ] program_deus_x_25053 TEST
+- [ ] program_gordian_blade_25054
+- [ ] program_gordian_blade_25054 TEST
+- [ ] program_pipeline_25055
+- [ ] program_pipeline_25055 TEST
+- [ ] program_crypsis_25061
+- [ ] program_crypsis_25061 TEST
+- [ ] program_chisel_26003
+- [ ] program_chisel_26003 TEST
+- [ ] program_stargate_26004
+- [ ] program_stargate_26004 TEST
+- [ ] program_utae_26005
+- [ ] program_utae_26005 TEST
+- [ ] program_bukhgalter_26016
+- [ ] program_bukhgalter_26016 TEST
+- [ ] program_gauss_26024
+- [ ] program_gauss_26024 TEST
+- [ ] program_pelangi_26025
+- [ ] program_pelangi_26025 TEST
+- [ ] program_rezeki_26026
+- [ ] program_rezeki_26026 TEST
+- [ ] program_odore_26071
+- [ ] program_odore_26071 TEST
+- [ ] program_afterimage_26079
+- [ ] program_afterimage_26079 TEST
+- [ ] program_makler_26080
+- [ ] program_makler_26080 TEST
+- [ ] program_cordyceps_26086
+- [ ] program_cordyceps_26086 TEST
+- [ ] program_euler_26087
+- [ ] program_euler_26087 TEST
+- [ ] program_mantle_26088
+- [ ] program_mantle_26088 TEST
+- [ ] program_penrose_26089
+- [ ] program_penrose_26089 TEST
+- [ ] program_selfmodifying_code_26090
+- [ ] program_selfmodifying_code_26090 TEST
+- [ ] program_medium_29001
+- [ ] program_medium_29001 TEST
+- [ ] program_parasite_29002
+- [ ] program_parasite_29002 TEST
+- [ ] program_cache_29004
+- [ ] program_cache_29004 TEST
+- [ ] program_cerberus_lady_h1_29006
+- [ ] program_cerberus_lady_h1_29006 TEST
+- [ ] program_botulus_30004
+- [ ] program_botulus_30004 TEST
+- [ ] program_buzzsaw_30005
+- [ ] program_buzzsaw_30005 TEST
+- [ ] program_cleaver_30006
+- [ ] program_cleaver_30006 TEST
+- [ ] program_fermenter_30007
+- [ ] program_fermenter_30007 TEST
+- [ ] program_leech_30008
+- [ ] program_leech_30008 TEST
+- [ ] program_carmen_30015
+- [ ] program_carmen_30015 TEST
+- [ ] program_marjanah_30016
+- [ ] program_marjanah_30016 TEST
+- [ ] program_tranquilizer_30017
+- [ ] program_tranquilizer_30017 TEST
+- [ ] program_conduit_30024
+- [ ] program_conduit_30024 TEST
+- [ ] program_echelon_30025
+- [ ] program_echelon_30025 TEST
+- [ ] program_unity_30026
+- [ ] program_unity_30026 TEST
+- [ ] program_mayfly_30032
+- [ ] program_mayfly_30032 TEST
+- [ ] program_clot_31005
+- [ ] program_clot_31005 TEST
+- [ ] program_corroder_31006
+- [ ] program_corroder_31006 TEST
+- [ ] program_imp_31007
+- [ ] program_imp_31007 TEST
+- [ ] program_mimic_31008
+- [ ] program_mimic_31008 TEST
+- [ ] program_abagnale_31021
+- [ ] program_abagnale_31021 TEST
+- [ ] program_femme_fatale_31022
+- [ ] program_femme_fatale_31022 TEST
+- [ ] program_sneakdoor_beta_31023
+- [ ] program_sneakdoor_beta_31023 TEST
+- [ ] program_atman_31030
+- [ ] program_atman_31030 TEST
+- [ ] program_chameleon_31031
+- [ ] program_chameleon_31031 TEST
+- [ ] program_egret_31032
+- [ ] program_egret_31032 TEST
+- [ ] program_gordian_blade_31033
+- [ ] program_gordian_blade_31033 TEST
+- [ ] program_paricia_31034
+- [ ] program_paricia_31034 TEST
+- [ ] program_revolver_32002
+- [ ] program_revolver_32002 TEST
+- [ ] program_begemot_33007
+- [ ] program_begemot_33007 TEST
+- [ ] program_cats_cradle_33016
+- [ ] program_cats_cradle_33016 TEST
+- [ ] program_cezve_33017
+- [ ] program_cezve_33017 TEST
+- [ ] program_revolver_33018
+- [ ] program_revolver_33018 TEST
+- [ ] program_hyperbaric_33026
+- [ ] program_hyperbaric_33026 TEST
+- [ ] program_propeller_33027
+- [ ] program_propeller_33027 TEST
+- [ ] program_abaasy_33070
+- [ ] program_abaasy_33070 TEST
+- [ ] program_hush_33071
+- [ ] program_hush_33071 TEST
+- [ ] program_nga_33072
+- [ ] program_nga_33072 TEST
+- [ ] program_num_33073
+- [ ] program_num_33073 TEST
+- [ ] program_tremolo_33080
+- [ ] program_tremolo_33080 TEST
+- [ ] program_tunnel_vision_33081
+- [ ] program_tunnel_vision_33081 TEST
+- [ ] program_flux_capacitor_33087
+- [ ] program_flux_capacitor_33087 TEST
+- [ ] program_nanuq_33088
+- [ ] program_nanuq_33088 TEST
+- [ ] program_orca_33089
+- [ ] program_orca_33089 TEST
+- [ ] program_k2cp_turbine_33090
+- [ ] program_k2cp_turbine_33090 TEST
+- [ ] program_world_tree_33091
+- [ ] program_world_tree_33091 TEST
+- [ ] program_matryoshka_33094
+- [ ] program_matryoshka_33094 TEST

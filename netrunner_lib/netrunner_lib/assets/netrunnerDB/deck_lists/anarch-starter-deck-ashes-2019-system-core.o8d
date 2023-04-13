@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="0f38e453-26df-4c04-9d67-6d43de939c77">
+  <section name="Identity">
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda26066">Hoshiko Shiro: Untold Protagonist</card>
+  </section>
+  <section name="R&amp;D / Stack">
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda25010">Corroder</card>
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda25016">Ice Carver</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda25017">Liberated Account</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda25026">Inside Job</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda25037">Sneakdoor Beta</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda25059">Sure Gamble</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda25060">Dirty Laundry</card>
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda25065">Kati Jones</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda26001">Isolation</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda26005">Utae</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda26009">Trickster Taka</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda26069">Gachapon</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda26070">Keiko</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda26071">Odore</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda26073">Paladin Poemu</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda26094">Daily Casts</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda26095">DreamNet</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda27001">Mystic Maemi</card>
+  </section>
+  <notes><![CDATA[This starter deck was built with cards from Ashes and the 2019 System Core.]]></notes>
+</deck>

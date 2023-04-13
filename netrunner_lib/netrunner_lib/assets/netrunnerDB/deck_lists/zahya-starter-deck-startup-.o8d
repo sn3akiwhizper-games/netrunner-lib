@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="0f38e453-26df-4c04-9d67-6d43de939c77">
+  <section name="Identity">
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda30010">Zahya Sadeghi: Versatile Smuggler</card>
+  </section>
+  <section name="R&amp;D / Stack">
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda26012">Blueberry!™ Diesel</card>
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda26016">Bukhgalter</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda26018">The Class Act</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda26026">Rezeki</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda26075">Boomerang</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda26094">Daily Casts</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda30011">Mutual Favor</card>
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda30013">Docklands Pass</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda30014">Pennyshaver</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda30022">DZMZ Optimizer</card>
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda30024">Conduit</card>
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda30026">Unity</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda30028">Jailbreak</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda30029">Overclock</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda30030">Sure Gamble</card>
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda31006">Corroder</card>
+    <card qty="3" id="bc0f047c-01b1-427f-a439-d451eda31015">Career Fair</card>
+    <card qty="1" id="bc0f047c-01b1-427f-a439-d451eda31023">Sneakdoor Beta</card>
+    <card qty="2" id="bc0f047c-01b1-427f-a439-d451eda31039">Earthrise Hotel</card>
+  </section>
+  <notes><![CDATA[Designed to help people learn the game while still using good strategy and deck building.]]></notes>
+</deck>

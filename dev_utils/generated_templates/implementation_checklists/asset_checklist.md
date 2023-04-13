@@ -1,0 +1,444 @@
+# asset Implementation Checklist
+
+- [ ] asset_adonis_campaign_01056
+- [ ] asset_adonis_campaign_01056 TEST
+- [ ] asset_aggressive_secretary_01057
+- [ ] asset_aggressive_secretary_01057 TEST
+- [ ] asset_project_junebug_01069
+- [ ] asset_project_junebug_01069 TEST
+- [ ] asset_snare_01070
+- [ ] asset_snare_01070 TEST
+- [ ] asset_zaibatsu_loyalty_01071
+- [ ] asset_zaibatsu_loyalty_01071 TEST
+- [ ] asset_ghost_branch_01087
+- [ ] asset_ghost_branch_01087 TEST
+- [ ] asset_security_subcontract_01096
+- [ ] asset_security_subcontract_01096 TEST
+- [ ] asset_melange_mining_corp_01108
+- [ ] asset_melange_mining_corp_01108 TEST
+- [ ] asset_pad_campaign_01109
+- [ ] asset_pad_campaign_01109 TEST
+- [ ] asset_encryption_protocol_02029
+- [ ] asset_encryption_protocol_02029 TEST
+- [ ] asset_edge_of_world_02053
+- [ ] asset_edge_of_world_02053 TEST
+- [ ] asset_marked_accounts_02055
+- [ ] asset_marked_accounts_02055 TEST
+- [ ] asset_private_contracts_02059
+- [ ] asset_private_contracts_02059 TEST
+- [ ] asset_dedicated_server_02072
+- [ ] asset_dedicated_server_02072 TEST
+- [ ] asset_net_police_02075
+- [ ] asset_net_police_02075 TEST
+- [ ] asset_eve_campaign_02092
+- [ ] asset_eve_campaign_02092 TEST
+- [ ] asset_ronin_02112
+- [ ] asset_ronin_02112 TEST
+- [ ] asset_dedicated_response_team_02118
+- [ ] asset_dedicated_response_team_02118 TEST
+- [ ] asset_alix_t4lb07_03008
+- [ ] asset_alix_t4lb07_03008 TEST
+- [ ] asset_cerebral_overwriter_03009
+- [ ] asset_cerebral_overwriter_03009 TEST
+- [ ] asset_director_haas_03010
+- [ ] asset_director_haas_03010 TEST
+- [ ] asset_haas_arcology_ai_03011
+- [ ] asset_haas_arcology_ai_03011 TEST
+- [ ] asset_thomas_haas_03012
+- [ ] asset_thomas_haas_03012 TEST
+- [ ] asset_levy_university_03024
+- [ ] asset_levy_university_03024 TEST
+- [ ] asset_server_diagnostics_03025
+- [ ] asset_server_diagnostics_03025 TEST
+- [ ] asset_jackson_howard_04015
+- [ ] asset_jackson_howard_04015 TEST
+- [ ] asset_elizabeth_mills_04037
+- [ ] asset_elizabeth_mills_04037 TEST
+- [ ] asset_isabel_mcguire_04050
+- [ ] asset_isabel_mcguire_04050 TEST
+- [ ] asset_sundew_04054
+- [ ] asset_sundew_04054 TEST
+- [ ] asset_city_surveillance_04055
+- [ ] asset_city_surveillance_04055 TEST
+- [ ] asset_rex_campaign_04070
+- [ ] asset_rex_campaign_04070 TEST
+- [ ] asset_shock_04073
+- [ ] asset_shock_04073 TEST
+- [ ] asset_toshiyuki_sakai_04092
+- [ ] asset_toshiyuki_sakai_04092 TEST
+- [ ] asset_grndl_refinery_04099
+- [ ] asset_grndl_refinery_04099 TEST
+- [ ] asset_broadcast_square_04112
+- [ ] asset_broadcast_square_04112 TEST
+- [ ] asset_chairman_hiro_05008
+- [ ] asset_chairman_hiro_05008 TEST
+- [ ] asset_mental_health_clinic_05009
+- [ ] asset_mental_health_clinic_05009 TEST
+- [ ] asset_psychic_field_05010
+- [ ] asset_psychic_field_05010 TEST
+- [ ] asset_shikyu_05011
+- [ ] asset_shikyu_05011 TEST
+- [ ] asset_tenma_line_05012
+- [ ] asset_tenma_line_05012 TEST
+- [ ] asset_plan_b_05023
+- [ ] asset_plan_b_05023 TEST
+- [ ] asset_primary_transmission_dish_06006
+- [ ] asset_primary_transmission_dish_06006 TEST
+- [ ] asset_the_root_06008
+- [ ] asset_the_root_06008 TEST
+- [ ] asset_sealed_vault_06029
+- [ ] asset_sealed_vault_06029 TEST
+- [ ] asset_elizas_toybox_06042
+- [ ] asset_elizas_toybox_06042 TEST
+- [ ] asset_the_news_now_hour_06045
+- [ ] asset_the_news_now_hour_06045 TEST
+- [ ] asset_shattered_remains_06050
+- [ ] asset_shattered_remains_06050 TEST
+- [ ] asset_reversed_accounts_06066
+- [ ] asset_reversed_accounts_06066 TEST
+- [ ] asset_docklands_crackdown_06072
+- [ ] asset_docklands_crackdown_06072 TEST
+- [ ] asset_hostile_infrastructure_06083
+- [ ] asset_hostile_infrastructure_06083 TEST
+- [ ] asset_daily_business_show_06086
+- [ ] asset_daily_business_show_06086 TEST
+- [ ] asset_executive_boot_camp_06088
+- [ ] asset_executive_boot_camp_06088 TEST
+- [ ] asset_it_department_06103
+- [ ] asset_it_department_06103 TEST
+- [ ] asset_turtlebacks_06106
+- [ ] asset_turtlebacks_06106 TEST
+- [ ] asset_constellation_protocol_07008
+- [ ] asset_constellation_protocol_07008 TEST
+- [ ] asset_mark_yale_07009
+- [ ] asset_mark_yale_07009 TEST
+- [ ] asset_space_camp_07010
+- [ ] asset_space_camp_07010 TEST
+- [ ] asset_the_board_07011
+- [ ] asset_the_board_07011 TEST
+- [ ] asset_braintaping_warehouse_08010
+- [ ] asset_braintaping_warehouse_08010 TEST
+- [ ] asset_capital_investors_08018
+- [ ] asset_capital_investors_08018 TEST
+- [ ] asset_tech_startup_08020
+- [ ] asset_tech_startup_08020 TEST
+- [ ] asset_blacklist_08036
+- [ ] asset_blacklist_08036 TEST
+- [ ] asset_student_loans_08038
+- [ ] asset_student_loans_08038 TEST
+- [ ] asset_corporate_town_08059
+- [ ] asset_corporate_town_08059 TEST
+- [ ] asset_test_ground_08071
+- [ ] asset_test_ground_08071 TEST
+- [ ] asset_allele_repression_08073
+- [ ] asset_allele_repression_08073 TEST
+- [ ] asset_expose_08075
+- [ ] asset_expose_08075 TEST
+- [ ] asset_contract_killer_08078
+- [ ] asset_contract_killer_08078 TEST
+- [ ] asset_ronald_five_08088
+- [ ] asset_ronald_five_08088 TEST
+- [ ] asset_early_premiere_08095
+- [ ] asset_early_premiere_08095 TEST
+- [ ] asset_cybernetics_court_08109
+- [ ] asset_cybernetics_court_08109 TEST
+- [ ] asset_team_sponsorship_08110
+- [ ] asset_team_sponsorship_08110 TEST
+- [ ] asset_genetics_pavilion_08113
+- [ ] asset_genetics_pavilion_08113 TEST
+- [ ] asset_franchise_city_08114
+- [ ] asset_franchise_city_08114 TEST
+- [ ] asset_worlds_plaza_08116
+- [ ] asset_worlds_plaza_08116 TEST
+- [ ] asset_public_support_08117
+- [ ] asset_public_support_08117 TEST
+- [ ] asset_lily_lockwell_09008
+- [ ] asset_lily_lockwell_09008 TEST
+- [ ] asset_news_team_09009
+- [ ] asset_news_team_09009 TEST
+- [ ] asset_shannon_claire_09010
+- [ ] asset_shannon_claire_09010 TEST
+- [ ] asset_victoria_jenkins_09011
+- [ ] asset_victoria_jenkins_09011 TEST
+- [ ] asset_reality_threedee_09012
+- [ ] asset_reality_threedee_09012 TEST
+- [ ] asset_launch_campaign_09027
+- [ ] asset_launch_campaign_09027 TEST
+- [ ] asset_kala_ghoda_real_tv_10015
+- [ ] asset_kala_ghoda_real_tv_10015 TEST
+- [ ] asset_mumba_temple_10018
+- [ ] asset_mumba_temple_10018 TEST
+- [ ] asset_museum_of_history_10019
+- [ ] asset_museum_of_history_10019 TEST
+- [ ] asset_advanced_assembly_lines_10027
+- [ ] asset_advanced_assembly_lines_10027 TEST
+- [ ] asset_lakshmi_smartfabrics_10028
+- [ ] asset_lakshmi_smartfabrics_10028 TEST
+- [ ] asset_palana_agroplex_10031
+- [ ] asset_palana_agroplex_10031 TEST
+- [ ] asset_mumbad_construction_co_10036
+- [ ] asset_mumbad_construction_co_10036 TEST
+- [ ] asset_pad_factory_10038
+- [ ] asset_pad_factory_10038 TEST
+- [ ] asset_clone_suffrage_movement_10049
+- [ ] asset_clone_suffrage_movement_10049 TEST
+- [ ] asset_bioethics_association_10050
+- [ ] asset_bioethics_association_10050 TEST
+- [ ] asset_political_dealings_10051
+- [ ] asset_political_dealings_10051 TEST
+- [ ] asset_sensie_actors_union_10053
+- [ ] asset_sensie_actors_union_10053 TEST
+- [ ] asset_commercial_bankers_group_10054
+- [ ] asset_commercial_bankers_group_10054 TEST
+- [ ] asset_mumbad_city_hall_10055
+- [ ] asset_mumbad_city_hall_10055 TEST
+- [ ] asset_jeeves_model_bioroids_10067
+- [ ] asset_jeeves_model_bioroids_10067 TEST
+- [ ] asset_raman_rai_10068
+- [ ] asset_raman_rai_10068 TEST
+- [ ] asset_aryabhata_tech_10070
+- [ ] asset_aryabhata_tech_10070 TEST
+- [ ] asset_executive_search_firm_10072
+- [ ] asset_executive_search_firm_10072 TEST
+- [ ] asset_indian_union_stock_exchange_10073
+- [ ] asset_indian_union_stock_exchange_10073 TEST
+- [ ] asset_full_immersion_recstudio_10108
+- [ ] asset_full_immersion_recstudio_10108 TEST
+- [ ] asset_ibrahim_salem_10109
+- [ ] asset_ibrahim_salem_10109 TEST
+- [ ] asset_zealous_judge_10111
+- [ ] asset_zealous_judge_10111 TEST
+- [ ] asset_hyoubu_research_facility_11012
+- [ ] asset_hyoubu_research_facility_11012 TEST
+- [ ] asset_watchdog_11015
+- [ ] asset_watchdog_11015 TEST
+- [ ] asset_sandburg_11020
+- [ ] asset_sandburg_11020 TEST
+- [ ] asset_ci_fund_11036
+- [ ] asset_ci_fund_11036 TEST
+- [ ] asset_alexa_belsky_11055
+- [ ] asset_alexa_belsky_11055 TEST
+- [ ] asset_fumiko_yamamori_11073
+- [ ] asset_fumiko_yamamori_11073 TEST
+- [ ] asset_chief_slee_11077
+- [ ] asset_chief_slee_11077 TEST
+- [ ] asset_anson_rose_11096
+- [ ] asset_anson_rose_11096 TEST
+- [ ] asset_nasx_11118
+- [ ] asset_nasx_11118 TEST
+- [ ] asset_synth_dna_modification_12012
+- [ ] asset_synth_dna_modification_12012 TEST
+- [ ] asset_net_analytics_12014
+- [ ] asset_net_analytics_12014 TEST
+- [ ] asset_quarantine_system_12017
+- [ ] asset_quarantine_system_12017 TEST
+- [ ] asset_cpc_generator_12034
+- [ ] asset_cpc_generator_12034 TEST
+- [ ] asset_clyde_van_rite_12037
+- [ ] asset_clyde_van_rite_12037 TEST
+- [ ] asset_bioroid_work_crew_12051
+- [ ] asset_bioroid_work_crew_12051 TEST
+- [ ] asset_whampoa_reclamation_12079
+- [ ] asset_whampoa_reclamation_12079 TEST
+- [ ] asset_open_forum_12097
+- [ ] asset_open_forum_12097 TEST
+- [ ] asset_mca_austerity_policy_12111
+- [ ] asset_mca_austerity_policy_12111 TEST
+- [ ] asset_breached_dome_12113
+- [ ] asset_breached_dome_12113 TEST
+- [ ] asset_estelle_moon_13032
+- [ ] asset_estelle_moon_13032 TEST
+- [ ] asset_marilyn_campaign_13033
+- [ ] asset_marilyn_campaign_13033 TEST
+- [ ] asset_illegal_arms_factory_13045
+- [ ] asset_illegal_arms_factory_13045 TEST
+- [ ] asset_mr_stone_13046
+- [ ] asset_mr_stone_13046 TEST
+- [ ] asset_honeyfarm_13054
+- [ ] asset_honeyfarm_13054 TEST
+- [ ] asset_longterm_investment_13055
+- [ ] asset_longterm_investment_13055 TEST
+- [ ] asset_investigator_inez_delgado_a_14004
+- [ ] asset_investigator_inez_delgado_a_14004 TEST
+- [ ] asset_investigator_inez_delgado_a_2_14005
+- [ ] asset_investigator_inez_delgado_a_2_14005 TEST
+- [ ] asset_lt_todachine_14006
+- [ ] asset_lt_todachine_14006 TEST
+- [ ] asset_lt_todachine_2_14007
+- [ ] asset_lt_todachine_2_14007 TEST
+- [ ] asset_trojan_14008
+- [ ] asset_trojan_14008 TEST
+- [ ] asset_adonis_campaign_20064
+- [ ] asset_adonis_campaign_20064 TEST
+- [ ] asset_aggressive_secretary_20065
+- [ ] asset_aggressive_secretary_20065 TEST
+- [ ] asset_dedicated_response_team_20081
+- [ ] asset_dedicated_response_team_20081 TEST
+- [ ] asset_elizabeth_mills_20082
+- [ ] asset_elizabeth_mills_20082 TEST
+- [ ] asset_grndl_refinery_20083
+- [ ] asset_grndl_refinery_20083 TEST
+- [ ] asset_project_junebug_20096
+- [ ] asset_project_junebug_20096 TEST
+- [ ] asset_ronin_20097
+- [ ] asset_ronin_20097 TEST
+- [ ] asset_snare_20098
+- [ ] asset_snare_20098 TEST
+- [ ] asset_ghost_branch_20112
+- [ ] asset_ghost_branch_20112 TEST
+- [ ] asset_melange_mining_corp_20127
+- [ ] asset_melange_mining_corp_20127 TEST
+- [ ] asset_pad_campaign_20128
+- [ ] asset_pad_campaign_20128 TEST
+- [ ] asset_gene_splicer_21012
+- [ ] asset_gene_splicer_21012 TEST
+- [ ] asset_echo_chamber_21015
+- [ ] asset_echo_chamber_21015 TEST
+- [ ] asset_urban_renewal_21018
+- [ ] asset_urban_renewal_21018 TEST
+- [ ] asset_reconstruction_contract_21020
+- [ ] asset_reconstruction_contract_21020 TEST
+- [ ] asset_ngo_front_21039
+- [ ] asset_ngo_front_21039 TEST
+- [ ] asset_kuwinda_k4h1u3_21049
+- [ ] asset_kuwinda_k4h1u3_21049 TEST
+- [ ] asset_personalized_portal_21056
+- [ ] asset_personalized_portal_21056 TEST
+- [ ] asset_technoco_21060
+- [ ] asset_technoco_21060 TEST
+- [ ] asset_malia_z0l0k4_21069
+- [ ] asset_malia_z0l0k4_21069 TEST
+- [ ] asset_amani_senai_21076
+- [ ] asset_amani_senai_21076 TEST
+- [ ] asset_rashida_jaheem_21080
+- [ ] asset_rashida_jaheem_21080 TEST
+- [ ] asset_warden_fatuma_21093
+- [ ] asset_warden_fatuma_21093 TEST
+- [ ] asset_false_flag_21120
+- [ ] asset_false_flag_21120 TEST
+- [ ] asset_apis_keeper_isobel_22036
+- [ ] asset_apis_keeper_isobel_22036 TEST
+- [ ] asset_neurostasis_22037
+- [ ] asset_neurostasis_22037 TEST
+- [ ] asset_siu_22044
+- [ ] asset_siu_22044 TEST
+- [ ] asset_drudge_work_22052
+- [ ] asset_drudge_work_22052 TEST
+- [ ] asset_lady_liberty_22058
+- [ ] asset_lady_liberty_22058 TEST
+- [ ] asset_adonis_campaign_25070
+- [ ] asset_adonis_campaign_25070 TEST
+- [ ] asset_aggressive_secretary_25071
+- [ ] asset_aggressive_secretary_25071 TEST
+- [ ] asset_marilyn_campaign_25072
+- [ ] asset_marilyn_campaign_25072 TEST
+- [ ] asset_project_junebug_25089
+- [ ] asset_project_junebug_25089 TEST
+- [ ] asset_ronin_25090
+- [ ] asset_ronin_25090 TEST
+- [ ] asset_snare_25091
+- [ ] asset_snare_25091 TEST
+- [ ] asset_sundew_25092
+- [ ] asset_sundew_25092 TEST
+- [ ] asset_daily_business_show_25108
+- [ ] asset_daily_business_show_25108 TEST
+- [ ] asset_ghost_branch_25109
+- [ ] asset_ghost_branch_25109 TEST
+- [ ] asset_marked_accounts_25110
+- [ ] asset_marked_accounts_25110 TEST
+- [ ] asset_reversed_accounts_25111
+- [ ] asset_reversed_accounts_25111 TEST
+- [ ] asset_contract_killer_25127
+- [ ] asset_contract_killer_25127 TEST
+- [ ] asset_elizabeth_mills_25128
+- [ ] asset_elizabeth_mills_25128 TEST
+- [ ] asset_public_support_25129
+- [ ] asset_public_support_25129 TEST
+- [ ] asset_pad_campaign_25142
+- [ ] asset_pad_campaign_25142 TEST
+- [ ] asset_calvin_b4l3y_26033
+- [ ] asset_calvin_b4l3y_26033 TEST
+- [ ] asset_nanoetching_matrix_26034
+- [ ] asset_nanoetching_matrix_26034 TEST
+- [ ] asset_public_health_portal_26042
+- [ ] asset_public_health_portal_26042 TEST
+- [ ] asset_storgotic_resonator_26043
+- [ ] asset_storgotic_resonator_26043 TEST
+- [ ] asset_daily_quest_26048
+- [ ] asset_daily_quest_26048 TEST
+- [ ] asset_tiered_subscription_26049
+- [ ] asset_tiered_subscription_26049 TEST
+- [ ] asset_roughneck_repair_squad_26057
+- [ ] asset_roughneck_repair_squad_26057 TEST
+- [ ] asset_csr_campaign_26064
+- [ ] asset_csr_campaign_26064 TEST
+- [ ] asset_bass_ch1r180g4_26098
+- [ ] asset_bass_ch1r180g4_26098 TEST
+- [ ] asset_cerebral_overwriter_26099
+- [ ] asset_cerebral_overwriter_26099 TEST
+- [ ] asset_vaporframe_fabricator_26100
+- [ ] asset_vaporframe_fabricator_26100 TEST
+- [ ] asset_prana_condenser_26107
+- [ ] asset_prana_condenser_26107 TEST
+- [ ] asset_wall_to_wall_26122
+- [ ] asset_wall_to_wall_26122 TEST
+- [ ] asset_hostile_infrastructure_29011
+- [ ] asset_hostile_infrastructure_29011 TEST
+- [ ] asset_turtlebacks_29012
+- [ ] asset_turtlebacks_29012 TEST
+- [ ] asset_executive_boot_camp_29015
+- [ ] asset_executive_boot_camp_29015 TEST
+- [ ] asset_nico_campaign_30037
+- [ ] asset_nico_campaign_30037 TEST
+- [ ] asset_urtica_cipher_30045
+- [ ] asset_urtica_cipher_30045 TEST
+- [ ] asset_spin_doctor_30053
+- [ ] asset_spin_doctor_30053 TEST
+- [ ] asset_clearinghouse_30061
+- [ ] asset_clearinghouse_30061 TEST
+- [ ] asset_regolith_mining_license_30071
+- [ ] asset_regolith_mining_license_30071 TEST
+- [ ] asset_marilyn_campaign_31042
+- [ ] asset_marilyn_campaign_31042 TEST
+- [ ] asset_ronin_31053
+- [ ] asset_ronin_31053 TEST
+- [ ] asset_snare_31054
+- [ ] asset_snare_31054 TEST
+- [ ] asset_daily_business_show_31063
+- [ ] asset_daily_business_show_31063 TEST
+- [ ] asset_reversed_accounts_31064
+- [ ] asset_reversed_accounts_31064 TEST
+- [ ] asset_corporate_town_31074
+- [ ] asset_corporate_town_31074 TEST
+- [ ] asset_pad_campaign_31080
+- [ ] asset_pad_campaign_31080 TEST
+- [ ] asset_refuge_campaign_33033
+- [ ] asset_refuge_campaign_33033 TEST
+- [ ] asset_trieste_model_bioroids_33034
+- [ ] asset_trieste_model_bioroids_33034 TEST
+- [ ] asset_bladderwort_33041
+- [ ] asset_bladderwort_33041 TEST
+- [ ] asset_moon_pool_33042
+- [ ] asset_moon_pool_33042 TEST
+- [ ] asset_chekist_scion_33050
+- [ ] asset_chekist_scion_33050 TEST
+- [ ] asset_drago_ivanov_33051
+- [ ] asset_drago_ivanov_33051 TEST
+- [ ] asset_ubiquitous_vig_33052
+- [ ] asset_ubiquitous_vig_33052 TEST
+- [ ] asset_svyatogor_excavator_33059
+- [ ] asset_svyatogor_excavator_33059 TEST
+- [ ] asset_nightmare_archive_33097
+- [ ] asset_nightmare_archive_33097 TEST
+- [ ] asset_dr_vientiane_keeling_33106
+- [ ] asset_dr_vientiane_keeling_33106 TEST
+- [ ] asset_reaper_function_33107
+- [ ] asset_reaper_function_33107 TEST
+- [ ] asset_gaslight_33114
+- [ ] asset_gaslight_33114 TEST
+- [ ] asset_vera_ivanovna_shuyskaya_33115
+- [ ] asset_vera_ivanovna_shuyskaya_33115 TEST
+- [ ] asset_hostile_architecture_33122
+- [ ] asset_hostile_architecture_33122 TEST
+- [ ] asset_superdeep_borehole_33123
+- [ ] asset_superdeep_borehole_33123 TEST

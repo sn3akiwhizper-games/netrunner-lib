@@ -1,0 +1,37 @@
+-system-gateway-corp-starter-deck
+The Syndicate: Profit over Principle (System Gateway)
+
+Agenda (7)
+3x Offworld Office (System Gateway) 
+2x Send a Message (System Gateway) 
+2x Superconducting Hub (System Gateway) 
+
+Asset (6)
+2x Nico Campaign (System Gateway) ••••
+2x Urtica Cipher (System Gateway) ••••
+2x Regolith Mining License (System Gateway) 
+
+Upgrade (1)
+1x Manegarm Skunkworks (System Gateway) •••
+
+Operation (7)
+2x Seamless Launch (System Gateway) ••••
+2x Government Subsidy (System Gateway) ••
+3x Hedge Fund (System Gateway) 
+
+Barrier (5)
+2x Brân 1.0 (System Gateway) ••••
+3x Palisade (System Gateway) 
+
+Code Gate (4)
+2x Diviner (System Gateway) ••••
+2x Whitespace (System Gateway) 
+
+Sentry (4)
+2x Karunā (System Gateway) ••••
+2x Tithe (System Gateway) 
+
+29 influence spent (max infinite, available 0)
+14 agenda points (between 14 and 15)
+34 cards (min 30)
+Cards up to System Gateway
