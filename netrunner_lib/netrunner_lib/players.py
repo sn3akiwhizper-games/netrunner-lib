@@ -4,18 +4,29 @@ from netrunner_lib.cards._base_card_classes import *
 from netrunner_lib.game_events import generic_player_prompt
 
 class Player:
+    '''
+    player class
+    '''
     def __init__(self,name, deck_path, deck_type):
+        '''
+        player init
+        '''
         self.name = name
         self.deck = Deck(deck_path, deck_type)
         self.faction = self.deck.identity_card.faction_code
-        self.hand = []
-        self.discard = []
-        self.credit_pool = 0 #measures money
-        self.clicks = 0 #measures time
+        self.hand:list[Card] = []
+        self.discard:list[Card] = []
+        self.credit_pool:int = 0 #measures money
+        self.clicks:int = 0 #measures time
         self.scored_agendas:list[Card] = []
         return
 
-    def setup(self, starting_credits=0):
+    def setup(self, starting_credits:int=0):
+        '''
+        player setup: shuffle deck, apply starting credits, and draw hand
+        INPUT:
+            - starting_credits:int number of credits to start with (default: 0)
+        '''
         self.deck.shuffle()
         self.credit_pool = starting_credits
         self.hand = self.deck.cards[:5]
@@ -26,21 +37,60 @@ class Player:
             card.state['location'] = 'deck'
 
     def setup_mulligan(self):
+        '''
+        Mulligan starting hand. Return hand to deck and reperform setup()
+        '''
         self.deck.cards = self.deck.cards+self.hand
         self.setup(self.credit_pool)
     
     def draw_card(self):
+        '''
+        Draw a card from the deck and put in hand. sets state['location'] of card to 'hand'
+        '''
         self.hand.append(self.deck.cards.pop())
         self.hand[-1].state['location'] = "hand"
 
-    def do_turn_actions(self, state:str):
+    def do_turn_actions(self, state:str) -> None:
+        '''
+        Default actions that either player could perform during their turn
+
+        - check cards for `event_start_turn` hooks in: discard
+
+        INPUT:
+            - state:str the current state of the player's turn
+        RETURN:
+            - None
+        '''
         print(f'[PLAYER]>{self.name} player doing a turn action[{state}]-Click @ start of turn={self.clicks}')
+        #loop through all card actions to see if any cards run an action at the start of a turn
+        #loop cards in discard
+        for card in self.discard:
+            if hasattr(card, 'event_start_turn'):
+                card.event_start_turn(self)
     
     def get_deck(self):
+        '''
+        Getter: player deck
+
+        RETURN:
+            - deck:netrunner_lib.deck.Deck
+        '''
         return self.deck
 
     def get_hand(self):
+        '''
+        Getter: player hand
+
+        RETURN:
+            - hand:list(Card)
+        '''
         return self.hand
+    
+    def remove_card_from_hand(self,card_idx) -> None:
+        '''
+        Remove a card from the hand
+        '''
+        self.hand.pop(card_idx)
     
     def get_discard(self):
         return self.discard
@@ -49,7 +99,7 @@ class Player:
         '''
         print player details
         '''
-        print(f"""--------------------------------------------
+        print(f"""-------------Player Details-----------------------
 Player:: Name[{self.name}]-Faction[{self.faction}]
 Identity:: {self.deck.identity_card}
 Hand:: {[str(x) for x in self.hand]}
@@ -67,12 +117,39 @@ ScoredAgendas[{self.scored_agendas}]
         '''
         return input(msg)
 
+class ServerIterator():
+    def __init__(self,server):
+        '''
+        ServerIterator to loop over cards contained in a server
+        '''
+        self.server_cards = [server.root]+server.upgrades+server.ice
+        self._index = 0
+
+    def __next__(self):
+        ''''Returns the next value from team object's lists '''
+        if self._index < len(self.server_cards):
+            result = self.server_cards[self._index]
+            self._index +=1
+            return result
+        else:
+            # End of Iteration
+            raise StopIteration
+
 class Server():
     def __init__(self, name:str, root_card:Card=None):
+        '''
+        Server class to represent any servers controlled by the corpo
+        '''
         self.name = name
         self.root = root_card
         self.upgrades = []
         self.ice = []
+    
+    def __iter__(self):
+        '''
+        Iterator function for Server, returns ServerIterator class instance which manages looping through all cards
+        '''
+        return ServerIterator(self)
     
     def install_ice(self,ice_card:Card) -> str:
         ice_card.state['installed'] = True
@@ -109,10 +186,11 @@ class Corpo(Player):
         create a new remote server with the provided card as its root
         card should be agenda or asset
         '''
-        self.remote_servers.append(Server(card.game_id, card))
-        self.remote_servers[-1].root.state['state'] = "installed"
-        self.remote_servers[-1].root.state['location'] = card.game_id
-        return "installed"
+        try:
+            self.remote_servers.append(Server(card.game_id, card))
+            return "installed"
+        except Exception as e:
+            return "failed"
 
     def install_ice(self, server_id:int, card:Card) -> str:
         '''
@@ -133,14 +211,27 @@ class Corpo(Player):
         install an upgrade card to the appropriate server based on the provided index
         return status code
         '''
-        if server_id==0:
-            return self.hq_server.install_upgrade(card)
-        elif server_id==1:
-            return self.rnd_server.install_upgrade(card)
-        elif server_id==2:
-            return self.archive_server.install_upgrade(card)
-        else:
-            return self.remote_servers[server_id-3].install_upgrade(card)
+        return self.get_server_by_id(server_id).install_upgrade(card)
+    
+    def perform_turn_start_events(self,kwargs):
+        '''
+        loop through all cards in play and perform any "start of turn" capablities
+        INPUT:
+            - kwargs arguments dictionary from do_turn_actions()
+        '''
+        #loop through all card actions to see if any cards run an action at the start of a turn
+        #check identity card
+        if hasattr(self.deck.identity_card, 'event_start_turn'):
+            event_result = self.deck.identity_card.event_start_turn(kwargs['game_manager'])
+        #loop cards in HQ
+        for card in self.hq_server:
+            if hasattr(card, 'event_start_turn'):
+                event_result = card.event_start_turn(kwargs['game_manager'])
+        #loop cards in remote servers
+        for remote_server in self.remote_servers:
+            for card in remote_server:
+                if hasattr(card, 'event_start_turn'):
+                    event_result = card.event_start_turn(kwargs['game_manager'])
 
     def get_server_by_id(self, server_id:int) -> Server:
         '''
@@ -167,7 +258,8 @@ class Corpo(Player):
             - "end_turn"
         kwargs:
             - source:str the source of the action (i.e. 'hand', or 'HQ' or whatever)
-            - turn_action:str what state is the turn in
+            - turn_state:str what state is the turn in
+            - turn_action:str what action to take in this turn
             - hand_index:int index of the card in the hand to use
             - game_manager:NetrunnerGame reference to game manager object
             - server:str which server the turn is doing actions on
@@ -175,8 +267,8 @@ class Corpo(Player):
         super().do_turn_actions(turn_state)
         if turn_state == "start":
             self.clicks = 3
+            self.perform_turn_start_events(kwargs)
             self.draw_card()
-            #resolve "when your turn begins abilities"
             return "action"
         elif turn_state == "action":
             if self.clicks != 0:
@@ -191,13 +283,17 @@ class Corpo(Player):
                     if kwargs['source'] == "hand":
                         result = self.hand[kwargs['hand_index']].play(self,kwargs)
                         print(f'corpo turn_action play_card]:: play result={result}')
+                        if result == "insufficient credits":
+                            print(f'corpo does not have enough money to play that card')
+                            return "action"
+                        else:
+                            self.clicks -= 1
                     else:
                         print('unhandled kwargs[location] option')
-                    self.clicks -= 1
                 if self.clicks == 0:#advance to next step
                     return "discard"
                 else:
-                    return "action" 
+                    return "action"
             else:
                 return "discard"#extra check to move to discard step in case click tracking messed up
         elif turn_state == "discard":
@@ -213,6 +309,8 @@ class Corpo(Player):
             else:
                 print('hand at acceptable size')
                 return "end_turn"
+        else:
+            raise Exception(f'TURN_STATE_ERROR: corpo: {turn_state}')
 
     def print_play_area_details(self) -> None:
         '''
@@ -263,7 +361,8 @@ class Runner(Player):
             - "end_turn"
         kwargs:
             - source:str the source of the action (i.e. 'hand', or 'HQ' or whatever)
-            - turn_action: what state is the turn in
+            - turn_state: what state is the turn in
+            - turn_action:str what action to take in this turn
             - hand_index: index of the card in the hand to use
             - game_manager:NetrunnerGame reference to game manager object
         '''
@@ -305,6 +404,8 @@ class Runner(Player):
             else:
                 print('hand at acceptable size')
                 return "end_turn"
+        else:
+            raise Exception('TURN_STATE_ERROR')
 
     def install_program(self,program_card:Card) -> str:
         '''

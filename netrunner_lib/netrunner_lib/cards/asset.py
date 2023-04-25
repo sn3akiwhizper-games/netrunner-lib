@@ -4,6 +4,8 @@ card classes of type asset
 '''
 from netrunner_lib.cards._base_card_classes import Asset
 from netrunner_lib.game_events import *
+from netrunner_lib import errors
+from netrunner_lib.tests._test_utilities import *
 
 class asset_adonis_campaign_01056(Asset):
     '''
@@ -18,16 +20,48 @@ class asset_adonis_campaign_01056(Asset):
         do play actions?
         RETURN:
             - str: event code of what has happened/should happen
+                - 'installed': card successfully installed
                 - 'trash': card should be trashed
                 - 'insufficient credits': player can't afford this card
                 - 'nop': no operation performed
         '''
-        print(f'playing card: {self.title} || TOIMPLEMENT!')
+        debug_print(f'playing card: {self.title} || IMPLEMENTED!',1)
+        debug_print(f'installing adonis campaign in new remote, state={self.state}',3)
+        #call Asset.play()
         super_result = super().play(player,kwargs)
         if super_result != "nop":
+            debug_print(f'adonis campaign super result not NOP: {super_result}',3)
             return super_result
+        return "BROKEN"
+    
+    def rez(self, player):
+        '''
+        rez this card
+        INPUT:
+            - player:Player(corp) player who installed this card and is currently rezzing it
+        '''
+        player.credit_pool = player.credit_pool-self.cost
+        self.credit_pool = 12
+        self.state['rezzed']=True
+        debug_print(f'rezzed adonis: credit pool={self.credit_pool}, state={self.state}',3)
+        return "rezzed"
+    
+    def event_start_turn(self, game_state):
+        '''
+        hook the start of players turn event
+        INPUT:
+            - game_state:NetrunnerGame current game state object to perform actions upon
+        '''
+        if self.state['rezzed'] and self.state['installed']:
+            self.credit_pool -= 3
+            game_state.corpo.credit_pool += 3
+            if self.credit_pool <= 0:
+                debug_print('adonis campaign asset out of credits, trashing')
+                return self.trash(game_state.corpo)
+            else:
+                return "credits_added"
         else:
-            return "TODO"
+            raise errors.CARD_STATE_ERROR(self.state)
 
 class asset_aggressive_secretary_01057(Asset):
     '''

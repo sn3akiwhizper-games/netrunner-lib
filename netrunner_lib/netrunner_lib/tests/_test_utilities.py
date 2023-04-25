@@ -1,10 +1,13 @@
 
+import json
+
 from netrunner_lib.game_state import NetrunnerGame
 from netrunner_lib.players import *
 from netrunner_lib.deck import *
 from netrunner_lib.cards._base_card_classes import *
 from netrunner_lib.cards._card_utilities import *
-from netrunner_lib.variables import *
+from netrunner_lib import variables as vars
+from netrunner_lib import errors
 
 def initialize_test_environment(test_set:str) -> NetrunnerGame:
     '''
@@ -16,41 +19,27 @@ def initialize_test_environment(test_set:str) -> NetrunnerGame:
 
     return test_game_state
 
-def create_test_deck(name:str, deck_type:str, identity_code:str, card_code_list:list) -> Deck:
+def create_test_deck(name:str, deck_type:str, identity_code:str, card_code_list:list[str]) -> Deck:
     '''
     create a test deck from a card code list
+    INPUT:
+        - name:str name of test deck
+        - deck_type:str is this a runner or corpo deck
+        - identity_code:str card_code of identity to use
+        - carde_code_list:list[str] list of card_code's to include in the deck
+    RETURN:
     '''
-    deck = TestDeck(name,deck_type, identity_code)
+    #create deck object, catching raised error to bypass fake filename provided
+    try:
+        deck = Deck(name,deck_type, identity_code)
+    except errors.INVALID_FILE_EXTENSION:
+        pass
+
     ##############################################
     #use info from od8 file to load actual card info from json DB
     card_json_db = {}
-    with open(CARD_DB_JSON_PATH, "r", encoding="UTF-8") as f:
+    with open(vars.CARD_DB_JSON_PATH, "r", encoding="UTF-8") as f:
         card_json_file_data = json.load(f)
         for file_card in card_json_file_data['data']:
             # print(file_card)
             card_json_db[file_card['code']] = file_card
-    
-    ##read identity card json info
-    # print('-------')
-    identity_code = deck_dict['sections']['Identity'][0]['id'][-5:]
-    identity_card_info = card_json_db[identity_code]
-    #create_card(card_name:str,card_type:str,card_id:str)
-    self.identity_card = create_card(
-            to_card_id(identity_card_info['stripped_title']),
-            identity_card_info['type_code'],
-            identity_card_info['code']
-        )
-
-    ##read all the other card's json info
-    for deck_card in deck_dict['sections']['R&D / Stack']:
-        card_info = card_json_db[deck_card['id'][-5:]]
-        for _ in range(deck_card['qty']):
-            self.cards.append(
-                create_card(
-                    to_card_id(card_info['stripped_title']),
-                    card_info['type_code'],
-                    card_info['code']
-                )
-            )
-    for card in card_code_list:
-

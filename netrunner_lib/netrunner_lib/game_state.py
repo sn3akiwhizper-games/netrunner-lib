@@ -5,12 +5,20 @@ from netrunner_lib.cards._base_card_classes import *
 from netrunner_lib.players import *
 
 class NetrunnerGame:
-    def __init__(self, corpo_player:Corpo, runner_player:Runner):
+    def __init__(self, corpo_player:Corpo, runner_player:Runner, game_format:str="standard"):
+        '''
+        Main game manager object to track turns, manage game state, and check for wins
+        INPUT:
+            - corpo_player:Corpo
+            - runner_player:Runner
+            - game_format:str
+        '''
         self.runner = runner_player
         self.corpo = corpo_player
         self.turn = 1
         self.state = ""
         self.current_player = None
+        self.game_format=game_format
         self.win_condition = {
                 "corpo":{
                     "agenda_points":7
@@ -41,6 +49,7 @@ class NetrunnerGame:
         if all is well, route turn actions to appropriate player
         returns current state after doing turn actions
         '''
+        raise Exception('IS THIS IMPLEMENTED??')
         if self.current_player != player:
             return "illegal player"
         kwargs['game_manager'] = self
@@ -80,31 +89,6 @@ class NetrunnerGame:
             return "win",self.runner
         else:
             return "none",None
-
-    def play_card(self, card:Card, player:Player):
-        raise Exception('IS THIS IMPLEMENTED? MIGHT BE REDUNDANT?!?!')
-        if player == self.runner:
-            if card in self.runner_hand:
-                self.runner_hand.remove(card)
-                if isinstance(card, Hardware) or isinstance(card, Program) or isinstance(card, Resource):
-                    self.runner_rig.append(card)
-                else:
-                    card.play(self.runner, self)
-            else:
-                raise ValueError("The card is not in the runner's hand.")
-        elif player == self.corp:
-            if card in self.corp_hand:
-                self.corp_hand.remove(card)
-                if isinstance(card, Asset) or isinstance(card, Upgrade):
-                    self.corp_hq.append(card)
-                elif isinstance(card, Agenda):
-                    self.corp_rnd.append(card)
-                else:
-                    card.play(self.corp, self)
-            else:
-                raise ValueError("The card is not in the corp's hand.")
-        else:
-            raise ValueError("Invalid player.")
 
     def print_state(self):
         '''

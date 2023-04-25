@@ -61,8 +61,3 @@ This is a gross collection of dev notes to keep track of what I need to do
   - program _base_card_classes:Program.play()
   - resource _base_card_classes:Resource.play()
   - upgrade _base_card_classes:Upgrade.play()
-
-- card state keys:
-  - "installed":bool
-  - "rezzed":bool
-  - "location":str

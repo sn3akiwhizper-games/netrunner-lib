@@ -23,7 +23,13 @@ dependencies = [ #use this instead of requirements.txt
     # 'importlib-metadata; python_version<"3.8"',
 	"beautifulsoup4",
 	"lxml",
-	"unidecode"
+	"unidecode",
+	"python-dotenv"
+]
+
+[project.optional-dependencies]
+DEV = [
+	"pdoc3"
 ]
 
 #https://setuptools.pypa.io/en/latest/userguide/package_discovery.html

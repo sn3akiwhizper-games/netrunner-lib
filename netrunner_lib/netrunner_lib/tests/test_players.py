@@ -12,7 +12,7 @@ from netrunner_lib.deck import Deck
 from netrunner_lib.cards._base_card_classes import *
 from netrunner_lib.players import *
 
-class TestPlayer(unittest.TestCase):
+class TestPlayerBaseCase(unittest.TestCase):
     '''
     test base player class
     some tests rely on certain ordering, in which case they create their own instance of the default player
@@ -48,7 +48,7 @@ class TestPlayer(unittest.TestCase):
     def test_turn_action(self):
         self.assert_(False)
 
-class TestRunner(unittest.TestCase):
+class TestRunnerBaseCase(unittest.TestCase):
     '''
     test runner player class
     some tests rely on certain ordering, in which case they create their own instance of a runner player
@@ -113,7 +113,7 @@ class TestRunner(unittest.TestCase):
         self.player = Runner('testRunner1','starter-deck-runner-beginner.o8d')
         self.assert_(False)
 
-class TestServer(unittest.TestCase):
+class TestServerBaseCase(unittest.TestCase):
     '''
     test corpo server class
     '''
@@ -126,7 +126,7 @@ class TestServer(unittest.TestCase):
     def test_install_upgrade(self):
         self.assert_(False)
 
-class TestCorpo(unittest.TestCase):
+class TestCorpoBaseCase(unittest.TestCase):
     '''
     test corpo player class
     some tests rely on certain ordering, in which case they create their own instance of a corpo player

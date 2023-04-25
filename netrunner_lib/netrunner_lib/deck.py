@@ -9,7 +9,8 @@ from unidecode import unidecode
 from datetime import datetime
 from importlib import import_module
 
-from netrunner_lib.variables import *
+from netrunner_lib import variables as vars
+from netrunner_lib import errors
 
 from netrunner_lib.cards._base_card_classes import *
 from netrunner_lib.cards._card_utilities import *
@@ -24,28 +25,29 @@ class Deck:
         2. generate the proper paths for the card images based on preferences
         '''
         self.name = deck_filepath.split('.')[0]#remove file extension to save name of deck
-        self.deck_filepath:str = os.path.join(DECKLIST_PATH,deck_filepath)
+        self.deck_filepath:str = os.path.join(vars.DECKLIST_PATH,deck_filepath)
         self.date_created:str = None
         self.deck_type:str = deck_type
         self.identity_card:Card = None
         self.cards:list[Card] = []
         self.card_image_preferences:dict = {}
 
-        print('loading deck',deck_filepath)
-        if ".txt" in self.deck_filepath:
-            self._load_txt_deckfile(self.deck_filepath)
-        elif ".o8d" in self.deck_filepath:
+        # print('loading deck',deck_filepath)
+        if ".o8d" in self.deck_filepath:
             self._load_o8d_deckfile(self.deck_filepath)
         elif ".json" in self.deck_filepath:
             self._load_json_deckfile(self.deck_filepath)
         else:
-            print('error loading deck file: invalid file extension')
-            sys.exit(-1)
+            raise errors.INVALID_FILE_EXTENSION(self.deck_filepath)
 
     def _load_o8d_deckfile(self,deck_path:str):
+        '''
+        Load deck information from OCTGN o8d format
+        RAISES:
+            - FILE_NOT_FOUND: provided deck file path not found
+        '''
         if not os.path.exists(deck_path):
-            print("deck path doesn't exist")
-            sys.exit(-1)
+            raise errors.FILE_NOT_FOUND(deck_path)
         
         ##############################################
         #loading info from o8d file
@@ -75,7 +77,7 @@ class Deck:
         ##############################################
         #use info from od8 file to load actual card info from json DB
         card_json_db = {}
-        with open(CARD_DB_JSON_PATH, "r", encoding="UTF-8") as f:
+        with open(vars.CARD_DB_JSON_PATH, "r", encoding="UTF-8") as f:
             card_json_file_data = json.load(f)
             for file_card in card_json_file_data['data']:
                 # print(file_card)
@@ -106,10 +108,14 @@ class Deck:
         #load default card images
         self._load_image_preferences()
 
-    def _load_json_deckfile(self,deck_path:str):
+    def _load_json_deckfile(self,deck_path:str) -> None:
+        '''
+        Load deck information from our custom json format
+        RAISES:
+            - FILE_NOT_FOUND: provided deck file path not found
+        '''
         if not os.path.exists(deck_path):
-            print("deck path doesn't exist")
-            sys.exit(-1)
+            raise errors.FILE_NOT_FOUND(deck_path)
 
         ##############################################
         #loading info from json file
@@ -134,7 +140,7 @@ class Deck:
         #load default card images
         self._load_image_preferences()
     
-    def _load_image_preferences(self):
+    def _load_image_preferences(self) -> None:
         '''
         generate the complete path to the local card image
         if no preference is set, use the default image for that card and set that as the preference
@@ -146,38 +152,49 @@ class Deck:
             if not card.code in self.card_image_preferences:
                 self.card_image_preferences[card.code] = f"{card.code}.jpg"
             
-            card.image_path = os.path.join(CARD_IMAGES_PATH,f"{self.card_image_preferences[card.code]}")
+            card.image_path = os.path.join(vars.CARD_IMAGES_PATH,f"{self.card_image_preferences[card.code]}")
     
-    def shuffle(self):
+    def shuffle(self) -> None:
+        '''
+        Shuffle the cards in this deck
+        '''
         random.shuffle(self.cards)
 
-    def remove_card(self, card_game_id:int):
+    def remove_card(self, card_game_id:int) -> None:
         '''
-        remove a card based on its unique game ID
+        Remove a card based on its unique game ID
+        RAISES:
+            - CARD_NOT_FOUND: if card not found by its game id
         '''
         for idx, card in enumerate(self.cards):
             if card.game_id == card_game_id:
                 self.cards.pop(idx)
-                break
+                return
+        raise errors.CARD_NOT_FOUND(card_game_id)
     
     def length(self) -> int:
         '''
-        return length of the current
+        return number cards left in deck
+        RETURN:
+            - int: number cards in deck
         '''
         return len(self.cards)
 
-    def set_card_image_pref(self, card_code:int, image_file:str):
+    def set_card_image_pref(self, card_code:int, image_file:str) -> None:
         '''
-        save new preference for a card_id and reload information for affected cards
+        save new preference for a card_id and reload information for affected cards. Currently only affects this current deck.
         mark deck name as customized to prevent overwriting other saved decks
+        INPUT:
+            - card_code:int card code ID to save preference for
+            - image_file:str path to image file to use for this card
         '''
         self.card_image_preferences[card_code] = image_file
         self.name = f"{self.name}-customized"
         self._load_image_preferences()
     
-    def save(self):
+    def save(self) -> None:
         '''
-        only save one version 
+        Save current deck to file
         '''
         deck_data = {
             "name": self.name, 
@@ -187,18 +204,8 @@ class Deck:
             "cards": [x.__dict__ for x in self.cards],
             "card_image_preferences": self.card_image_preferences
         }
-        save_deck_filepath = os.path.join(CUSTOM_DECK_SAVE_PATH,f"{self.name}-{datetime.now().strftime('%y-%m-%d')}.json")
+        save_deck_filepath = os.path.join(vars.CUSTOM_DECK_SAVE_PATH,f"{self.name}-{datetime.now().strftime('%y-%m-%d')}.json")
         if os.path.isfile(save_deck_filepath):
             print('>>warning: custom save file already exists')
         with open(save_deck_filepath, "w") as f:
             json.dump(deck_data, f)
-
-class TestDeck(Deck):
-    def __init__(self,name,deck_type):
-        self.name = name
-        self.deck_filepath = f"test-deck-{name}"
-        self.date_created:str = None
-        self.deck_type:str = deck_type
-        self.identity_card:Card = None
-        self.cards:list[Card] = []
-        self.card_image_preferences:dict = {}

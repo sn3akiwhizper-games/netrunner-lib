@@ -8,11 +8,11 @@ also will copy the raw json information for each card into separate files organi
 WARNING: overwrites without impunity, keep output restricted to the generated_templates/ folder, then copy/paste as needed to prevent overwriting cards that have actually been implemented beyond these basic templates
 '''
 
-from netrunner_lib.variables import *
-from netrunner_lib.cards._card_utilities import *
+from netrunner_lib import variables as vars
+from netrunner_lib.cards._card_utilities import to_card_id
 
 import json
-from 
+from os.path import join as pjo
 import os
 import sys
 from bs4 import BeautifulSoup
@@ -21,7 +21,7 @@ from unidecode import unidecode
 from datetime import datetime
 from importlib import import_module
 
-GENERATED_OUTPUT_PATH = pjo(BASE_PROJECT_PATH,"dev_utils","generated_templates")
+GENERATED_OUTPUT_PATH = pjo(vars.BASE_REPO_PATH,"dev_utils","generated_templates")
 if not os.path.exists(GENERATED_OUTPUT_PATH):
     os.mkdir(GENERATED_OUTPUT_PATH)
 
@@ -34,7 +34,7 @@ if not len(sys.argv)==2:
 #####################
 #load cardDB json file
 print('loading card json db')
-with open(CARD_DB_JSON_PATH, "r", encoding="UTF-8") as f:
+with open(vars.CARD_DB_JSON_PATH, "r", encoding="UTF-8") as f:
     card_json_file_data = json.load(f)
     for file_card in card_json_file_data['data']:
         if file_card['type_code'] in masterdata:
@@ -72,6 +72,7 @@ card classes of type {typee}
 '''
 from netrunner_lib.cards._base_card_classes import {typee.capitalize()}
 from netrunner_lib.game_events import *
+from netrunner_lib.tests._test_utilities import *
 """)
             #^^^^^^^^^^^^^^
             for card in masterdata[typee]:
@@ -94,7 +95,7 @@ class {typee}_{to_card_id(card['stripped_title'])}_{card['code']}({typee.capital
                 - 'insufficient credits': player can't afford this card
                 - 'nop': no operation performed
         '''
-        print(f'playing card: {{self.title}} || TOIMPLEMENT!')
+        debug_print(f'playing card: {{self.title}} || TOIMPLEMENT!',3)
         super_result = super().play(player,kwargs)
         if super_result != "nop":
             return super_result
@@ -125,6 +126,7 @@ from netrunner_lib.cards.{typee} import *
 from netrunner_lib.game_state import NetrunnerGame
 from netrunner_lib.players import *
 from netrunner_lib.tests._test_utilities import *
+from netrunner_lib.cards._card_utilities import *
 
 """)
             #^^^^^^^^^^^^^^
@@ -132,17 +134,31 @@ from netrunner_lib.tests._test_utilities import *
                 #-------------
                 outfl.write(f"""
 ######################
-class Test_{to_card_id(card['stripped_title'])}_{card['code']}:
-
-def test_play_card():
+class Test_{to_card_id(card['stripped_title'])}_{card['code']}(unittest.TestCase):
     '''
     testing play functionality of {to_card_id(card['stripped_title'])}
+    Cost: {card.get('cost','*card has no cost*')}
+    Text: {card.get('stripped_text','*no card text*')}
     '''
-    #create test game state for the proper type
-    test_game_environment = initialize_test_environment("{typee}")
 
-    test_card = {typee}_{to_card_id(card['stripped_title'])}_{card['code']}()
-    test_card.play(test_game_environment.runner,test_game_environment)
+    def setUp(self):
+        '''
+        setup test environment for {to_card_id(card['stripped_title'])}_{card['code']}
+        '''
+        #create player with an appropriate test deck
+        self.runner_player = Runner("runner1","empty-test-deck-runner.o8d")
+        self.corpo_player = Corpo("corpo1","empty-test-deck-corpo.o8d")
+        #create test game state for the proper type
+        self.test_game_environment = NetrunnerGame(self.corpo_player,self.runner_player)
+        #self.test_game_environment.setup(starting_credits=5)#implement if needed
+    
+    def test_play_card(self):
+        '''
+        TODO
+        '''
+        test_card = {typee}_{to_card_id(card['stripped_title'])}_{card['code']}()
+        test_card.play(self.test_game_environment.PLAYER,self.test_game_environment)
+        self.assert_(False,"test yet to be implemented")
 """)
                 #^^^^^^^^^^^^^^
 
